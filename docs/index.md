@@ -10,7 +10,7 @@ toc: false
 import * as L from "npm:leaflet";
 
 const div = display(document.createElement("div"));
-div.style = "height: 400px;";
+div.style = "height: 800px;";
 
 const map = L.map(div).setView([46.5199, 6.6370], 14);
 
@@ -27,7 +27,7 @@ const geojsonFeature = {
     },
     "geometry": {
         "type": "Point",
-        "coordinates": [46.6, 6.6]
+        "coordinates": [6.63, 46.52]
     }
 };
 
