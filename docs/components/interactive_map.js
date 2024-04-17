@@ -1,4 +1,5 @@
 import * as L from "npm:leaflet";
+import {FileAttachment} from "npm:@observablehq/stdlib";
 
 export function interactive_map(div) {
     const map = L.map(div).setView([46.5199, 6.6370], 14);
@@ -19,8 +20,10 @@ export function interactive_map(div) {
             "coordinates": [6.63, 46.52]
         }
     };
+    
+    const geojson = FileAttachment("../../data/berney_buildings.geojson").text();
 
-    L.geoJSON(geojsonFeature).addTo(map);
+    L.geoJSON(geojson).addTo(map);
 
     return map;
 }
