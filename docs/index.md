@@ -19,8 +19,8 @@ const map = L.map(div).setView([46.5205253, 6.6320297], 15);
 
 L.tileLayer("./data/berney_1831_tiles/{z}/{x}/{y}.png", {maxZoom: 18}).addTo(map);
 
-//const berney = await FileAttachment("./data/berney_1831.geojson").json();
-/*L.geoJSON(berney.features, {
+/*const berney = await FileAttachment("./data/berney_1831.geojson").json();
+L.geoJSON(berney.features, {
         style: M.get_feature_style}
     ).addTo(map);
 */
