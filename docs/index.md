@@ -7,18 +7,26 @@ toc: false
 ## Les industries sur le Flon et la Louve du 17e au 19e siècle 
 
 ```js
+import * as M from "./components/interactive_map.js";
+
 import * as L from "npm:leaflet";
 import { FileAttachment } from "npm:@observablehq/stdlib";
 
 const div = display(document.createElement("div"));
-div.style = "height: 800px;";
+div.style = "height: 600px;";
     
-const map = L.map(div).setView([46.5199, 6.6370], 14);
+const map = L.map(div).setView([46.5205253, 6.6320297], 15);
 
-L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-}).addTo(map);
+L.tileLayer("./data/berney_1831_tiles/{z}/{x}/{y}.png", {maxZoom: 18}).addTo(map);
 
-const geojson = await FileAttachment("data/berney_buildings.geojson").json();
-L.geoJSON(geojson.features).addTo(map);
+//const berney = await FileAttachment("./data/berney_1831.geojson").json();
+/*L.geoJSON(berney.features, {
+        style: M.get_feature_style}
+    ).addTo(map);
+*/
+const berney_buildings = await FileAttachment("./data/berney_buildings.geojson").json();
+L.geoJSON(berney_buildings.features, {
+        style: M.get_extracted_feature_style, 
+        onEachFeature: M.on_each_feature}
+    ).addTo(map);
 ```
