@@ -35,5 +35,5 @@ export function get_extracted_feature_style(feature) {
 }
 
 export function on_each_feature(feature, layer) {
-    layer.bindPopup("BLABLABLA");
+    layer.bindPopup("BLABLABLA"); 
 }
