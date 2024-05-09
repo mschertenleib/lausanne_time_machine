@@ -18,7 +18,7 @@ div.style = "height: 600px;";
 const map = L.map(div).setView([46.5205253, 6.6320297], 15);
 
 L.tileLayer("https://github.com/mschertenleib/lausanne_time_machine/raw/main/src/data/berney_1831_tiles/{z}/{x}/{y}.png",
-        { minZoom: 13, maxZoom: 18, opacity: 1.0 }
+        { minZoom: 13, maxZoom: 19, opacity: 1.0 }
     ).addTo(map);
 
 //const berney = await FileAttachment("./data/berney_1831.geojson").json();
