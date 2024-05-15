@@ -26,12 +26,29 @@ const berney = L.tileLayer("./_file/data/berney_1831_tiles/{z}/{x}/{y}.png",
 const renove = L.tileLayer("./_file/data/renove_1888_tiles/{z}/{x}/{y}.png",
     { minZoom: 14, maxZoom: 18, opacity: 0.7 });
 
+const melotte_buildings_geojson = await FileAttachment("./data/melotte_buildings.geojson").json();
 const berney_buildings_geojson = await FileAttachment("./data/berney_buildings.geojson").json();
+const renove_buildings_geojson = await FileAttachment("./data/renove_buildings.geojson").json();
+
+const melotte_buildings = L.geoJSON(melotte_buildings_geojson.features, {
+    style: M.get_extracted_feature_style,
+    onEachFeature: function(feature, layer) {
+        layer.bindPopup("blablabla");
+        //L.marker(layer.getBounds().getCenter()).addTo(map);
+    }
+});
 const berney_buildings = L.geoJSON(berney_buildings_geojson.features, {
     style: M.get_extracted_feature_style,
     onEachFeature: function(feature, layer) {
         layer.bindPopup("blablabla");
-        L.marker(layer.getBounds().getCenter()).addTo(map);
+        //L.marker(layer.getBounds().getCenter()).addTo(map);
+    }
+});
+const renove_buildings = L.geoJSON(renove_buildings_geojson.features, {
+    style: M.get_extracted_feature_style,
+    onEachFeature: function(feature, layer) {
+        layer.bindPopup("blablabla");
+        //L.marker(layer.getBounds().getCenter()).addTo(map);
     }
 });
 
@@ -41,18 +58,22 @@ const base_maps = {
     "Rénové": renove
 };
 const overlay_maps = {
-    "Berney_buildings": berney_buildings
+    "Bâtiments Melotte": melotte_buildings,
+    "Bâtiments Berney": berney_buildings,
+    "Bâtiments Rénové": renove_buildings
 };
 const layer_control = L.control.layers(base_maps, overlay_maps).addTo(map);
 
-berney.addTo(map);
-berney_buildings.addTo(map);
-
-//L.control.scale().addTo(map);
+L.control.scale().addTo(map);
 
 const year = view(Inputs.range([1720, 1950], {step: 10, value: 1850, label: "Date", width: 1000}));
 ```
 
 ```js
-M.switch_base_map(map, [melotte, berney, renove], M.year_to_index(year));
+M.switch_layer(
+    map,
+    [melotte, berney, renove],
+    [melotte_buildings, berney_buildings, renove_buildings],
+    M.year_to_index(year)
+);
 ```

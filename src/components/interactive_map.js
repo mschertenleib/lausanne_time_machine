@@ -17,22 +17,22 @@ export function get_extracted_feature_style(feature) {
 }
 
 export function year_to_index(year) {
-    if (year < 1831) return 0;
-    if (year < 1888) return 1;
+    if (year < 1800) return 0;
+    if (year < 1870) return 1;
     else return 2;
 }
 
-var current_map = 0;
-export function switch_base_map(map, base_maps, index) {
-    current_map = index;
-    base_maps[index].addTo(map);
+var current_layer = 0;
+export function switch_layer(map, base_layers, overlay_layers, index) {
+    current_layer = index;
+    base_layers[index].addTo(map);
+    overlay_layers[index].addTo(map);
     setTimeout(function () {
-        for (var i = 0; i < base_maps.length; ++i) {
-            if (current_map != i) base_maps[i].remove();
+        for (var i = 0; i < base_layers.length; ++i) {
+            if (current_layer != i) {
+                base_layers[i].remove();
+                overlay_layers[i].remove();
+            }
         }
-        //     if (current_map != 0) base_maps[0].remove();
-        //    if (current_map != 1) base_maps[1].remove();
-        //   if (current_map != 2) base_maps[2].remove();
-    }, 150);
+    }, 250);
 }
-
