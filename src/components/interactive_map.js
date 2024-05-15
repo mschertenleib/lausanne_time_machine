@@ -16,28 +16,23 @@ export function get_extracted_feature_style(feature) {
     return style;
 }
 
-var current_map = 0;
-export function switch_map(map, year, melotte, berney, renove) {
-    if (year < 1831) {
-        current_map = 0;
-        melotte.addTo(map);
-        setTimeout(function () {
-            if (current_map != 1) berney.remove();
-            if (current_map != 2) renove.remove();
-        }, 150);
-    } else if (year < 1888) {
-        current_map = 1;
-        berney.addTo(map);
-        setTimeout(function () {
-            if (current_map != 0) melotte.remove();
-            if (current_map != 2) renove.remove();
-        }, 150);
-    } else {
-        current_map = 2;
-        renove.addTo(map);
-        setTimeout(function () {
-            if (current_map != 0) melotte.remove();
-            if (current_map != 1) berney.remove();
-        }, 150);
-    }
+export function year_to_index(year) {
+    if (year < 1831) return 0;
+    if (year < 1888) return 1;
+    else return 2;
 }
+
+var current_map = 0;
+export function switch_base_map(map, base_maps, index) {
+    current_map = index;
+    base_maps[index].addTo(map);
+    setTimeout(function () {
+        for (var i = 0; i < base_maps.length; ++i) {
+            if (current_map != i) base_maps[i].remove();
+        }
+        //     if (current_map != 0) base_maps[0].remove();
+        //    if (current_map != 1) base_maps[1].remove();
+        //   if (current_map != 2) base_maps[2].remove();
+    }, 150);
+}
+

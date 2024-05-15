@@ -48,28 +48,11 @@ const layer_control = L.control.layers(base_maps, overlay_maps).addTo(map);
 berney.addTo(map);
 berney_buildings.addTo(map);
 
-L.control.scale().addTo(map);
-//```
+//L.control.scale().addTo(map);
 
-//```js
 const year = view(Inputs.range([1720, 1950], {step: 10, value: 1850, label: "Date", width: 1000}));
 ```
 
 ```js
-// const fade_out_delay = 200;
-// if (year >= 1888) {
-//     renove.addTo(map);
-//     setTimeout(function() { melotte.remove(); }, fade_out_delay);
-//     setTimeout(function() { berney.remove(); }, fade_out_delay);
-// } else if (year >= 1831) {
-//     berney.addTo(map);
-//     setTimeout(function() { melotte.remove(); }, fade_out_delay);
-//     setTimeout(function() { renove.remove(); }, fade_out_delay);
-// } else {
-//     melotte.addTo(map);
-//     setTimeout(function() { berney.remove(); }, fade_out_delay);
-//     setTimeout(function() { renove.remove(); }, fade_out_delay);
-// }
-display(year)
-M.switch_map(map, year, melotte, berney, renove);
+M.switch_base_map(map, [melotte, berney, renove], M.year_to_index(year));
 ```
