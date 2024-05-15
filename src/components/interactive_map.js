@@ -15,3 +15,39 @@ export function get_extracted_feature_style(feature) {
 
     return style;
 }
+
+var current_map = 0;
+export function switch_map(map, year, melotte, berney, renove) {
+    const maps = [melotte, berney, renove];
+
+    const remove_maps = function () {
+        setTimeout(function () {
+            for (var i = 0; i < maps.length(); ++i) {
+                if (current_map != i) {
+                    maps[i].remove();
+                }
+            }
+        }, 200);
+    };
+
+    if (year >= 1888) {
+        current_map = 0;
+        renove.addTo(map);
+setTimeout(function () {
+            for (var i = 0; i < maps.length(); ++i) {
+                if (current_map != i) {
+                    maps[i].remove();
+                }
+            }
+        }, 200);
+        remove_maps();
+    } else if (year >= 1831) {
+        current_map = 1;
+        berney.addTo(map);
+        remove_maps();
+    } else {
+        current_map = 2;
+        melotte.addTo(map);
+        remove_maps();
+    }
+}
