@@ -17,16 +17,25 @@ div.style = "height: 600px;";
 
 const map = L.map(div).setView([46.5205253, 6.6320297], 16);
 
-L.tileLayer("https://github.com/mschertenleib/lausanne_time_machine/raw/main/src/data/berney_1831_tiles/{z}/{x}/{y}.png",
-        { minZoom: 14, maxZoom: 19, opacity: 1.0 }
-    ).addTo(map);
+// https://github.com/mschertenleib/lausanne_time_machine/raw/main/src/data/berney_1831_tiles/{z}/{x}/{y}.png
+//L.tileLayer("./_file/data/berney_1831_tiles/{z}/{x}/{y}.png", { minZoom: 14, maxZoom: 18, opacity: 0.7 }).addTo(map);
+L.tileLayer("./_file/data/renove_1888_tiles/{z}/{x}/{y}.png", { minZoom: 14, maxZoom: 18, opacity: 0.7 }).addTo(map);
+
 
 //const berney = await FileAttachment("./data/berney_1831.geojson").json();
 //L.geoJSON(berney.features, { style: M.get_feature_style }).addTo(map);
 
 const berney_buildings = await FileAttachment("./data/berney_buildings.geojson").json();
 L.geoJSON(berney_buildings.features, {
-        style: M.get_extracted_feature_style, 
-        onEachFeature: M.on_each_feature}
+        style: M.get_extracted_feature_style,
+        onEachFeature: function(feature, layer) {
+            layer.bindPopup("blablabla");
+            L.marker(layer.getBounds().getCenter()).addTo(map);
+        }
+        }
     ).addTo(map);
+```
+
+```js
+const year = view(Inputs.range([1700, 1950], {step: 10, value: 1800, label: "Date", width: 1000}));
 ```
