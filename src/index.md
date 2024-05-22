@@ -73,8 +73,9 @@ info.addTo(map);
 var melotte_feature_group = L.featureGroup();
 var berney_feature_group = L.featureGroup();
 var renove_feature_group = L.featureGroup();
+var selected_feature;
 
-function highlight_feature(e) {
+function on_feature_mouseover(e) {
     var layer = e.target;
     layer.setStyle({
         weight: 3,
@@ -83,24 +84,38 @@ function highlight_feature(e) {
     layer.bringToFront();
     info.update(Object.values(e.target._layers)[0].feature.properties);
 }
-function reset_highlight(e) {
-    const style = M.get_feature_style(Object.values(e.target._layers)[0].feature);
-    e.target.setStyle(style);
-    info.update();
+function on_feature_mouseout(e) {
+    var feature_object = Object.values(e.target._layers)[0];
+    if (selected_feature !== feature_object) {
+        const style = M.get_feature_style(feature_object.feature);
+        e.target.setStyle(style);
+        info.update();
+    }
 }
-function zoom_to_feature(e) {
+function on_feature_click(e) {
     map.fitBounds(e.target.getBounds());
+    if (selected_feature !== undefined) {
+        selected_feature.setStyle(M.get_feature_style(selected_feature.feature));
+    }
+    selected_feature = Object.values(e.target._layers)[0];
+    L.DomEvent.stopPropagation(e);
 }
 function on_each_feature(feature, layer, polygons_and_markers) {
     var marker = L.marker(layer.getBounds().getCenter(), { riseOnHover: true });
     var polygon_and_marker = L.featureGroup([layer, marker]);
     polygon_and_marker.on({
-        mouseover: highlight_feature,
-        mouseout: reset_highlight,
-        click: zoom_to_feature
+        mouseover: on_feature_mouseover,
+        mouseout: on_feature_mouseout,
+        click: on_feature_click
     });
     polygon_and_marker.addTo(polygons_and_markers);
 }
+function on_map_click(e) {
+    selected_feature.setStyle(M.get_feature_style(selected_feature.feature));
+    info.update();
+    selected_feature = undefined;
+}
+map.on({click: on_map_click});
 
 const melotte_buildings = L.geoJSON(melotte_buildings_geojson.features, {
     style: M.get_feature_style,
