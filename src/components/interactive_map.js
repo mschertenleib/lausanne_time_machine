@@ -1,6 +1,6 @@
 import * as L from "npm:leaflet";
 
-export function get_extracted_feature_style(feature) {
+export function get_feature_style(feature) {
     const style = {
         weight: 1,
         opacity: 1.0,
