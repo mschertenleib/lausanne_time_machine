@@ -89,7 +89,11 @@ function on_feature_mouseout(e) {
     if (selected_feature !== feature_object) {
         const style = M.get_feature_style(feature_object.feature);
         e.target.setStyle(style);
-        info.update();
+        if (selected_feature === undefined) {
+            info.update();
+        } else {
+            info.update(selected_feature.feature.properties);
+        }
     }
 }
 function on_feature_click(e) {
