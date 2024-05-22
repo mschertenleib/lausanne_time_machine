@@ -8,7 +8,6 @@ toc: false
 
 ```js
 import * as M from "./components/interactive_map.js";
-
 import * as L from "npm:leaflet";
 import { FileAttachment } from "npm:@observablehq/stdlib";
 
@@ -29,26 +28,15 @@ const osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
     { minZoom: 14, maxZoom: 18, opacity: 0.7,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 });
+```
 
-const melotte_buildings_geojson = await FileAttachment("./data/melotte_buildings.geojson").json();
-const berney_buildings_geojson = await FileAttachment("./data/berney_buildings.geojson").json();
-const renove_buildings_geojson = await FileAttachment("./data/renove_buildings.geojson").json();
+```js
+const melotte_buildings_geojson = FileAttachment("./data/melotte_buildings.geojson").json();
+const berney_buildings_geojson = FileAttachment("./data/berney_buildings.geojson").json();
+const renove_buildings_geojson = FileAttachment("./data/renove_buildings.geojson").json();
+```
 
-const melotte_buildings = L.geoJSON(melotte_buildings_geojson.features, {
-    style: M.get_feature_style,
-    onEachFeature: function(feature, layer) {
-        layer.bindPopup("blablabla");
-        //L.marker(layer.getBounds().getCenter()).addTo(map);
-    }
-});
-const berney_buildings = L.geoJSON(berney_buildings_geojson.features, {
-    style: M.get_feature_style,
-    onEachFeature: function(feature, layer) {
-        layer.bindPopup("blablabla");
-        //L.marker(layer.getBounds().getCenter()).addTo(map);
-    }
-});
-
+```js
 var info = L.control();
 info.onAdd = function (map) {
     this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
@@ -72,14 +60,20 @@ info.addTo(map);
     background: rgba(255,255,255,1.0);
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     border-radius: 5px;
+    color: #555;
 }
 .info h4 {
     margin: 0 0 5px;
-    color: #777;
+    color: #000;
 }
 </style>
 
 ```js
+
+var melotte_feature_group = L.featureGroup();
+var berney_feature_group = L.featureGroup();
+var renove_feature_group = L.featureGroup();
+
 function highlight_feature(e) {
     var layer = e.target;
     layer.setStyle({
@@ -87,47 +81,49 @@ function highlight_feature(e) {
         color: "#000000",
     });
     layer.bringToFront();
-    info.update(layer.feature.properties);
+    info.update(Object.values(e.target._layers)[0].feature.properties);
 }
 function reset_highlight(e) {
-    e.target.setStyle(M.get_feature_style(e.target.feature));
+    const style = M.get_feature_style(Object.values(e.target._layers)[0].feature);
+    e.target.setStyle(style);
     info.update();
 }
 function zoom_to_feature(e) {
     map.fitBounds(e.target.getBounds());
 }
-function on_each_feature(feature, layer) {
-    layer.on({
+function on_each_feature(feature, layer, polygons_and_markers) {
+    var marker = L.marker(layer.getBounds().getCenter(), { riseOnHover: true });
+    var polygon_and_marker = L.featureGroup([layer, marker]);
+    polygon_and_marker.on({
         mouseover: highlight_feature,
         mouseout: reset_highlight,
         click: zoom_to_feature
     });
-    //layer.bindPopup("blablabla");
-    //L.marker(layer.getBounds().getCenter()).addTo(map);
+    polygon_and_marker.addTo(polygons_and_markers);
 }
 
+const melotte_buildings = L.geoJSON(melotte_buildings_geojson.features, {
+    style: M.get_feature_style,
+    onEachFeature: function(feature, layer) { on_each_feature(feature, layer, melotte_feature_group); }
+});
+const berney_buildings = L.geoJSON(berney_buildings_geojson.features, {
+    style: M.get_feature_style,
+    onEachFeature: function(feature, layer) { on_each_feature(feature, layer, berney_feature_group); }
+});
 const renove_buildings = L.geoJSON(renove_buildings_geojson.features, {
     style: M.get_feature_style,
-    onEachFeature: on_each_feature
+    onEachFeature: function(feature, layer) { on_each_feature(feature, layer, renove_feature_group); }
 });
 
 const base_maps = {
-    "Melotte": melotte,
-    "Berney": berney,
-    "Rénové": renove,
-    "OSM": osm
+    "Cadastre Melotte 1727": melotte,
+    "Cadastre Berney 1831": berney,
+    "Cadastre Rénové 1888": renove,
+    "OpenStreetMap": osm
 };
-const overlay_maps = {
-    "Bâtiments Melotte": melotte_buildings,
-    "Bâtiments Berney": berney_buildings,
-    "Bâtiments Rénové": renove_buildings
-};
-const layer_control = L.control.layers(base_maps, overlay_maps).addTo(map);
+const layer_control = L.control.layers(base_maps).addTo(map);
 
 L.control.scale().addTo(map);
-
-
-
 
 const year = view(Inputs.range([1720, 1910], {step: 10, value: 1850, label: "Date", width: 1000}));
 ```
@@ -136,7 +132,7 @@ const year = view(Inputs.range([1720, 1910], {step: 10, value: 1850, label: "Dat
 M.switch_layer(
     map,
     [melotte, berney, renove],
-    [melotte_buildings, berney_buildings, renove_buildings],
+    [melotte_feature_group, berney_feature_group, renove_feature_group],
     M.year_to_index(year)
 );
 ```

@@ -10,7 +10,7 @@ export function get_feature_style(feature) {
 
     if (feature.properties.use.includes("moulin")) { style.fillColor = "#ff0000"; }
     else if (feature.properties.use.includes("tannerie")) { style.fillColor = "#00ff00"; }
-    else if (feature.properties.use.includes("scierie")) { style.fillColor = "#0000ff"; }
+    else if (feature.properties.use.includes("scie")) { style.fillColor = "#0000ff"; }
     else { style.fillColor = "#ff00ff"; }
 
     return style;
