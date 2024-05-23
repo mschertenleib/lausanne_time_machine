@@ -151,6 +151,7 @@ const year = view(Inputs.range([1720, 1910], {step: 10, value: 1850, label: "Dat
 M.switch_layer(
     map,
     [melotte, berney, renove],
+    osm,
     [melotte_feature_group, berney_feature_group, renove_feature_group],
     M.year_to_index(year)
 );

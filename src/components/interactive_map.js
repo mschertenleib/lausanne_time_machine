@@ -23,7 +23,7 @@ export function year_to_index(year) {
 }
 
 var current_layer = 0;
-export function switch_layer(map, base_layers, overlay_layers, index) {
+export function switch_layer(map, base_layers, extra_base_layer, overlay_layers, index) {
     current_layer = index;
     base_layers[index].addTo(map);
     overlay_layers[index].addTo(map);
@@ -34,5 +34,6 @@ export function switch_layer(map, base_layers, overlay_layers, index) {
                 overlay_layers[i].remove();
             }
         }
+        extra_base_layer.remove();
     }, 250);
 }
