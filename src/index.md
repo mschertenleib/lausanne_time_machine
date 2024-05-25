@@ -16,13 +16,14 @@ div.style = "height: 600px;";
 
 const map = L.map(div).setView([46.5205253, 6.6320297], 16);
 
-// https://github.com/mschertenleib/lausanne_time_machine/raw/main/src/data/berney_1831_tiles/{z}/{x}/{y}.png
+// URL for online tiles (example):
+// https://github.com/mschertenleib/lausanne_time_machine/raw/main/src/data/berney_tiles/{z}/{x}/{y}.png
 
 const melotte = L.tileLayer("./_file/data/melotte_tiles/{z}/{x}/{y}.png",
     { minZoom: 14, maxZoom: 18, opacity: 0.7 });
-const berney = L.tileLayer("./_file/data/berney_1831_tiles/{z}/{x}/{y}.png",
+const berney = L.tileLayer("./_file/data/berney_tiles/{z}/{x}/{y}.png",
     { minZoom: 14, maxZoom: 18, opacity: 0.7 });
-const renove = L.tileLayer("./_file/data/renove_1888_tiles/{z}/{x}/{y}.png",
+const renove = L.tileLayer("./_file/data/renove_tiles/{z}/{x}/{y}.png",
     { minZoom: 14, maxZoom: 18, opacity: 0.7 });
 const osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
     { minZoom: 14, maxZoom: 18, opacity: 0.7,
