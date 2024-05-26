@@ -13,19 +13,19 @@ import { FileAttachment } from "npm:@observablehq/stdlib";
 const div = display(document.createElement("div"));
 div.style = "height: 600px;";
 
-const map = L.map(div).setView([46.5205253, 6.6320297], 16);
+const map = L.map(div, {fadeAnimation:false}).setView([46.5205253, 6.6320297], 16);
 
 // URL for online tiles (example):
 // https://github.com/mschertenleib/lausanne_time_machine/raw/main/src/data/berney_tiles/{z}/{x}/{y}.png
 
 const melotte = L.tileLayer("./_file/data/melotte_tiles/{z}/{x}/{y}.png",
-    { minZoom: 14, maxZoom: 18, opacity: 0.7 });
+    { minZoom: 14, maxZoom: 18, opacity: 1.0 });
 const berney = L.tileLayer("./_file/data/berney_tiles/{z}/{x}/{y}.png",
-    { minZoom: 14, maxZoom: 18, opacity: 0.7 });
+    { minZoom: 14, maxZoom: 18, opacity: 1.0 });
 const renove = L.tileLayer("./_file/data/renove_tiles/{z}/{x}/{y}.png",
-    { minZoom: 14, maxZoom: 18, opacity: 0.7 });
+    { minZoom: 14, maxZoom: 18, opacity: 1.0 });
 const osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-    { minZoom: 14, maxZoom: 18, opacity: 0.7,
+    { minZoom: 14, maxZoom: 18, opacity: 1.0,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 });
 ```
@@ -140,7 +140,14 @@ function on_map_click(e) {
     selected_feature = undefined;
 }
 
-map.on({click: on_map_click});
+function on_map_overlay_add(e) {
+    display(e);
+}
+
+map.on({
+    click: on_map_click,
+    overlayadd: on_map_overlay_add
+});
 
 const melotte_buildings = L.geoJSON(melotte_buildings_geojson.features, {
     style: get_feature_style,
@@ -158,10 +165,12 @@ const renove_buildings = L.geoJSON(renove_buildings_geojson.features, {
 const base_maps = {
     "Cadastre Melotte 1727": melotte,
     "Cadastre Berney 1831": berney,
-    "Cadastre Rénové 1888": renove,
-    "OpenStreetMap": osm
+    "Cadastre Rénové 1888": renove
 };
-const layer_control = L.control.layers(base_maps).addTo(map);
+const overlay_maps = {
+    "OpenStreetMap": osm
+}
+const layer_control = L.control.layers(base_maps, overlay_maps).addTo(map);
 
 L.control.scale().addTo(map);
 
@@ -191,6 +200,7 @@ function switch_layer(map, base_layers, extra_base_layer, overlay_layers, index)
         extra_base_layer.remove();
     }, 250);
 }
+
 switch_layer(
     map,
     [melotte, berney, renove],
