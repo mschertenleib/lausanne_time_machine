@@ -7,7 +7,6 @@ toc: false
 ## Les industries sur le Flon et la Louve du 17e au 19e siècle 
 
 ```js
-import * as M from "./components/interactive_map.js";
 import * as L from "npm:leaflet";
 import { FileAttachment } from "npm:@observablehq/stdlib";
 
@@ -35,6 +34,7 @@ const osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
 const melotte_buildings_geojson = FileAttachment("./data/melotte_buildings.geojson").json();
 const berney_buildings_geojson = FileAttachment("./data/berney_buildings.geojson").json();
 const renove_buildings_geojson = FileAttachment("./data/renove_buildings.geojson").json();
+const buildings_json = FileAttachment("./data/buildings.json").json();
 ```
 
 ```js
@@ -70,11 +70,26 @@ info.addTo(map);
 </style>
 
 ```js
-
 var melotte_feature_group = L.featureGroup();
 var berney_feature_group = L.featureGroup();
 var renove_feature_group = L.featureGroup();
 var selected_feature;
+
+function get_feature_style(feature) {
+    const style = {
+        weight: 1,
+        opacity: 1.0,
+        fillOpacity: 1.0,
+        color: "#000000"
+    };
+
+    if (feature.properties.use.includes("moulin")) { style.fillColor = "#ff0000"; }
+    else if (feature.properties.use.includes("tannerie")) { style.fillColor = "#00ff00"; }
+    else if (feature.properties.use.includes("scie")) { style.fillColor = "#0000ff"; }
+    else { style.fillColor = "#ff00ff"; }
+
+    return style;
+}
 
 function on_feature_mouseover(e) {
     var layer = e.target;
@@ -85,10 +100,11 @@ function on_feature_mouseover(e) {
     layer.bringToFront();
     info.update(Object.values(e.target._layers)[0].feature.properties);
 }
+
 function on_feature_mouseout(e) {
     var feature_object = Object.values(e.target._layers)[0];
     if (selected_feature !== feature_object) {
-        const style = M.get_feature_style(feature_object.feature);
+        const style = get_feature_style(feature_object.feature);
         e.target.setStyle(style);
         if (selected_feature === undefined) {
             info.update();
@@ -97,14 +113,16 @@ function on_feature_mouseout(e) {
         }
     }
 }
+
 function on_feature_click(e) {
     map.fitBounds(e.target.getBounds());
     if (selected_feature !== undefined) {
-        selected_feature.setStyle(M.get_feature_style(selected_feature.feature));
+        selected_feature.setStyle(get_feature_style(selected_feature.feature));
     }
     selected_feature = Object.values(e.target._layers)[0];
     L.DomEvent.stopPropagation(e);
 }
+
 function on_each_feature(feature, layer, polygons_and_markers) {
     var marker = L.marker(layer.getBounds().getCenter(), { riseOnHover: true });
     var polygon_and_marker = L.featureGroup([layer, marker]);
@@ -115,23 +133,25 @@ function on_each_feature(feature, layer, polygons_and_markers) {
     });
     polygon_and_marker.addTo(polygons_and_markers);
 }
+
 function on_map_click(e) {
-    selected_feature.setStyle(M.get_feature_style(selected_feature.feature));
+    selected_feature.setStyle(get_feature_style(selected_feature.feature));
     info.update();
     selected_feature = undefined;
 }
+
 map.on({click: on_map_click});
 
 const melotte_buildings = L.geoJSON(melotte_buildings_geojson.features, {
-    style: M.get_feature_style,
+    style: get_feature_style,
     onEachFeature: function(feature, layer) { on_each_feature(feature, layer, melotte_feature_group); }
 });
 const berney_buildings = L.geoJSON(berney_buildings_geojson.features, {
-    style: M.get_feature_style,
+    style: get_feature_style,
     onEachFeature: function(feature, layer) { on_each_feature(feature, layer, berney_feature_group); }
 });
 const renove_buildings = L.geoJSON(renove_buildings_geojson.features, {
-    style: M.get_feature_style,
+    style: get_feature_style,
     onEachFeature: function(feature, layer) { on_each_feature(feature, layer, renove_feature_group); }
 });
 
@@ -149,11 +169,33 @@ const year = view(Inputs.range([1720, 1910], {step: 10, value: 1850, label: "Dat
 ```
 
 ```js
-M.switch_layer(
+var current_layer = 0;
+
+function year_to_index(year) {
+    if (year < 1800) return 0;
+    if (year < 1870) return 1;
+    else return 2;
+}
+
+function switch_layer(map, base_layers, extra_base_layer, overlay_layers, index) {
+    current_layer = index;
+    base_layers[index].addTo(map);
+    overlay_layers[index].addTo(map);
+    setTimeout(function () {
+        for (var i = 0; i < base_layers.length; ++i) {
+            if (current_layer != i) {
+                base_layers[i].remove();
+                overlay_layers[i].remove();
+            }
+        }
+        extra_base_layer.remove();
+    }, 250);
+}
+switch_layer(
     map,
     [melotte, berney, renove],
     osm,
     [melotte_feature_group, berney_feature_group, renove_feature_group],
-    M.year_to_index(year)
+    year_to_index(year)
 );
 ```
