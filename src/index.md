@@ -18,11 +18,11 @@ const map = L.map(div, {fadeAnimation:false}).setView([46.5205253, 6.6320297], 1
 // URL for online tiles (example):
 // https://github.com/mschertenleib/lausanne_time_machine/raw/main/src/data/berney_tiles/{z}/{x}/{y}.png
 
-const melotte = L.tileLayer("./_file/data/melotte_tiles/{z}/{x}/{y}.png",
+const melotte_tiles = L.tileLayer("./_file/data/melotte_tiles/{z}/{x}/{y}.png",
     { minZoom: 14, maxZoom: 18, opacity: 1.0 });
-const berney = L.tileLayer("./_file/data/berney_tiles/{z}/{x}/{y}.png",
+const berney_tiles = L.tileLayer("./_file/data/berney_tiles/{z}/{x}/{y}.png",
     { minZoom: 14, maxZoom: 18, opacity: 1.0 });
-const renove = L.tileLayer("./_file/data/renove_tiles/{z}/{x}/{y}.png",
+const renove_tiles = L.tileLayer("./_file/data/renove_tiles/{z}/{x}/{y}.png",
     { minZoom: 14, maxZoom: 18, opacity: 1.0 });
 const osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
     { minZoom: 14, maxZoom: 18, opacity: 1.0,
@@ -70,9 +70,9 @@ info.addTo(map);
 </style>
 
 ```js
-var melotte_feature_group = L.featureGroup();
-var berney_feature_group = L.featureGroup();
-var renove_feature_group = L.featureGroup();
+var melotte = L.featureGroup();
+var berney = L.featureGroup();
+var renove = L.featureGroup();
 var selected_feature;
 
 function get_feature_style(feature) {
@@ -140,27 +140,25 @@ function on_map_click(e) {
     selected_feature = undefined;
 }
 
-function on_map_overlay_add(e) {
-    display(e);
-}
+map.on({click: on_map_click});
 
-map.on({
-    click: on_map_click,
-    overlayadd: on_map_overlay_add
-});
-
+melotte_tiles.addTo(melotte);
 const melotte_buildings = L.geoJSON(melotte_buildings_geojson.features, {
     style: get_feature_style,
-    onEachFeature: function(feature, layer) { on_each_feature(feature, layer, melotte_feature_group); }
+    onEachFeature: function(feature, layer) { on_each_feature(feature, layer, melotte); }
 });
+berney_tiles.addTo(berney);
 const berney_buildings = L.geoJSON(berney_buildings_geojson.features, {
     style: get_feature_style,
-    onEachFeature: function(feature, layer) { on_each_feature(feature, layer, berney_feature_group); }
+    onEachFeature: function(feature, layer) { on_each_feature(feature, layer, berney); }
 });
+renove_tiles.addTo(renove);
 const renove_buildings = L.geoJSON(renove_buildings_geojson.features, {
     style: get_feature_style,
-    onEachFeature: function(feature, layer) { on_each_feature(feature, layer, renove_feature_group); }
+    onEachFeature: function(feature, layer) { on_each_feature(feature, layer, renove); }
 });
+
+berney.addTo(map);
 
 const base_maps = {
     "Cadastre Melotte 1727": melotte,
@@ -173,39 +171,4 @@ const overlay_maps = {
 const layer_control = L.control.layers(base_maps, overlay_maps).addTo(map);
 
 L.control.scale().addTo(map);
-
-const year = view(Inputs.range([1720, 1910], {step: 10, value: 1850, label: "Date", width: 1000}));
-```
-
-```js
-var current_layer = 0;
-
-function year_to_index(year) {
-    if (year < 1800) return 0;
-    if (year < 1870) return 1;
-    else return 2;
-}
-
-function switch_layer(map, base_layers, extra_base_layer, overlay_layers, index) {
-    current_layer = index;
-    base_layers[index].addTo(map);
-    overlay_layers[index].addTo(map);
-    setTimeout(function () {
-        for (var i = 0; i < base_layers.length; ++i) {
-            if (current_layer != i) {
-                base_layers[i].remove();
-                overlay_layers[i].remove();
-            }
-        }
-        extra_base_layer.remove();
-    }, 250);
-}
-
-switch_layer(
-    map,
-    [melotte, berney, renove],
-    osm,
-    [melotte_feature_group, berney_feature_group, renove_feature_group],
-    year_to_index(year)
-);
 ```
