@@ -11,9 +11,13 @@ import * as L from "npm:leaflet";
 import { FileAttachment } from "npm:@observablehq/stdlib";
 
 const div = display(document.createElement("div"));
-div.style = "height: 600px;";
+div.style = "height: 500px;";
 
-const map = L.map(div, {fadeAnimation:false}).setView([46.5205253, 6.6320297], 16);
+const map = L.map(div, { fadeAnimation: false })
+    .setView([46.5205253, 6.6320297], 16)
+    .setMaxBounds(L.latLngBounds([[46.5004601, 6.5729999], [46.5551420, 6.6927337]]))
+    .setMinZoom(14)
+    .setMaxZoom(18);
 
 // URL for online tiles (example):
 // https://github.com/mschertenleib/lausanne_time_machine/raw/main/src/data/berney_tiles/{z}/{x}/{y}.png
@@ -37,35 +41,21 @@ const renove_buildings_geojson = FileAttachment("./data/renove_buildings.geojson
 const buildings_json = FileAttachment("./data/buildings.json").json();
 ```
 
-```js
-var info = L.control();
-info.onAdd = function (map) {
-    this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
-    this.update();
-    return this._div;
-};
-info.update = function (props) {
-    this._div.innerHTML = '<h4>Use</h4>' +
-        (props
-        ? '<b>' + props.use + '</b>'
-        : '');
-};
-info.addTo(map);
-```
-
 <style type="text/css">
 .info {
     padding: 6px 8px;
+    width: 250px;
     font: 14px/16px Arial, Helvetica, sans-serif;
     background: white;
     background: rgba(255,255,255,1.0);
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
     border-radius: 5px;
-    color: #555;
+    color: #222;
+    white-space: initial;
 }
 .info h4 {
     margin: 0 0 5px;
-    color: #000;
+    color: #444;
 }
 </style>
 
@@ -94,33 +84,30 @@ function get_feature_style(feature) {
 function on_feature_mouseover(e) {
     var layer = e.target;
     layer.setStyle({
-        weight: 3,
+        weight: 4,
         color: "#000000",
     });
     layer.bringToFront();
-    info.update(Object.values(e.target._layers)[0].feature.properties);
 }
 
 function on_feature_mouseout(e) {
     var feature_object = Object.values(e.target._layers)[0];
     if (selected_feature !== feature_object) {
-        const style = get_feature_style(feature_object.feature);
-        e.target.setStyle(style);
-        if (selected_feature === undefined) {
-            info.update();
-        } else {
-            info.update(selected_feature.feature.properties);
-        }
+        e.target.setStyle(get_feature_style(feature_object.feature));
     }
 }
 
 function on_feature_click(e) {
     map.fitBounds(e.target.getBounds());
-    if (selected_feature !== undefined) {
+    var feature_object = Object.values(e.target._layers)[0];
+    if (selected_feature !== undefined && selected_feature !== feature_object) {
         selected_feature.setStyle(get_feature_style(selected_feature.feature));
     }
-    selected_feature = Object.values(e.target._layers)[0];
+    selected_feature = feature_object;
     L.DomEvent.stopPropagation(e);
+    document.getElementById("building_details").hidden = false;
+    document.getElementById("building_details").innerText =
+        get_building_html(selected_feature.feature.properties.building_id);
 }
 
 function on_each_feature(feature, layer, polygons_and_markers) {
@@ -131,13 +118,29 @@ function on_each_feature(feature, layer, polygons_and_markers) {
         mouseout: on_feature_mouseout,
         click: on_feature_click
     });
+    var tooltip_html = '';
+    if (feature.properties.building_id !== null) {
+        const building = buildings_json.buildings.find((b) => b.building_id == feature.properties.building_id);
+        if (building !== undefined) {
+            tooltip_html += '<h4>' + building.name + '</h4>';
+            var image = './_file/data/test.jpg';
+            tooltip_html += '<img src="' + image + '" style="width:250px"> <br>';
+        }
+    }
+    tooltip_html += '<b>Utilisation</b>: ' + feature.properties.use + '<br>';
+    tooltip_html += '<b>Propriétaire</b>: ' + feature.properties.owner;
+    polygon_and_marker.bindTooltip(tooltip_html, {
+        sticky: true,
+        className: 'info',
+        opacity: 1.0
+    });
     polygon_and_marker.addTo(polygons_and_markers);
 }
 
 function on_map_click(e) {
     selected_feature.setStyle(get_feature_style(selected_feature.feature));
-    info.update();
     selected_feature = undefined;
+    document.getElementById("building_details").hidden = true;
 }
 
 map.on({click: on_map_click});
@@ -171,4 +174,14 @@ const overlay_maps = {
 const layer_control = L.control.layers(base_maps, overlay_maps).addTo(map);
 
 L.control.scale().addTo(map);
+```
+
+<div id="building_details" hidden>
+</div>
+
+```js
+function get_building_html(building_id) {
+    display(building_id);
+    return "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+}
 ```

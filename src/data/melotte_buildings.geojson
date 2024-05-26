@@ -117,7 +117,8 @@
             },
             "properties": {
                 "use": "tannerie",
-                "owner": null
+                "owner": null,
+                "building_id": 1
             }
         },
         {
@@ -705,7 +706,8 @@
             },
             "properties": {
                 "use": "teinture",
-                "owner": null
+                "owner": null,
+                "building_id": 2
             }
         },
         {
@@ -833,7 +835,8 @@
             },
             "properties": {
                 "use": "moulin",
-                "owner": "Monsieur le Conseiller Seigneux"
+                "owner": "Monsieur le Conseiller Seigneux",
+                "building_id": 3
             }
         },
         {
@@ -905,7 +908,8 @@
             },
             "properties": {
                 "use": "battoir",
-                "owner": null
+                "owner": null,
+                "building_id": 4
             }
         },
         {
@@ -965,7 +969,8 @@
             },
             "properties": {
                 "use": "battoir",
-                "owner": null
+                "owner": null,
+                "building_id": 5
             }
         },
         {
@@ -1077,7 +1082,8 @@
             },
             "properties": {
                 "use": "moulin",
-                "owner": "Jeanne Marie P."
+                "owner": "Jeanne Marie P.",
+                "building_id": 6
             }
         },
         {
@@ -1141,7 +1147,8 @@
             },
             "properties": {
                 "use": "moulin, scie",
-                "owner": null
+                "owner": null,
+                "building_id": 7
             }
         },
         {
@@ -1205,7 +1212,8 @@
             },
             "properties": {
                 "use": "buaton",
-                "owner": null
+                "owner": null,
+                "building_id": 8
             }
         },
         {
@@ -1273,7 +1281,8 @@
             },
             "properties": {
                 "use": "scie",
-                "owner": null
+                "owner": null,
+                "building_id": 9
             }
         },
         {
@@ -1381,7 +1390,8 @@
             },
             "properties": {
                 "use": "moulin",
-                "owner": null
+                "owner": null,
+                "building_id": 10
             }
         },
         {
@@ -1441,7 +1451,8 @@
             },
             "properties": {
                 "use": "forge",
-                "owner": null
+                "owner": null,
+                "building_id": 11
             }
         },
         {
@@ -1597,7 +1608,8 @@
             },
             "properties": {
                 "use": "forge",
-                "owner": null
+                "owner": null,
+                "building_id": 12
             }
         },
         {
@@ -1665,7 +1677,8 @@
             },
             "properties": {
                 "use": "moulin, forge",
-                "owner": null
+                "owner": null,
+                "building_id": 13
             }
         },
         {
@@ -1733,7 +1746,8 @@
             },
             "properties": {
                 "use": "scie",
-                "owner": null
+                "owner": null,
+                "building_id": 14
             }
         },
         {
@@ -1769,7 +1783,8 @@
             },
             "properties": {
                 "use": "foule",
-                "owner": null
+                "owner": null,
+                "building_id": 15
             }
         },
         {
@@ -1805,7 +1820,8 @@
             },
             "properties": {
                 "use": "forge",
-                "owner": null
+                "owner": null,
+                "building_id": 16
             }
         },
         {
@@ -1841,7 +1857,8 @@
             },
             "properties": {
                 "use": "foule et curtil",
-                "owner": "M.  Louis Marzillier"
+                "owner": "M.  Louis Marzillier",
+                "building_id": 17
             }
         },
         {
@@ -1877,7 +1894,8 @@
             },
             "properties": {
                 "use": "forge",
-                "owner": null
+                "owner": null,
+                "building_id": 18
             }
         },
         {
@@ -1913,7 +1931,8 @@
             },
             "properties": {
                 "use": "scie",
-                "owner": null
+                "owner": null,
+                "building_id": 19
             }
         },
         {
@@ -1949,7 +1968,8 @@
             },
             "properties": {
                 "use": "moulin",
-                "owner": null
+                "owner": null,
+                "building_id": 20
             }
         },
         {
@@ -1985,7 +2005,8 @@
             },
             "properties": {
                 "use": "buaton",
-                "owner": null
+                "owner": null,
+                "building_id": 21
             }
         },
         {
@@ -2021,7 +2042,8 @@
             },
             "properties": {
                 "use": "moulin",
-                "owner": null
+                "owner": null,
+                "building_id": 22
             }
         },
         {
@@ -2057,7 +2079,8 @@
             },
             "properties": {
                 "use": "moulin",
-                "owner": null
+                "owner": null,
+                "building_id": 23
             }
         },
         {
@@ -2093,7 +2116,8 @@
             },
             "properties": {
                 "use": "buaton",
-                "owner": null
+                "owner": null,
+                "building_id": 24
             }
         },
         {
@@ -2221,7 +2245,8 @@
             },
             "properties": {
                 "use": "moulin",
-                "owner": "Rochat"
+                "owner": "Rochat",
+                "building_id": 25
             }
         }
     ]
