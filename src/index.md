@@ -117,8 +117,10 @@ function on_each_feature(feature, layer, polygons_and_markers) {
         const building = buildings_json.buildings.find((b) => b.building_id == feature.properties.building_id);
         if (building !== undefined) {
             tooltip_html += '<h4>' + building.name + '</h4>';
-            var image = './_file/data/test.jpg';
-            tooltip_html += '<img src="' + image + '" style="width:250px"> <br>';
+            if (building.images && building.preferred_image !== null) {
+                const image_id = building.images[building.preferred_image].image_id;
+                tooltip_html += '<img src="./_file/data/images/' + image_id + '.jpg" style="width:250px"> <br>';
+            }
         }
     }
     tooltip_html += '<b>Utilisation</b>: ' + feature.properties.use + '<br>';
