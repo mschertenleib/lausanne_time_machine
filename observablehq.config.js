@@ -7,6 +7,7 @@ export default {
   // all pages will be listed in alphabetical order. Listing pages explicitly
   // lets you organize them into sections and have unlisted pages.
   pages: [
+    {name: "Études de cas", path: "/case_studies"},
     {name: "Méthodes", path: "/methods"},
     {name: "Références", path: "/references"}
   ],

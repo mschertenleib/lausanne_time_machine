@@ -1,0 +1,31 @@
+.info {
+    padding: 6px 8px;
+    width: 250px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    color: #222;
+    white-space: initial;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #444;
+}
+.card {
+    width: auto;
+    padding: 20px 20px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    color: light-dark(#222, #bbb);
+    white-space: initial;
+    text-align: justify;
+    text-justify: inter-word;
+}
+.card h2 {
+    margin: 0 0 10px;
+    font: 20px/22px Arial, Helvetica, sans-serif;
+    color: light-dark(#444, #999);
+    text-align: center;
+}
