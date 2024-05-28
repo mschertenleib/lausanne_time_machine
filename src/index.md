@@ -178,10 +178,12 @@ L.control.scale().addTo(map);
 var image_index = 0;
 function set_building_details_html() {
     var html = '<h2>' + selected_building.name + '</h2><br>';
+    html += '<b>Utilisation</b>: ' + selected_feature.feature.properties.use + '<br>';
+    html += '<b>Propriétaire</b>: ' + selected_feature.feature.properties.owner + '<br><br>';
     if (selected_building.description) {
         html += selected_building.description;
     } else {
-        html += '<i>Pas de description.</i>';
+        html += "<i>Pas d'informations.</i>";
     }
     document.getElementById("building_details").innerHTML = html;
 }
