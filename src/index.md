@@ -217,7 +217,9 @@ function set_building_image_html() {
             html += 'entre ' + image.date_begin + ' et ' + image.date_end;
         }
         html += '<br><br>';
-        html += image.description + '<br><br>';
+        if (image.description) {
+            html += image.description + '<br><br>';
+        }
         if (image.bibliography) {
             html += '<b>Bibliographie:</b> ' + image.bibliography + '<br><br>';
         }
