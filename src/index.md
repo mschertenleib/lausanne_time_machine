@@ -120,12 +120,16 @@ function on_each_feature(feature, layer, polygons_and_markers) {
             tooltip_html += '<h4>' + building.name + '</h4>';
             if (building.images && building.preferred_image !== null) {
                 const image_id = building.images[building.preferred_image].image_id;
-                tooltip_html += '<img src="./_file/data/images/' + image_id + '.jpg" style="width:250px"> <br>';
+                tooltip_html += '<img src="./_file/data/images/building_' + building.building_id + '/' + image_id + '.jpg" style="width:250px"> <br>';
             }
         }
     }
-    tooltip_html += '<b>Utilisation</b>: ' + feature.properties.use + '<br>';
-    tooltip_html += '<b>Propriétaire</b>: ' + feature.properties.owner;
+    if (feature.properties.use)
+        tooltip_html += '<b>Utilisation</b>: ' + feature.properties.use + '<br>';
+    if (feature.properties.owner)
+        tooltip_html += '<b>Propriétaire</b>: ' + feature.properties.owner + '<br>';
+    if (feature.properties.address)
+        tooltip_html += '<b>Adresse</b>: ' + feature.properties.address + '<br>';
     polygon_and_marker.bindTooltip(tooltip_html, {
         sticky: true,
         className: 'info',
@@ -178,10 +182,15 @@ L.control.scale().addTo(map);
 var image_index = 0;
 function set_building_details_html() {
     var html = '<h2>' + selected_building.name + '</h2><br>';
-    html += '<b>Utilisation</b>: ' + selected_feature.feature.properties.use + '<br>';
-    html += '<b>Propriétaire</b>: ' + selected_feature.feature.properties.owner + '<br><br>';
-    if (selected_building.description) {
-        html += selected_building.description;
+    if (selected_feature.feature.properties.use)
+        html += '<b>Utilisation</b>: ' + selected_feature.feature.properties.use + '<br>';
+    if (selected_feature.feature.properties.owner)
+        html += '<b>Propriétaire</b>: ' + selected_feature.feature.properties.owner + '<br>';
+    if (selected_feature.feature.properties.address)
+        html += '<b>Adresse</b>: ' + selected_feature.feature.properties.address + '<br>';
+    html += '<br>';
+    if (selected_building.informations) {
+        html += selected_building.informations;
     } else {
         html += "<i>Pas d'informations.</i>";
     }
@@ -191,15 +200,19 @@ function set_building_image_html() {
     var html = '';
     if (selected_building.images) {
         const image = selected_building.images[image_index];
-        html += '<img src="./_file/data/images/' + image.image_id + '.jpg" style="width:100%"><br><br>';
-        html += '<i>Date: ';
+        html += '<img src="./_file/data/images/building_' + selected_building.building_id + '/' + image.image_id + '.jpg" style="width:100%"><br><br>';
+        html += '<b>Date:</b> ';
         if (image.date_begin == image.date_end) {
             html += image.date_begin;
         } else {
             html += 'entre ' + image.date_begin + ' et ' + image.date_end;
         }
-        html += '</i><br><br>';
-        html += image.description;
+        html += '<br><br>';
+        html += image.description + '<br><br>';
+        if (image.bibliography) {
+            html += '<b>Bibliographie:</b> ' + image.bibliography + '<br><br>';
+        }
+        html += '<b>Source:</b> ' + image.institution + ': <a href="url">' + image.url + '</a>';
     }
     document.getElementById("building_selected_image").innerHTML = html;
 }

@@ -60,8 +60,9 @@
                 ]
             },
             "properties": {
-                "use": "Maison d'habitation, caf\u00e9, forge",
+                "use": "maison d'habitation, caf\u00e9, forge",
                 "owner": "Lapierre, Louis feu Alexis",
+                "address": "Rue des Deux March\u00e9s",
                 "building_id": null
             }
         },
@@ -185,8 +186,9 @@
                 ]
             },
             "properties": {
-                "use": "Maison d'habitation avec moulin, machine \u00e0 vapeur, fours, bureau, magasin",
+                "use": "maison d'habitation avec moulin, machine \u00e0 vapeur, fours, bureau, magasin",
                 "owner": "Grellet, Georges Louis fils de Georges Fr\u00e9d\u00e9ric; Grellet, James Th\u00e9odore fils de Georges Fr\u00e9d\u00e9ric",
+                "address": "En Couvaloup",
                 "building_id": 8
             }
         },
@@ -266,8 +268,9 @@
                 ]
             },
             "properties": {
-                "use": "Trempes, atelier de m\u00e9canicien, moulins, atelier de charpentiers, magasins",
+                "use": "trempes, atelier de m\u00e9canicien, moulins, atelier de charpentiers, magasins",
                 "owner": "Mercier, Jean Jaques Pierre Fran\u00e7ois feu Jean Jaques Pierre Hector",
+                "address": "Rue St-Martin",
                 "building_id": 10
             }
         },
@@ -335,8 +338,9 @@
                 ]
             },
             "properties": {
-                "use": "Maison d'habitation, forge, magasin",
+                "use": "maison d'habitation, forge, magasin",
                 "owner": "Collioud, Elise Sophie feu Jean Elis\u00e9e Henneberger veuve de Henri Etienne",
+                "address": "Rue de Martheray",
                 "building_id": null
             }
         },
@@ -420,8 +424,9 @@
                 ]
             },
             "properties": {
-                "use": "Forge, remise",
+                "use": "forge, remise",
                 "owner": "Danioth, Antoine feu Jules",
+                "address": "Rue du Rotillon",
                 "building_id": null
             }
         },
@@ -473,8 +478,9 @@
                 ]
             },
             "properties": {
-                "use": "Moulins",
+                "use": "moulins",
                 "owner": "Delisle, Alfred feu Jean Abram; Delisle, Henri Charles feu Jean Abram",
+                "address": "A l'Hermitage",
                 "building_id": 15
             }
         },
@@ -514,8 +520,9 @@
                 ]
             },
             "properties": {
-                "use": "Forge construite par Balissat",
+                "use": "forge construite par Balissat",
                 "owner": "Gaudin, Charles Jean Marc Louis feu Marc Samuel (pour 1/2); Niess, Marie Elise feu Fran\u00e7ois Henri Isaac Lauret, veuve de Henri Louis (pour 1/2)",
+                "address": "En Chauderon",
                 "building_id": null
             }
         },
@@ -587,8 +594,9 @@
                 ]
             },
             "properties": {
-                "use": "Logement, forge, atelier, entrep\u00f4t",
+                "use": "logement, forge, atelier, entrep\u00f4t",
                 "owner": "Ferrier, Jean Louis fils de Jean Nicolas",
+                "address": "Au Pr\u00e9 du March\u00e9, Les Ambrettes",
                 "building_id": null
             }
         },
@@ -664,8 +672,9 @@
                 ]
             },
             "properties": {
-                "use": "Forge, machine \u00e0 vapeur",
+                "use": "forge, machine \u00e0 vapeur",
                 "owner": "Blanc, les enfants de feu Jean Georges Elie Henri (Clara; Charles Elie; Blanche Mathilde)",
+                "address": "Le Valentin",
                 "building_id": null
             }
         },
@@ -861,8 +870,9 @@
                 ]
             },
             "properties": {
-                "use": "Forge, machine \u00e0 vapeur",
+                "use": "forge, machine \u00e0 vapeur",
                 "owner": "Blanc, les enfants de feu Jean Georges Elie Henri (Clara; Charles Elie; Blanche Mathilde)",
+                "address": "Le Valentin",
                 "building_id": null
             }
         },
@@ -934,8 +944,9 @@
                 ]
             },
             "properties": {
-                "use": "Maison d'habitation, forge",
+                "use": "maison d'habitation, forge",
                 "owner": "Chapuis, H\u00e9l\u00e8ne Victorine feu Jean Auguste Panchaud, femme de Lucien (pour 658/2189); Th\u00e9voz, Th\u00e9r\u00e8se Jos\u00e9phine feu Jean Auguste Panchaud, femme d'Emile (1531/2189)",
+                "address": "En Calvaire",
                 "building_id": 6
             }
         },
@@ -971,8 +982,9 @@
                 ]
             },
             "properties": {
-                "use": "Forge",
+                "use": "forge",
                 "owner": "Vaud, l'Etat de",
+                "address": "Au Bugnon",
                 "building_id": null
             }
         },
@@ -1012,8 +1024,9 @@
                 ]
             },
             "properties": {
-                "use": "Forge",
+                "use": "forge",
                 "owner": "Bergier, Charles feu Jean Samuel",
+                "address": "Le Chalet \u00e0 Boverat",
                 "building_id": null
             }
         },
@@ -1057,8 +1070,9 @@
                 ]
             },
             "properties": {
-                "use": "Logement, moulin",
+                "use": "logement, moulin",
                 "owner": "Lausanne, la commune de",
+                "address": "A Montherond",
                 "building_id": null
             }
         },
@@ -1130,8 +1144,9 @@
                 ]
             },
             "properties": {
-                "use": "Logement, moulin",
+                "use": "logement, moulin",
                 "owner": "Lausanne, la commune de",
+                "address": "A Montherond",
                 "building_id": null
             }
         },
@@ -1235,8 +1250,9 @@
                 ]
             },
             "properties": {
-                "use": "Forge",
+                "use": "forge",
                 "owner": "Duvillard, Charles Jules feu Marc Jaques Fran\u00e7ois Louis",
+                "address": "A la Poudri\u00e8re",
                 "building_id": 5
             }
         },
@@ -1320,8 +1336,9 @@
                 ]
             },
             "properties": {
-                "use": "Moulin \u00e0 sable et \u00e0 \u00e9barber",
+                "use": "moulin \u00e0 sable et \u00e0 \u00e9barber",
                 "owner": "Duvillard, Charles Jules feu Marc Jaques Fran\u00e7ois Louis",
+                "address": "A la Poudri\u00e8re",
                 "building_id": 5
             }
         },
@@ -1373,8 +1390,9 @@
                 ]
             },
             "properties": {
-                "use": "Forge",
+                "use": "forge",
                 "owner": "Rey, Henri Th\u00e9odore feu Joseph Alexandre",
+                "address": "A la Sallaz",
                 "building_id": null
             }
         },
@@ -1446,8 +1464,9 @@
                 ]
             },
             "properties": {
-                "use": "Ancien moulin",
+                "use": "ancien moulin",
                 "owner": "Lausanne, la commune de",
+                "address": "En Pierre de Plan",
                 "building_id": 4
             }
         },
@@ -1567,8 +1586,9 @@
                 ]
             },
             "properties": {
-                "use": "Ancien moulin",
+                "use": "ancien moulin",
                 "owner": "Lausanne, la commune de",
+                "address": "En Pierre de Plan",
                 "building_id": 4
             }
         },
@@ -1608,8 +1628,9 @@
                 ]
             },
             "properties": {
-                "use": "Forge",
+                "use": "forge",
                 "owner": "Corbaz, Jean Fran\u00e7ois feu Jean Louis",
+                "address": "En Praz Maintenant",
                 "building_id": null
             }
         },
@@ -1653,8 +1674,9 @@
                 ]
             },
             "properties": {
-                "use": "Forge",
+                "use": "forge",
                 "owner": "Conod, Gustave Emile feu Charles Fran\u00e7ois Adolphe",
+                "address": "En Villard",
                 "building_id": null
             }
         },
@@ -1726,8 +1748,9 @@
                 ]
             },
             "properties": {
-                "use": "Couvert, scierie",
+                "use": "couvert, scierie",
                 "owner": "Berney, Charles Fran\u00e7ois feu Jean No\u00e9",
+                "address": "Rue de Martheray",
                 "building_id": null
             }
         },
@@ -1835,8 +1858,9 @@
                 ]
             },
             "properties": {
-                "use": "Scierie, \u00e9curie, chambre, bureau et hangar",
+                "use": "scierie, \u00e9curie, chambre, bureau et hangar",
                 "owner": "Lausanne-Ouchy et Eaux de Br\u00eat, la compagnie (chapitre priv\u00e9)",
+                "address": "En Mauborget",
                 "building_id": null
             }
         },
@@ -2000,8 +2024,9 @@
                 ]
             },
             "properties": {
-                "use": "Scierie \u00e0 vapeur",
+                "use": "scierie \u00e0 vapeur",
                 "owner": "Bauverd, Charles Henri feu Daniel; Mayor, Antoine Louis Emile feu Fr\u00e9deric (chacun pour 1/2)",
+                "address": "En Calvaire",
                 "building_id": 7
             }
         },
@@ -2041,8 +2066,9 @@
                 ]
             },
             "properties": {
-                "use": "Scierie",
+                "use": "scierie",
                 "owner": "Martin, Louis Alfred feu Jean David; Martin, Adrien feu Jean David (pour 1/4); Martin, Jules Constant fils de Jean; Martin, Lucie H\u00e9l\u00e8ne fille de Jean (pour 3/4)",
+                "address": "A la Thiolleyre",
                 "building_id": null
             }
         },
@@ -2110,8 +2136,9 @@
                 ]
             },
             "properties": {
-                "use": "Scierie",
+                "use": "scierie",
                 "owner": "Bauverd, Charles Henri feu Daniel; Mayor, Antoine Louis Emile feu Fr\u00e9deric (chacun pour 1/2)",
+                "address": "A la R\u00e2pe",
                 "building_id": null
             }
         },
@@ -2223,8 +2250,9 @@
                 ]
             },
             "properties": {
-                "use": "Scierie",
+                "use": "scierie",
                 "owner": "Bauverd, Charles Henri feu Daniel; Mayor, Antoine Louis Emile feu Fr\u00e9deric (chacun pour 1/2)",
+                "address": "A la R\u00e2pe",
                 "building_id": null
             }
         },
@@ -2280,8 +2308,9 @@
                 ]
             },
             "properties": {
-                "use": "Maison d'habitation, tannerie",
+                "use": "maison d'habitation, tannerie",
                 "owner": "Tesse, les enfants de feu Jean Fran\u00e7ois Louis (Emma Georgine; Fr\u00e9d\u00e9rique Louise; H\u00e9l\u00e8ne Julie Elise; Th\u00e9odore Fran\u00e7ois Samuel)",
+                "address": "Ruelle des Cheneaux",
                 "building_id": null
             }
         },
@@ -2357,8 +2386,9 @@
                 ]
             },
             "properties": {
-                "use": "B\u00e2timent de la machine \u00e0 vapeur",
+                "use": "b\u00e2timent de la machine \u00e0 vapeur",
                 "owner": "Delisle, Alfred feu Jean Abram; Delisle, Henri Charles feu Jean Abram",
+                "address": "A l'Hermitage",
                 "building_id": 15
             }
         },
@@ -2398,8 +2428,9 @@
                 ]
             },
             "properties": {
-                "use": "Chemin\u00e9e",
+                "use": "chemin\u00e9e",
                 "owner": "Delisle, Alfred feu Jean Abram; Delisle, Henri Charles feu Jean Abram",
+                "address": "A l'Hermitage",
                 "building_id": null
             }
         },
@@ -2523,8 +2554,9 @@
                 ]
             },
             "properties": {
-                "use": "Maison d'habitation avec moulin, machine \u00e0 vapeur, fours, bureau, magasin",
+                "use": "maison d'habitation avec moulin, machine \u00e0 vapeur, fours, bureau, magasin",
                 "owner": "Grellet, Georges Louis fils de Georges Fr\u00e9d\u00e9ric; Grellet, James Th\u00e9odore fils de Georges Fr\u00e9d\u00e9ric",
+                "address": "En Couvaloup",
                 "building_id": 8
             }
         },
@@ -2576,8 +2608,9 @@
                 ]
             },
             "properties": {
-                "use": "Machine \u00e0 vapeur",
+                "use": "machine \u00e0 vapeur",
                 "owner": "Mercier, Jean Jaques Pierre Fran\u00e7ois feu Jean Jaques Pierre Hector",
+                "address": "Rue St-Martin",
                 "building_id": 10
             }
         },
@@ -2753,8 +2786,9 @@
                 ]
             },
             "properties": {
-                "use": "Chaudi\u00e8res \u00e0 vapeur, presses \u00e0 tan, magasins, s\u00e9chage et emballage de la bourre",
+                "use": "chaudi\u00e8res \u00e0 vapeur, presses \u00e0 tan, magasins, s\u00e9chage et emballage de la bourre",
                 "owner": "Mercier, Jean Jaques Pierre Fran\u00e7ois feu Jean Jaques Pierre Hector",
+                "address": "Rue St-Martin",
                 "building_id": 10
             }
         },
@@ -2794,8 +2828,9 @@
                 ]
             },
             "properties": {
-                "use": "B\u00e2timent de la machine \u00e0 vapeur",
+                "use": "b\u00e2timent de la machine \u00e0 vapeur",
                 "owner": "Delisle, Alfred feu Jean Abram; Delisle, Henri Charles feu Jean Abram",
+                "address": "A l'Hermitage",
                 "building_id": null
             }
         },
@@ -2871,8 +2906,9 @@
                 ]
             },
             "properties": {
-                "use": "B\u00e2timent de la machine \u00e0 vapeur",
+                "use": "b\u00e2timent de la machine \u00e0 vapeur",
                 "owner": "Delisle, Alfred feu Jean Abram; Delisle, Henri Charles feu Jean Abram",
+                "address": "A l'Hermitage",
                 "building_id": 15
             }
         },
@@ -2948,8 +2984,9 @@
                 ]
             },
             "properties": {
-                "use": "Forge, machine \u00e0 vapeur",
+                "use": "forge, machine \u00e0 vapeur",
                 "owner": "Blanc, les enfants de feu Jean Georges Elie Henri (Clara; Charles Elie; Blanche Mathilde)",
+                "address": "Le Valentin",
                 "building_id": null
             }
         },
@@ -3145,8 +3182,9 @@
                 ]
             },
             "properties": {
-                "use": "Forge, machine \u00e0 vapeur",
+                "use": "forge, machine \u00e0 vapeur",
                 "owner": "Blanc, les enfants de feu Jean Georges Elie Henri (Clara; Charles Elie; Blanche Mathilde)",
+                "address": "Le Valentin",
                 "building_id": null
             }
         },
@@ -3248,8 +3286,9 @@
                 ]
             },
             "properties": {
-                "use": "Chaudi\u00e8re \u00e0 vapeur (place dessus)",
+                "use": "chaudi\u00e8re \u00e0 vapeur (place dessus)",
                 "owner": "Bauverd, Charles Henri feu Daniel; Mayor, Antoine Louis Emile feu Fr\u00e9deric (chacun pour 1/2)",
+                "address": "En Calvaire",
                 "building_id": 7
             }
         },
@@ -3413,8 +3452,9 @@
                 ]
             },
             "properties": {
-                "use": "Scierie \u00e0 vapeur",
+                "use": "scierie \u00e0 vapeur",
                 "owner": "Bauverd, Charles Henri feu Daniel; Mayor, Antoine Louis Emile feu Fr\u00e9deric (chacun pour 1/2)",
+                "address": "En Calvaire",
                 "building_id": null
             }
         },
@@ -3466,8 +3506,9 @@
                 ]
             },
             "properties": {
-                "use": "B\u00e2timent de chaudi\u00e8res \u00e0 vapeur",
+                "use": "b\u00e2timent de chaudi\u00e8res \u00e0 vapeur",
                 "owner": "K\u00f6hler, les deux fils de feu Charles Am\u00e9d\u00e9e (Am\u00e9d\u00e9e Louis; Jean Jaques)",
+                "address": "En Sauvabelin",
                 "building_id": 1
             }
         },
@@ -3519,8 +3560,9 @@
                 ]
             },
             "properties": {
-                "use": "B\u00e2timent de chaudi\u00e8res \u00e0 vapeur",
+                "use": "b\u00e2timent de chaudi\u00e8res \u00e0 vapeur",
                 "owner": "K\u00f6hler, les deux fils de feu Charles Am\u00e9d\u00e9e (Am\u00e9d\u00e9e Louis; Jean Jaques)",
+                "address": "En Sauvabelin",
                 "building_id": 1
             }
         },
@@ -3656,8 +3698,9 @@
                 ]
             },
             "properties": {
-                "use": "P\u00e9lins, magasins, mise en huile",
+                "use": "p\u00e9lins, magasins, mise en huile",
                 "owner": "Mercier, Jean Jaques Pierre Fran\u00e7ois feu Jean Jaques Pierre Hector",
+                "address": "Rue St-Martin",
                 "building_id": 10
             }
         },
@@ -3785,8 +3828,9 @@
                 ]
             },
             "properties": {
-                "use": "Ateliers de rivi\u00e8re, rodi\u00e8res, mises en huile, magasins",
+                "use": "ateliers de rivi\u00e8re, rodi\u00e8res, mises en huile, magasins",
                 "owner": "Mercier, Jean Jaques Pierre Fran\u00e7ois feu Jean Jaques Pierre Hector",
+                "address": "Rue St-Martin",
                 "building_id": 10
             }
         },
@@ -3986,8 +4030,9 @@
                 ]
             },
             "properties": {
-                "use": "Atelier de rivi\u00e8re, dragage et mise au vent",
+                "use": "atelier de rivi\u00e8re, dragage et mise au vent",
                 "owner": "Mercier, Jean Jaques Pierre Fran\u00e7ois feu Jean Jaques Pierre Hector",
+                "address": "Rue St-Martin",
                 "building_id": 10
             }
         },
@@ -4059,8 +4104,9 @@
                 ]
             },
             "properties": {
-                "use": "Creux \u00e0 chaux",
+                "use": "creux \u00e0 chaux",
                 "owner": "Mercier, Jean Jaques Pierre Fran\u00e7ois feu Jean Jaques Pierre Hector",
+                "address": "Rue St-Martin",
                 "building_id": 10
             }
         },
@@ -4152,8 +4198,9 @@
                 ]
             },
             "properties": {
-                "use": "Hangar, presse \u00e0 d\u00e9chets",
+                "use": "hangar, presse \u00e0 d\u00e9chets",
                 "owner": "Mercier, Jean Jaques Pierre Fran\u00e7ois feu Jean Jaques Pierre Hector",
+                "address": "Rue St-Martin",
                 "building_id": 10
             }
         },
@@ -4257,8 +4304,9 @@
                 ]
             },
             "properties": {
-                "use": "Hangar \u00e0 \u00e9corce, broyeur",
+                "use": "hangar \u00e0 \u00e9corce, broyeur",
                 "owner": "Mercier, Jean Jaques Pierre Fran\u00e7ois feu Jean Jaques Pierre Hector",
+                "address": "Rue St-Martin",
                 "building_id": 10
             }
         },
@@ -4774,8 +4822,9 @@
                 ]
             },
             "properties": {
-                "use": "Basserie, magasins",
+                "use": "basserie, magasins",
                 "owner": "Mercier, Jean Jaques Pierre Fran\u00e7ois feu Jean Jaques Pierre Hector",
+                "address": "Rue St-Martin",
                 "building_id": 10
             }
         },
@@ -4847,8 +4896,9 @@
                 ]
             },
             "properties": {
-                "use": "Chemin\u00e9e",
+                "use": "chemin\u00e9e",
                 "owner": "Mercier, Jean Jaques Pierre Fran\u00e7ois feu Jean Jaques Pierre Hector",
+                "address": "Rue St-Martin",
                 "building_id": 10
             }
         },
@@ -4928,8 +4978,9 @@
                 ]
             },
             "properties": {
-                "use": "Fosses, magasins, corroierie",
+                "use": "fosses, magasins, corroierie",
                 "owner": "Mercier, Jean Jaques Pierre Fran\u00e7ois feu Jean Jaques Pierre Hector",
+                "address": "Rue St-Martin",
                 "building_id": 10
             }
         },
@@ -5025,8 +5076,9 @@
                 ]
             },
             "properties": {
-                "use": "R\u00e9duits",
+                "use": "r\u00e9duits",
                 "owner": "Mercier, Jean Jaques Pierre Fran\u00e7ois feu Jean Jaques Pierre Hector",
+                "address": "Rue St-Martin",
                 "building_id": 10
             }
         },
@@ -5114,8 +5166,9 @@
                 ]
             },
             "properties": {
-                "use": "S\u00e9choir",
+                "use": "s\u00e9choir",
                 "owner": "Mercier, Louis Adrien feu Jean Jaques Pierre Hector",
+                "address": "Rue St-Martin",
                 "building_id": 10
             }
         },
@@ -5163,8 +5216,9 @@
                 ]
             },
             "properties": {
-                "use": "Teinturerie",
+                "use": "teinturerie",
                 "owner": "Bachmann, Jean Henri feu Jean Henri",
+                "address": "En Couvaloup",
                 "building_id": null
             }
         },
@@ -5216,8 +5270,9 @@
                 ]
             },
             "properties": {
-                "use": "Fabrique de chaussures",
+                "use": "fabrique de chaussures",
                 "owner": "Steinhauser, Auckenthaer et Cie, la soci\u00e9t\u00e9 en nom collectif compos\u00e9e de: Steinhauser, Charles Henri feu Henzel; Auckenthaler, Jean Gustave Fr\u00e9d\u00e9ric fils de Georges Franz Christian; Mercier, Jean Jaques Pierre Fran\u00e7ois feu Jean Jaques Pierre Hector",
+                "address": "En Couvaloup",
                 "building_id": null
             }
         },
@@ -5281,8 +5336,9 @@
                 ]
             },
             "properties": {
-                "use": "Maison d'habitation, fabrique de bougies",
+                "use": "maison d'habitation, fabrique de bougies",
                 "owner": "Hartmann, Daniel feu Daniel",
+                "address": "En Couvaloup",
                 "building_id": null
             }
         },
@@ -5358,8 +5414,9 @@
                 ]
             },
             "properties": {
-                "use": "Maison d'habitation, magasins, machines",
+                "use": "maison d'habitation, magasins, machines",
                 "owner": "K\u00f6hler, les deux fils de feu Charles Am\u00e9d\u00e9e (Am\u00e9d\u00e9e Louis; Jean Jaques)",
+                "address": "En Sauvabelin",
                 "building_id": 1
             }
         },
@@ -5435,8 +5492,9 @@
                 ]
             },
             "properties": {
-                "use": "Atelier",
+                "use": "atelier",
                 "owner": "K\u00f6hler, les deux fils de feu Charles Am\u00e9d\u00e9e (Am\u00e9d\u00e9e Louis; Jean Jaques)",
+                "address": "En Sauvabelin",
                 "building_id": 1
             }
         },
@@ -5660,8 +5718,9 @@
                 ]
             },
             "properties": {
-                "use": "March\u00e9 couvert",
+                "use": "march\u00e9 couvert",
                 "owner": "Lausanne, la commune de",
+                "address": "La Borde",
                 "building_id": null
             }
         },
@@ -5773,8 +5832,9 @@
                 ]
             },
             "properties": {
-                "use": "Magasins pour cuirs et traitement du sang",
+                "use": "magasins pour cuirs et traitement du sang",
                 "owner": "Lausanne, la commune de",
+                "address": "La Borde",
                 "building_id": null
             }
         },
@@ -5858,8 +5918,9 @@
                 ]
             },
             "properties": {
-                "use": "Vide panse",
+                "use": "vide panse",
                 "owner": "Lausanne, la commune de",
+                "address": "La Borde",
                 "building_id": null
             }
         },
@@ -5935,8 +5996,9 @@
                 ]
             },
             "properties": {
-                "use": "Triperie",
+                "use": "triperie",
                 "owner": "Lausanne, la commune de",
+                "address": "La Borde",
                 "building_id": null
             }
         },
@@ -6004,8 +6066,9 @@
                 ]
             },
             "properties": {
-                "use": "Triperie",
+                "use": "triperie",
                 "owner": "Lausanne, la commune de",
+                "address": "La Borde",
                 "building_id": null
             }
         },
@@ -6085,8 +6148,9 @@
                 ]
             },
             "properties": {
-                "use": "Corps d'\u00e9chaudoir, grandes loges",
+                "use": "corps d'\u00e9chaudoir, grandes loges",
                 "owner": "Lausanne, la commune de",
+                "address": "La Borde",
                 "building_id": null
             }
         },
@@ -6130,8 +6194,9 @@
                 ]
             },
             "properties": {
-                "use": "Grandes loges",
+                "use": "grandes loges",
                 "owner": "Lausanne, la commune de",
+                "address": "La Borde",
                 "building_id": null
             }
         },
@@ -6183,8 +6248,9 @@
                 ]
             },
             "properties": {
-                "use": "Corps d'\u00e9chaudoir, petites loges",
+                "use": "corps d'\u00e9chaudoir, petites loges",
                 "owner": "Lausanne, la commune de",
+                "address": "La Borde",
                 "building_id": null
             }
         },
@@ -6296,8 +6362,9 @@
                 ]
             },
             "properties": {
-                "use": "B\u00e2timent d'administration",
+                "use": "b\u00e2timent d'administration",
                 "owner": "Lausanne, la commune de",
+                "address": "La Borde",
                 "building_id": null
             }
         },
@@ -6333,8 +6400,9 @@
                 ]
             },
             "properties": {
-                "use": "Couvert, chambre pour gar\u00e7on d'\u00e9curie",
+                "use": "couvert, chambre pour gar\u00e7on d'\u00e9curie",
                 "owner": "Lausanne, la commune de",
+                "address": "La Borde",
                 "building_id": null
             }
         },
@@ -6386,8 +6454,9 @@
                 ]
             },
             "properties": {
-                "use": "Ecurie pour chevaux",
+                "use": "ecurie pour chevaux",
                 "owner": "Lausanne, la commune de",
+                "address": "La Borde",
                 "building_id": null
             }
         },
@@ -6427,8 +6496,9 @@
                 ]
             },
             "properties": {
-                "use": "Remise",
+                "use": "remise",
                 "owner": "Lausanne, la commune de",
+                "address": "La Borde",
                 "building_id": null
             }
         },
@@ -6516,8 +6586,9 @@
                 ]
             },
             "properties": {
-                "use": "Ecurie pour boeufs",
+                "use": "ecurie pour boeufs",
                 "owner": "Lausanne, la commune de",
+                "address": "La Borde",
                 "building_id": null
             }
         },
@@ -6557,8 +6628,9 @@
                 ]
             },
             "properties": {
-                "use": "Creux \u00e0 fumier, remise",
+                "use": "creux \u00e0 fumier, remise",
                 "owner": "Lausanne, la commune de",
+                "address": "La Borde",
                 "building_id": null
             }
         },
@@ -6642,8 +6714,9 @@
                 ]
             },
             "properties": {
-                "use": "Parcs, \u00e9curie des veaux et moutons et bocks",
+                "use": "parcs, \u00e9curie des veaux et moutons et bocks",
                 "owner": "Lausanne, la commune de",
+                "address": "La Borde",
                 "building_id": null
             }
         },
@@ -6743,8 +6816,9 @@
                 ]
             },
             "properties": {
-                "use": "Remise, b\u00fbcher, magasin \u00e0 charbon",
+                "use": "remise, b\u00fbcher, magasin \u00e0 charbon",
                 "owner": "Grellet, Georges Louis fils de Georges Fr\u00e9d\u00e9ric; Grellet, James Th\u00e9odore fils de Georges Fr\u00e9d\u00e9ric",
+                "address": "En Couvaloup",
                 "building_id": 8
             }
         },
@@ -6808,8 +6882,9 @@
                 ]
             },
             "properties": {
-                "use": "Hangar \u00e0 charbon",
+                "use": "hangar \u00e0 charbon",
                 "owner": "K\u00f6hler, les deux fils de feu Charles Am\u00e9d\u00e9e (Am\u00e9d\u00e9e Louis; Jean Jaques)",
+                "address": "En Sauvabelin",
                 "building_id": 1
             }
         },
@@ -6861,8 +6936,9 @@
                 ]
             },
             "properties": {
-                "use": "Chemin\u00e9e",
+                "use": "chemin\u00e9e",
                 "owner": "Lausanne, la commune de",
+                "address": "Rue du Chemin Neuf",
                 "building_id": null
             }
         },
@@ -6934,8 +7010,9 @@
                 ]
             },
             "properties": {
-                "use": "Chemin\u00e9e",
+                "use": "chemin\u00e9e",
                 "owner": "Mercier, Jean Jaques Pierre Fran\u00e7ois feu Jean Jaques Pierre Hector",
+                "address": "Rue St-Martin",
                 "building_id": 10
             }
         },
@@ -6991,8 +7068,9 @@
                 ]
             },
             "properties": {
-                "use": "Chemin\u00e9e",
+                "use": "chemin\u00e9e",
                 "owner": "Seiler, Jean Charles feu Henri",
+                "address": "Rue de Martheray",
                 "building_id": null
             }
         },
@@ -7032,8 +7110,9 @@
                 ]
             },
             "properties": {
-                "use": "Chemin\u00e9e",
+                "use": "chemin\u00e9e",
                 "owner": "Delisle, Alfred feu Jean Abram; Delisle, Henri Charles feu Jean Abram",
+                "address": "A l'Hermitage",
                 "building_id": null
             }
         },
@@ -7311,8 +7390,9 @@
                 ]
             },
             "properties": {
-                "use": "Chemin\u00e9e",
+                "use": "chemin\u00e9e",
                 "owner": "Delisle, Alfred feu Jean Abram; Delisle, Henri Charles feu Jean Abram",
+                "address": "A l'Hermitage",
                 "building_id": 15
             }
         },
@@ -7436,8 +7516,9 @@
                 ]
             },
             "properties": {
-                "use": "Maison d'habitation avec moulin, machine \u00e0 vapeur, fours, bureau, magasin",
+                "use": "maison d'habitation avec moulin, machine \u00e0 vapeur, fours, bureau, magasin",
                 "owner": "Grellet, Georges Louis fils de Georges Fr\u00e9d\u00e9ric; Grellet, James Th\u00e9odore fils de Georges Fr\u00e9d\u00e9ric",
+                "address": "En Couvaloup",
                 "building_id": 8
             }
         },
@@ -7489,8 +7570,9 @@
                 ]
             },
             "properties": {
-                "use": "Machine \u00e0 vapeur",
+                "use": "machine \u00e0 vapeur",
                 "owner": "Mercier, Jean Jaques Pierre Fran\u00e7ois feu Jean Jaques Pierre Hector",
+                "address": "Rue St-Martin",
                 "building_id": 10
             }
         },
@@ -7666,8 +7748,9 @@
                 ]
             },
             "properties": {
-                "use": "Chaudi\u00e8res \u00e0 vapeur, presses \u00e0 tan, magasins, s\u00e9chage et emballage de la bourre",
+                "use": "chaudi\u00e8res \u00e0 vapeur, presses \u00e0 tan, magasins, s\u00e9chage et emballage de la bourre",
                 "owner": "Mercier, Jean Jaques Pierre Fran\u00e7ois feu Jean Jaques Pierre Hector",
+                "address": "Rue St-Martin",
                 "building_id": 10
             }
         },
@@ -7707,8 +7790,9 @@
                 ]
             },
             "properties": {
-                "use": "B\u00e2timent de la machine \u00e0 vapeur",
+                "use": "b\u00e2timent de la machine \u00e0 vapeur",
                 "owner": "Delisle, Alfred feu Jean Abram; Delisle, Henri Charles feu Jean Abram",
+                "address": "A l'Hermitage",
                 "building_id": null
             }
         },
@@ -7784,8 +7868,9 @@
                 ]
             },
             "properties": {
-                "use": "B\u00e2timent de la machine \u00e0 vapeur",
+                "use": "b\u00e2timent de la machine \u00e0 vapeur",
                 "owner": "Delisle, Alfred feu Jean Abram; Delisle, Henri Charles feu Jean Abram",
+                "address": "A l'Hermitage",
                 "building_id": 15
             }
         },
@@ -7861,8 +7946,9 @@
                 ]
             },
             "properties": {
-                "use": "Forge, machine \u00e0 vapeur",
+                "use": "forge, machine \u00e0 vapeur",
                 "owner": "Blanc, les enfants de feu Jean Georges Elie Henri (Clara; Charles Elie; Blanche Mathilde)",
+                "address": "Le Valentin",
                 "building_id": null
             }
         },
@@ -8058,8 +8144,9 @@
                 ]
             },
             "properties": {
-                "use": "Forge, machine \u00e0 vapeur",
+                "use": "forge, machine \u00e0 vapeur",
                 "owner": "Blanc, les enfants de feu Jean Georges Elie Henri (Clara; Charles Elie; Blanche Mathilde)",
+                "address": "Le Valentin",
                 "building_id": null
             }
         },
@@ -8161,8 +8248,9 @@
                 ]
             },
             "properties": {
-                "use": "Chaudi\u00e8re \u00e0 vapeur (place dessus)",
+                "use": "chaudi\u00e8re \u00e0 vapeur (place dessus)",
                 "owner": "Bauverd, Charles Henri feu Daniel; Mayor, Antoine Louis Emile feu Fr\u00e9deric (chacun pour 1/2)",
+                "address": "En Calvaire",
                 "building_id": null
             }
         },
@@ -8326,8 +8414,9 @@
                 ]
             },
             "properties": {
-                "use": "Scierie \u00e0 vapeur",
+                "use": "scierie \u00e0 vapeur",
                 "owner": "Bauverd, Charles Henri feu Daniel; Mayor, Antoine Louis Emile feu Fr\u00e9deric (chacun pour 1/2)",
+                "address": "En Calvaire",
                 "building_id": null
             }
         },
@@ -8379,8 +8468,9 @@
                 ]
             },
             "properties": {
-                "use": "B\u00e2timent de chaudi\u00e8res \u00e0 vapeur",
+                "use": "b\u00e2timent de chaudi\u00e8res \u00e0 vapeur",
                 "owner": "K\u00f6hler, les deux fils de feu Charles Am\u00e9d\u00e9e (Am\u00e9d\u00e9e Louis; Jean Jaques)",
+                "address": "En Sauvabelin",
                 "building_id": null
             }
         },
@@ -8432,8 +8522,9 @@
                 ]
             },
             "properties": {
-                "use": "B\u00e2timent de chaudi\u00e8res \u00e0 vapeur",
+                "use": "b\u00e2timent de chaudi\u00e8res \u00e0 vapeur",
                 "owner": "K\u00f6hler, les deux fils de feu Charles Am\u00e9d\u00e9e (Am\u00e9d\u00e9e Louis; Jean Jaques)",
+                "address": "En Sauvabelin",
                 "building_id": null
             }
         },
@@ -8513,8 +8604,9 @@
                 ]
             },
             "properties": {
-                "use": "Fonderie",
+                "use": "fonderie",
                 "owner": "Duvillard, Charles Jules feu Marc Jaques Fran\u00e7ois Louis",
+                "address": "A la Poudri\u00e8re",
                 "building_id": 5
             }
         },
@@ -8626,8 +8718,9 @@
                 ]
             },
             "properties": {
-                "use": "Magasins pour cuirs et traitement du sang",
+                "use": "magasins pour cuirs et traitement du sang",
                 "owner": "Lausanne, la commune de",
+                "address": "La Borde",
                 "building_id": null
             }
         },
@@ -8707,8 +8800,9 @@
                 ]
             },
             "properties": {
-                "use": "Corps d'\u00e9chaudoir, grandes loges",
+                "use": "corps d'\u00e9chaudoir, grandes loges",
                 "owner": "Lausanne, la commune de",
+                "address": "La Borde",
                 "building_id": null
             }
         },
@@ -8760,8 +8854,9 @@
                 ]
             },
             "properties": {
-                "use": "Corps d'\u00e9chaudoir, petites loges",
+                "use": "corps d'\u00e9chaudoir, petites loges",
                 "owner": "Lausanne, la commune de",
+                "address": "La Borde",
                 "building_id": null
             }
         },
@@ -8901,8 +8996,9 @@
                 ]
             },
             "properties": {
-                "use": "Caf\u00e9, bains",
+                "use": "caf\u00e9, bains",
                 "owner": "Odot, Fran\u00e7ois Henri feu Abram",
+                "address": null,
                 "building_id": null
             }
         },
@@ -9078,8 +9174,9 @@
                 ]
             },
             "properties": {
-                "use": "Maison d'habitation, bains",
+                "use": "maison d'habitation, bains",
                 "owner": "Blanc, les enfants de feu Jean Georges Elie Henri (Clara; Charles Elie; Blanche Mathilde)",
+                "address": "Le Valentin",
                 "building_id": null
             }
         }

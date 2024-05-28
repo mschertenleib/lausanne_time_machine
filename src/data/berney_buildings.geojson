@@ -89,6 +89,7 @@
             },
             "properties": {
                 "use": "forge, \u00e9curie, fenil",
+                "address": "Pas des Anes, sous P\u00e9pinet, 1",
                 "owner": "Samuel-Daniel-B\u00e9n\u00e9dict Rochat feu Jean-Abram-Henri",
                 "building_id": 13
             }
@@ -242,6 +243,7 @@
             },
             "properties": {
                 "use": "moulin",
+                "address": "Pas des Anes, sous P\u00e9pinet, 1",
                 "owner": "Samuel-Daniel-B\u00e9n\u00e9dict Rochat feu Jean-Abram-Henri",
                 "building_id": 13
             }
@@ -355,6 +357,7 @@
             },
             "properties": {
                 "use": "maison, forge",
+                "address": null,
                 "owner": "George-Daniel Noir feu Pierre",
                 "building_id": null
             }
@@ -468,6 +471,7 @@
             },
             "properties": {
                 "use": "moulin",
+                "address": null,
                 "owner": "Commune de Lausanne",
                 "building_id": null
             }
@@ -533,6 +537,7 @@
             },
             "properties": {
                 "use": "tannerie",
+                "address": "Rue du Pr\u00e9, 35",
                 "owner": "George-Henri-Jaques Blanchet fils d'Etienne",
                 "building_id": null
             }
@@ -646,6 +651,7 @@
             },
             "properties": {
                 "use": "maison, forge",
+                "address": null,
                 "owner": "Jacob-C\u00e9sar-Louis Collioud feu Marc-Louis",
                 "building_id": null
             }
@@ -727,6 +733,7 @@
             },
             "properties": {
                 "use": "maison, forge",
+                "address": null,
                 "owner": "Jean-George Favrat feu Claude-Fran\u00e7ois",
                 "building_id": null
             }
@@ -808,6 +815,7 @@
             },
             "properties": {
                 "use": "forge",
+                "address": null,
                 "owner": "Fran\u00e7oise-Benjamine Choux feu Jean-David, femme deJean-Vincent Busset fils de David",
                 "building_id": null
             }
@@ -897,6 +905,7 @@
             },
             "properties": {
                 "use": "forge",
+                "address": null,
                 "owner": "Balthasar Muller feu Jean",
                 "building_id": null
             }
@@ -998,6 +1007,7 @@
             },
             "properties": {
                 "use": "maison, forge",
+                "address": null,
                 "owner": "Fr\u00e9d\u00e9ric Hansjacob fils d'Andr\u00e9",
                 "building_id": null
             }
@@ -1115,6 +1125,7 @@
             },
             "properties": {
                 "use": "maison, forge",
+                "address": null,
                 "owner": "Fr\u00e9d\u00e9ric Hansjacob fils d'Andr\u00e9",
                 "building_id": null
             }
@@ -1268,6 +1279,7 @@
             },
             "properties": {
                 "use": "remise, forge",
+                "address": null,
                 "owner": "Jean-Marc-Louis Peneveyre feu Abram-C\u00e9sar",
                 "building_id": null
             }
@@ -1365,6 +1377,7 @@
             },
             "properties": {
                 "use": "tannerie",
+                "address": null,
                 "owner": "Jean-Jaques-Pierre Mercier feu Jean-Jaques",
                 "building_id": 10
             }
@@ -1470,6 +1483,7 @@
             },
             "properties": {
                 "use": "moulin",
+                "address": null,
                 "owner": "Jean-Jaques-Pierre Mercier feu Jean-Jaques",
                 "building_id": 10
             }
@@ -1575,6 +1589,7 @@
             },
             "properties": {
                 "use": "maison, tannerie",
+                "address": null,
                 "owner": "Louise-Henriette Chambaud feu Henri-Fran\u00e7ois-George, femme de Gaspard-Marc-Gabriel Gilliard",
                 "building_id": null
             }
@@ -1660,6 +1675,7 @@
             },
             "properties": {
                 "use": "maison, tannerie",
+                "address": null,
                 "owner": "Jean-Jaques-Pierre Mercier feu Jean-Jaques",
                 "building_id": 10
             }
@@ -1733,6 +1749,7 @@
             },
             "properties": {
                 "use": "tannerie",
+                "address": "Rue du Pr\u00e9, 35",
                 "owner": "George-Henri-Jaques Blanchet fils d'Etienne",
                 "building_id": null
             }
@@ -1790,6 +1807,7 @@
             },
             "properties": {
                 "use": "tannerie",
+                "address": "Rue du Pr\u00e9, 29",
                 "owner": "Jean-Jaques-Pierre Mercier feu Jean-Jaques",
                 "building_id": 10
             }
@@ -1891,6 +1909,7 @@
             },
             "properties": {
                 "use": "grenier, tannerie",
+                "address": "Rue du Pr\u00e9, 29",
                 "owner": "Jean-Jaques-Pierre Mercier feu Jean-Jaques",
                 "building_id": 10
             }
@@ -2012,6 +2031,7 @@
             },
             "properties": {
                 "use": "maison, moulin",
+                "address": "Rue du Pr\u00e9, 26",
                 "owner": "Jean-Samuel Verrey feu Jean-No\u00e9",
                 "building_id": null
             }
@@ -2145,6 +2165,7 @@
             },
             "properties": {
                 "use": "maison, tannerie",
+                "address": null,
                 "owner": "Fran\u00e7ois-Moyse-Andr\u00e9 Amy feu Samuel",
                 "building_id": null
             }
@@ -2218,6 +2239,7 @@
             },
             "properties": {
                 "use": "tannerie, remise",
+                "address": "Cheneau du Bourg, 28",
                 "owner": "Antoine-Fran\u00e7ois Damas feu Jean-Jacob-Gabriel",
                 "building_id": null
             }
@@ -2303,6 +2325,7 @@
             },
             "properties": {
                 "use": "maison, moulin",
+                "address": "Rue du pr\u00e9, 6",
                 "owner": "George-Abram Vincent fils de Jean-Pierre",
                 "building_id": null
             }
@@ -2380,6 +2403,7 @@
             },
             "properties": {
                 "use": "tannerie",
+                "address": null,
                 "owner": "Louis-Fran\u00e7ois Gaudin feu Emanuel-Henri",
                 "building_id": null
             }
@@ -2437,6 +2461,7 @@
             },
             "properties": {
                 "use": "maison, forge",
+                "address": null,
                 "owner": "Jean-George Rupf feu Mathieu",
                 "building_id": null
             }
@@ -2526,6 +2551,7 @@
             },
             "properties": {
                 "use": "maison, forge",
+                "address": null,
                 "owner": "Fran\u00e7ois-Nicolas Panchaud feu Claude-Fran\u00e7ois-Nicolas",
                 "building_id": 6
             }
@@ -2659,6 +2685,7 @@
             },
             "properties": {
                 "use": "maison, moulin",
+                "address": null,
                 "owner": "Jean-George Rochat feu Henri",
                 "building_id": 8
             }
@@ -2764,6 +2791,7 @@
             },
             "properties": {
                 "use": "moulin \u00e0 \u00e9corce, place",
+                "address": null,
                 "owner": "Jacques-Jacob-Henri Ogay feu Pierre",
                 "building_id": 9
             }
@@ -2837,6 +2865,7 @@
             },
             "properties": {
                 "use": "maison, moulin",
+                "address": null,
                 "owner": "Jacob Renou feu Abram",
                 "building_id": 9
             }
@@ -2930,6 +2959,7 @@
             },
             "properties": {
                 "use": "maison, forge, place",
+                "address": null,
                 "owner": "Abram-Daniel Dupraz feu Etienne",
                 "building_id": null
             }
@@ -2999,6 +3029,7 @@
             },
             "properties": {
                 "use": "maison, forge, buanderie, remise",
+                "address": null,
                 "owner": "Jean-Bernard Rieder feu Bernard",
                 "building_id": null
             }
@@ -3072,6 +3103,7 @@
             },
             "properties": {
                 "use": "moulin",
+                "address": null,
                 "owner": "Fran\u00e7ois-Joseph Lain\u00e9 feu Fran\u00e7ois",
                 "building_id": null
             }
@@ -3165,6 +3197,7 @@
             },
             "properties": {
                 "use": "moulin",
+                "address": null,
                 "owner": "Etat du Canton de Vaud",
                 "building_id": 5
             }
@@ -3218,6 +3251,7 @@
             },
             "properties": {
                 "use": "scie | scie",
+                "address": null,
                 "owner": "Henri-Louis Bocion feu Jean-Fran\u00e7ois | Etat du Canton de Vaud",
                 "building_id": 5
             }
@@ -3451,6 +3485,7 @@
             },
             "properties": {
                 "use": "maison, grange, \u00e9curie, forge | maison, grange, \u00e9curie, forge | maison, grange, \u00e9curie, forge",
+                "address": null,
                 "owner": "Jean-Jaques Cerez feu Charles-Samuel-Auguste | Jean-Fran\u00e7ois-Louis Cerez feu Charles-Samuel-Auguste |",
                 "building_id": null
             }
@@ -3532,6 +3567,7 @@
             },
             "properties": {
                 "use": "maison, moulin",
+                "address": null,
                 "owner": "Louis-Daniel-Philibert Regamey feu Jean-Samuel-Joseph",
                 "building_id": 2
             }
@@ -3617,6 +3653,7 @@
             },
             "properties": {
                 "use": "maison, moulin",
+                "address": null,
                 "owner": "Jacob Martin feu Jean-Jaques",
                 "building_id": 3
             }
@@ -3698,6 +3735,7 @@
             },
             "properties": {
                 "use": "maison, grange, \u00e9curie, moulin",
+                "address": null,
                 "owner": "Pierre-Jaques-Louis Martin feu Henri",
                 "building_id": null
             }
@@ -3807,6 +3845,7 @@
             },
             "properties": {
                 "use": "maison, moulin | maison, moulin | maison, moulin",
+                "address": null,
                 "owner": "Jacob Martin feu Jean-Louis | Abram-Louis Martin feu Jaques | Jaques-Louis Martin feu Jaques",
                 "building_id": null
             }
@@ -3864,6 +3903,7 @@
             },
             "properties": {
                 "use": "maison, forge | maison, forge",
+                "address": null,
                 "owner": "Philippe Bielmann feu Fr\u00e9d\u00e9ric | Commune de Lausanne",
                 "building_id": null
             }
@@ -3965,6 +4005,7 @@
             },
             "properties": {
                 "use": "moulin, scie, battoir",
+                "address": null,
                 "owner": "Jean-Louis Ravessoud feu Jean-Louis",
                 "building_id": null
             }
@@ -4054,6 +4095,7 @@
             },
             "properties": {
                 "use": "maison, forge",
+                "address": null,
                 "owner": "Jean-Jaques-Fran\u00e7ois Corbaz feu David",
                 "building_id": null
             }
@@ -4103,6 +4145,7 @@
             },
             "properties": {
                 "use": "maison, forge",
+                "address": null,
                 "owner": "Jean-Fran\u00e7ois Corbaz feu David",
                 "building_id": null
             }
@@ -4176,6 +4219,7 @@
             },
             "properties": {
                 "use": "maison, forge",
+                "address": null,
                 "owner": "Jean-George Favrat feu Claude-Fran\u00e7ois",
                 "building_id": null
             }
@@ -4389,6 +4433,7 @@
             },
             "properties": {
                 "use": "scie",
+                "address": "Pas des Anes, sous P\u00e9pinet, 1",
                 "owner": "Samuel-Daniel-B\u00e9n\u00e9dict Rochat feu Jean-Abram-Henri",
                 "building_id": 13
             }
@@ -4434,6 +4479,7 @@
             },
             "properties": {
                 "use": "scie \u00e0 marbre",
+                "address": "Scie du tirage sous Montbenon",
                 "owner": "Jean-Daniel Turel feu Pierre-Ferdinand",
                 "building_id": 15
             }
@@ -4515,6 +4561,7 @@
             },
             "properties": {
                 "use": "scie \u00e0 marbre",
+                "address": "Scie du tirage sous Montbenon",
                 "owner": "Jean-Daniel Turel feu Pierre-Ferdinand",
                 "building_id": 15
             }
@@ -4644,6 +4691,7 @@
             },
             "properties": {
                 "use": "maison, moulin, scie",
+                "address": null,
                 "owner": "Christian Rochat feu Christian",
                 "building_id": null
             }
@@ -4713,6 +4761,7 @@
             },
             "properties": {
                 "use": "scie",
+                "address": "Pas des Anes, sous P\u00e9pinet, 1",
                 "owner": "Samuel-Daniel-B\u00e9n\u00e9dict Rochat feu Jean-Abram-Henri",
                 "building_id": 14
             }
@@ -4842,6 +4891,7 @@
             },
             "properties": {
                 "use": "maison, moulin",
+                "address": null,
                 "owner": "Samuel-Daniel-B\u00e9n\u00e9dict Rochat feu Jean-Abram-Henri",
                 "building_id": 14
             }
@@ -4923,6 +4973,7 @@
             },
             "properties": {
                 "use": "maison, forge",
+                "address": null,
                 "owner": "Godefroy-Jean-No\u00e9 Polier",
                 "building_id": null
             }
@@ -4980,6 +5031,7 @@
             },
             "properties": {
                 "use": "scie",
+                "address": null,
                 "owner": "Commune de Lausanne",
                 "building_id": 1
             }
@@ -5049,6 +5101,7 @@
             },
             "properties": {
                 "use": "maison, forge",
+                "address": null,
                 "owner": "Fran\u00e7ois-Henri Genand feu Jean-Louis",
                 "building_id": null
             }
@@ -5150,6 +5203,7 @@
             },
             "properties": {
                 "use": "tannerie",
+                "address": null,
                 "owner": "Louise-Henriette Chambaud feu Henri-Fran\u00e7ois-George, femme de Gaspard-Marc-Gabriel Gilliard",
                 "building_id": null
             }
@@ -5347,6 +5401,7 @@
             },
             "properties": {
                 "use": "maison, filature",
+                "address": null,
                 "owner": "David-Henri-Fran\u00e7ois Juat feu Andr\u00e9",
                 "building_id": 7
             }
@@ -5420,6 +5475,7 @@
             },
             "properties": {
                 "use": "maison, filature",
+                "address": null,
                 "owner": "Abram-Isaac Renou feu Jacob",
                 "building_id": null
             }
@@ -5553,6 +5609,7 @@
             },
             "properties": {
                 "use": "abattoir",
+                "address": null,
                 "owner": "Commune de Lausanne",
                 "building_id": null
             }
@@ -5702,6 +5759,7 @@
             },
             "properties": {
                 "use": "atelier, teinture",
+                "address": null,
                 "owner": "Jean-Jaques-Pierre Mercier feu Jean-Jaques",
                 "building_id": 10
             }
@@ -5771,6 +5829,7 @@
             },
             "properties": {
                 "use": "teinture, b\u00fbcher",
+                "address": null,
                 "owner": "Jean Lubac feu Jean",
                 "building_id": null
             }
@@ -5844,6 +5903,7 @@
             },
             "properties": {
                 "use": "teinture",
+                "address": null,
                 "owner": "Jean-Jaques Pache feu Samuel",
                 "building_id": null
             }
@@ -5905,6 +5965,7 @@
             },
             "properties": {
                 "use": "terrasse, teinture",
+                "address": null,
                 "owner": "Jacob Renou feu Abram",
                 "building_id": null
             }
@@ -5978,6 +6039,7 @@
             },
             "properties": {
                 "use": "teinture, place",
+                "address": null,
                 "owner": "Abram-Isaac Renou feu Jacob",
                 "building_id": null
             }
@@ -6027,6 +6089,7 @@
             },
             "properties": {
                 "use": "foule, place",
+                "address": null,
                 "owner": "Alexandre-Louis Saucon feu Antoine-Louis",
                 "building_id": null
             }
@@ -6140,6 +6203,7 @@
             },
             "properties": {
                 "use": "foule",
+                "address": null,
                 "owner": "Jean-Jaques-Pierre Mercier feu Jean-Jaques",
                 "building_id": 10
             }
@@ -6205,6 +6269,7 @@
             },
             "properties": {
                 "use": "foule",
+                "address": null,
                 "owner": "Marie-Madelaine Dumas feu Jaques",
                 "building_id": null
             }
@@ -6250,6 +6315,7 @@
             },
             "properties": {
                 "use": "foule",
+                "address": null,
                 "owner": "Marie-Madelaine Dumas feu Jaques",
                 "building_id": null
             }
@@ -6315,6 +6381,7 @@
             },
             "properties": {
                 "use": "foule, rouages | foule, rouages",
+                "address": "Chemin-Neuf, 2",
                 "owner": "Louis-Fr\u00e9d\u00e9ric Andrist fils d'Antoine-Louis-Michel | Jean-Louis Chapallaz feu Jean-Louis-Samuel-Charles",
                 "building_id": null
             }
@@ -6364,6 +6431,7 @@
             },
             "properties": {
                 "use": "maison, foule",
+                "address": null,
                 "owner": "Alexandre-Louis Saucon feu Antoine-Louis",
                 "building_id": 4
             }
