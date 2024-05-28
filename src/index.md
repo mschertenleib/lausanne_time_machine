@@ -287,33 +287,89 @@ uses_renove.forEach(use => {uses.push({"use": use, "cadastre": "renove"})});
 
 ```js
 display(Plot.plot({
-  marginBottom: 100,
-  x: {paddingOuter: 0.2, tickRotate: 90},
-  y: {grid: true},
-  color: {legend: true},
+  marginLeft: 200,
+  x: {grid: true},
+  y: {paddingOuter: 0.2},
   marks: [
-    Plot.barY(uses_melotte, Plot.groupX({y: "count"}, {sort: {x: "y"}})),
-    Plot.ruleY([0])
+    Plot.barX(uses_melotte, Plot.groupY({x: "count"}, {sort: {y: "x"}})),
+    Plot.ruleX([0])
   ]
 }));
 display(Plot.plot({
-  marginBottom: 100,
-  x: {paddingOuter: 0.2, tickRotate: 90},
-  y: {grid: true},
-  color: {legend: true},
+  marginLeft: 200,
+  x: {grid: true},
+  y: {paddingOuter: 0.2},
   marks: [
-    Plot.barY(uses_berney, Plot.groupX({y: "count"}, {sort: {x: "y"}})),
-    Plot.ruleY([0])
+    Plot.barX(uses_berney, Plot.groupY({x: "count"}, {sort: {y: "x"}})),
+    Plot.ruleX([0])
   ]
 }));
 display(Plot.plot({
-  marginBottom: 100,
-  x: {paddingOuter: 0.2, tickRotate: 90},
-  y: {grid: true},
-  color: {legend: true},
+  marginLeft: 200,
+  x: {grid: true},
+  y: {paddingOuter: 0.2},
   marks: [
-    Plot.barY(uses_renove, Plot.groupX({y: "count"}, {sort: {x: "y"}})),
-    Plot.ruleY([0])
+    Plot.barX(uses_renove, Plot.groupY({x: "count"}, {sort: {y: "x"}})),
+    Plot.ruleX([0])
+  ]
+}));
+```
+
+</div>
+
+```js
+function get_surnames(geojson, is_surname_first) {
+    var owners = [];
+    geojson.features.forEach(function(feature) {
+        if (feature.properties.owner) {
+            var owner = feature.properties.owner;
+            owner = owner.split(': ').pop();
+            owner = owner.split(' (')[0];
+            owners = owners.concat(owner.split('|').join(';').split(';'));
+        }
+    });
+    owners = owners.map(s => s.trim());
+
+    var surnames = [];
+    owners.forEach(function(owner) {
+        if (owner.startsWith('Etat')) {
+            surnames.push('Etat');
+            return;
+        } else if (owner.startsWith('Commune')) {
+            surnames.push('Commune');
+            return;
+        }
+        if (is_surname_first) {
+            surnames.push(owner.split(',')[0]);
+        } else {
+            surnames.push(owner.split(' ')[1]);
+        } 
+    });
+    return surnames;
+}
+const surnames_berney = get_surnames(berney_buildings_geojson, false);
+const surnames_renove = get_surnames(renove_buildings_geojson, true);
+```
+
+<div class="card" className="card">
+
+```js
+display(Plot.plot({
+  marginLeft: 150,
+  x: {grid: true},
+  y: {paddingOuter: 0.2},
+  marks: [
+    Plot.barX(surnames_berney, Plot.groupY({x: "count"}, {sort: "y"})),
+    Plot.ruleX([0])
+  ]
+}));
+display(Plot.plot({
+  marginLeft: 150,
+  x: {grid: true},
+  y: {paddingOuter: 0.2},
+  marks: [
+    Plot.barX(surnames_renove, Plot.groupY({x: "count"}, {sort: "y"})),
+    Plot.ruleX([0])
   ]
 }));
 ```
