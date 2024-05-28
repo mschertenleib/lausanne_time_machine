@@ -10,6 +10,10 @@ toc: false
 <link rel="stylesheet" href="style.css">
 </head>
 
+Lausanne est une ville traversée par plusieurs cours d'eau se jetant dans le Léman. Les deux principaux, le  Flon et la Louve, s'ils ont donné leur nom à des lieux bien connus de notre centre-ville, sont aujourd'hui en quasi-totalité enterrés dans la partie urbanisée du territoire de la commune. Leur voûtement et leur canalisation se sont faits sur plusieurs siècles, cependant ce processus s'accélère significativement au 19<sup>e</sup> siècle pour des raisons de salubrité mais aussi d'aménagement du territoire.
+
+Jusqu'au 19<sup>e</sup> siècle on observe la présence d'une industrie le long du Flon et de la Louve qui tire directement profit de ces cours d’eau, que ce soit comme force motrice ou comme apport d’eau. Nous avons souhaité partir à la recherche des caractéristiques de cette industrie aujourd'hui disparue. A travers l'étude notamment des cadastres anciens et du fond iconographique du Musée Historique de Lausanne, nous avons voulu créer une page web interactive de ces industries comportant des informations quant à leur utilisation, leur forme bâtie et leurs propriétaires. A travers cette étude nous nous posons également la question de l'impact de ces industries sur l'urbanisation lausannoise.
+
 ```js
 import * as L from "npm:leaflet";
 import { FileAttachment } from "npm:@observablehq/stdlib";
@@ -60,12 +64,6 @@ function get_feature_style(feature) {
         color: "#000000",
         fillColor: "#757575"
     };
-
-    /*if (feature.properties.use.includes("moulin")) { style.fillColor = "#ff0000"; }
-    else if (feature.properties.use.includes("tannerie")) { style.fillColor = "#00ff00"; }
-    else if (feature.properties.use.includes("scie")) { style.fillColor = "#0000ff"; }
-    else { style.fillColor = "#ff00ff"; }*/
-
     return style;
 }
 
@@ -126,11 +124,9 @@ function on_each_feature(feature, layer, polygons_and_markers) {
                 const image = building.images.find((i) => i.image_id == building.preferred_image);
                 if (image !== undefined) {
                     tooltip_html += '<img src="./_file/data/images/building_' + building.building_id + '/' + image.image_id + '.jpg" style="width:250px"> <br>';
-                } else {
-                    display("failed to find preferred_image");
-                    display(building.preferred_image);
                 }
             }
+            tooltip_html += "<small><i>Cliquez sur le bâtiment pour plus d'informations</i></small><br><br>";
         }
     }
     if (feature.properties.use)
