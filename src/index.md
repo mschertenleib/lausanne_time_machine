@@ -268,8 +268,29 @@ view(Inputs.button([
 </div>
 </div>
 
-<br>
-<br>
+<br><br>
+
+```js
+function get_uses(geojson) {
+    var uses = [];
+    geojson.features.forEach(function(feature) {
+        if (feature.properties.use) {
+            uses = uses.concat(feature.properties.use.split('|').join(',').split(','));
+        }
+    });
+    uses = uses.map(s => s.trim());
+    return uses;
+}
+const uses_melotte = get_uses(melotte_buildings_geojson);
+const uses_berney = get_uses(berney_buildings_geojson);
+const uses_renove = get_uses(renove_buildings_geojson);
+```
+
+```js
+Plot.rectX(uses_berney, Plot.groupY({x: "count"}, {sort: {y: "x"}})).plot()
+```
+
+<br><br>
 
 ## Études de cas
 
