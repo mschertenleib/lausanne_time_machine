@@ -41,7 +41,7 @@ Guillaume Rochat et son fils Jean obtiennent en 1514 l'autorisation d'exploiter 
 Au XIXe siècle, les moulins Rochat sont intégrés au développement urbain de Lausanne. Une gravure de 1852 ci-dessous montre ainsi un moulin Rochat situé sous le Grand-Pont, au lieu-dit "Le Pas des Ânes", sur la rive droite du Flon. Autrefois périphérique, cette installation rejoint le centre de Lausanne alors en pleine extension. En 1874, ce moulin est le premier bâtiment à être détruit lors des travaux de comblement du vallon.
 
 ```js
-FileAttachment("./data/static_images/Moulin Rochat.jpg").image({width: 600})
+FileAttachment("./data/static_images/Moulin Rochat.jpg").image({width: 650})
 ```
 
 Les Rochat se distinguent également dans diverses autres industries telles l'horlogerie et la microtechnique, participant ici aussi à l'évolution industrielle de la région. Leur modèle économique, fondé sur la participation familiale et l'ancrage socio-géographique, permet une transmission des savoir-faire et du patrimoine en vase clos.

@@ -10,9 +10,9 @@ toc: false
 <link rel="stylesheet" href="style.css">
 </head>
 
-Lausanne est une ville traversée par plusieurs cours d'eau se jetant dans le Léman. Les deux principaux, le  Flon et la Louve, s'ils ont donné leur nom à des lieux bien connus de notre centre-ville, sont aujourd'hui en quasi-totalité enterrés dans la partie urbanisée du territoire de la commune. Leur voûtement et leur canalisation se sont faits sur plusieurs siècles, cependant ce processus s'accélère significativement au 19<sup>e</sup> siècle pour des raisons de salubrité mais aussi d'aménagement du territoire.
+Lausanne est une ville traversée par plusieurs cours d'eau se jetant dans le Léman. Les deux principaux, le  Flon et la Louve, s'ils ont donné leur nom à des lieux bien connus de notre centre-ville, sont aujourd'hui en quasi-totalité enterrés dans la partie urbanisée du territoire de la commune. Leur voûtement et leur canalisation se sont faits sur plusieurs siècles, cependant ce processus s'accélère significativement au 19e siècle pour des raisons de salubrité mais aussi d'aménagement du territoire.
 
-Jusqu'au 19<sup>e</sup> siècle on observe la présence d'une industrie le long du Flon et de la Louve qui tire directement profit de ces cours d’eau, que ce soit comme force motrice ou comme apport d’eau. Nous avons souhaité partir à la recherche des caractéristiques de cette industrie aujourd'hui disparue. A travers l'étude notamment des cadastres anciens et du fond iconographique du Musée Historique de Lausanne, nous avons voulu créer une page web interactive de ces industries comportant des informations quant à leur utilisation, leur forme bâtie et leurs propriétaires. A travers cette étude nous nous posons également la question de l'impact de ces industries sur l'urbanisation lausannoise.
+Jusqu'au 19e siècle on observe la présence d'une industrie le long du Flon et de la Louve qui tire directement profit de ces cours d’eau, que ce soit comme force motrice ou comme apport d’eau. Nous avons souhaité partir à la recherche des caractéristiques de cette industrie aujourd'hui disparue. A travers l'étude notamment des cadastres anciens et du fond iconographique du Musée Historique de Lausanne, nous avons voulu créer une page web interactive de ces industries comportant des informations quant à leur utilisation, leur forme bâtie et leurs propriétaires. A travers cette étude nous nous posons également la question de l'impact de ces industries sur l'urbanisation lausannoise.
 
 ```js
 import * as L from "npm:leaflet";
@@ -259,6 +259,77 @@ view(Inputs.button([
 
 <br><br>
 
+## Distribution des familles propriétaires
+
+```js
+function get_surnames(geojson, is_surname_first) {
+    var owners = [];
+    geojson.features.forEach(function(feature) {
+        if (feature.properties.owner) {
+            var owner = feature.properties.owner;
+            owner = owner.split(': ').pop();
+            owner = owner.split(' (')[0];
+            owners = owners.concat(owner.split('|').join(';').split(';'));
+        }
+    });
+    owners = owners.map(s => s.trim());
+
+    var surnames = [];
+    owners.forEach(function(owner) {
+        if (owner.startsWith('Etat') || owner.startsWith('Vaud')) {
+            surnames.push('Etat de Vaud');
+            return;
+        } else if (owner.startsWith('Commune') || owner.startsWith('Lausanne')) {
+            surnames.push('Commune de Lausanne');
+            return;
+        }
+        if (is_surname_first) {
+            surnames.push(owner.split(',')[0]);
+        } else {
+            surnames.push(owner.split(' ')[1]);
+        } 
+    });
+    return surnames;
+}
+const surnames_berney = get_surnames(berney_buildings_geojson, false);
+const surnames_renove = get_surnames(renove_buildings_geojson, true);
+```
+
+<div class="card" className="card">
+
+```js
+display(Plot.plot({
+    marginLeft: 120,
+    x: {grid: true, domain: [0, 18], ticks: 19},
+    title: "Cadastre Berney 1831",
+    marks: [
+        Plot.barX(surnames_berney, Plot.groupY({x: "count"}, {sort: "y"})),
+        Plot.ruleX([0])
+    ]
+}));
+```
+
+</div>
+<div class="card" className="card">
+
+```js
+display(Plot.plot({
+    marginLeft: 120,
+    x: {grid: true, domain: [0, 18], ticks: 19},
+    title: "Cadastre Rénové 1888",
+    marks: [
+        Plot.barX(surnames_renove, Plot.groupY({x: "count"}, {sort: "y"})),
+        Plot.ruleX([0])
+    ]
+}));
+```
+
+</div>
+
+On constate ici que le bâti lausannois lié au Flon se centralise petit à petit entre les mains d'un groupe restreint de propriétaires. Cela est probablement dû à la prise d'importance des différents sites industrielles, les propriétaires faisant petit à petit l'acquisition de leurs concurrents. Ces super-propriétaires gagnent dès lors en influence sur le devenir productif du Flon ainsi que sur l'urbanisme lausannois en général. C'est notamment le cas de la famille Mercier qui, après avoir racheté les autres tanneries liés au Flon, est à l'origine du projet de comblement de la vallée et de sa transformation en zone industrielle.
+
+<br>
+
 ## Distribution des utilisations
 
 ```js
@@ -327,71 +398,8 @@ display(Plot.plot({
 
 </div>
 
-<br>
+Ces graphiques illustrent comment l'utilisation du Flon a évolué au fil du temps, passant d'une utilisation mécanique de sa force hydraulique à une utilisation industrielle. Cette transformation est le résultat direct de l'impact de la révolution industrielle sur les méthodes de production. L'hégémonie de la force hydraulique à été supplantée par celle de la machine à vapeur, le Flon n'ayant dès lors plus la même fonction. Autrefois utilisée principalement pour sa force hydraulique, la rivière est désormais principalement exploitée comme une source d'eau pour alimenter les machines à vapeur. Parallèlement à cela, le Flon se peuple d'abitations et de commerces, témoignant d'un réinvestissement de ses alentours par une population qui jusqu'alors évitait ces quartiers réputés malfamés et insalubres.
 
-## Distribution des familles propriétaires
+## Conclusion
 
-```js
-function get_surnames(geojson, is_surname_first) {
-    var owners = [];
-    geojson.features.forEach(function(feature) {
-        if (feature.properties.owner) {
-            var owner = feature.properties.owner;
-            owner = owner.split(': ').pop();
-            owner = owner.split(' (')[0];
-            owners = owners.concat(owner.split('|').join(';').split(';'));
-        }
-    });
-    owners = owners.map(s => s.trim());
-
-    var surnames = [];
-    owners.forEach(function(owner) {
-        if (owner.startsWith('Etat') || owner.startsWith('Vaud')) {
-            surnames.push('Etat de Vaud');
-            return;
-        } else if (owner.startsWith('Commune') || owner.startsWith('Lausanne')) {
-            surnames.push('Commune de Lausanne');
-            return;
-        }
-        if (is_surname_first) {
-            surnames.push(owner.split(',')[0]);
-        } else {
-            surnames.push(owner.split(' ')[1]);
-        } 
-    });
-    return surnames;
-}
-const surnames_berney = get_surnames(berney_buildings_geojson, false);
-const surnames_renove = get_surnames(renove_buildings_geojson, true);
-```
-
-<div class="card" className="card">
-
-```js
-display(Plot.plot({
-    marginLeft: 120,
-    x: {grid: true, domain: [0, 18], ticks: 19},
-    title: "Cadastre Berney 1831",
-    marks: [
-        Plot.barX(surnames_berney, Plot.groupY({x: "count"}, {sort: "y"})),
-        Plot.ruleX([0])
-    ]
-}));
-```
-
-</div>
-<div class="card" className="card">
-
-```js
-display(Plot.plot({
-    marginLeft: 120,
-    x: {grid: true, domain: [0, 18], ticks: 19},
-    title: "Cadastre Rénové 1888",
-    marks: [
-        Plot.barX(surnames_renove, Plot.groupY({x: "count"}, {sort: "y"})),
-        Plot.ruleX([0])
-    ]
-}));
-```
-
-</div>
+Les industries lausannoises situées le long de la rivière du Flon et de la Louve ont traversé plusieurs phases, passant de l'utilisation pré-industrielle de la force hydraulique pour des moulins et des forges à des petites industries artisanales comme les tanneries et les teintureries, avant de connaître une centralisation industrielle majeure avec l'introduction de la machine à vapeur durant la révolution industrielle. Cette évolution industrielle a eu un impact significatif sur l'urbanisation de Lausanne, attirant une population croissante et nécessitant la construction de logements et de commerces autour des zones industrielles. Les pouvoirs publics ont réaménagé la vallée du Flon par des projets d'enfouissement et de comblement, libérant ainsi de nouveaux espaces pour le développement urbain. Cette réorganisation spatiale a facilité la transition des usages productivistes vers des fonctions résidentielles, commerciales et de services, tout en intégrant les vestiges du passé industriel dans le tissu urbain. Ainsi, l'histoire industrielle du Flon a non seulement façonné l'économie locale, mais a également influencé durablement la structure et les dynamiques urbaines de Lausanne.
