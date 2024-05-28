@@ -266,7 +266,7 @@ function get_uses(geojson) {
     var uses = [];
     geojson.features.forEach(function(feature) {
         if (feature.properties.use) {
-            uses = uses.concat(feature.properties.use.split('|').join(',').split(','));
+            uses = uses.concat(feature.properties.use.split('|').join(',').split('et').join(',').split(','));
         }
     });
     uses = uses.map(s => s.trim());
@@ -275,8 +275,45 @@ function get_uses(geojson) {
 const uses_melotte = get_uses(melotte_buildings_geojson);
 const uses_berney = get_uses(berney_buildings_geojson);
 const uses_renove = get_uses(renove_buildings_geojson);
+var uses = [];
+uses_melotte.forEach(use => {uses.push({"use": use, "cadastre": "melotte"})});
+uses_berney.forEach(use => {uses.push({"use": use, "cadastre": "berney"})});
+uses_renove.forEach(use => {uses.push({"use": use, "cadastre": "renove"})});
 ```
 
+<div class="card" className="card">
+
 ```js
-Plot.rectX(uses_berney, Plot.groupY({x: "count"}, {sort: {y: "x"}})).plot()
+display(Plot.plot({
+  marginBottom: 100,
+  x: {paddingOuter: 0.2, tickRotate: 90},
+  y: {grid: true},
+  color: {legend: true},
+  marks: [
+    Plot.barY(uses_melotte, Plot.groupX({y: "count"}, {sort: {x: "y"}})),
+    Plot.ruleY([0])
+  ]
+}));
+display(Plot.plot({
+  marginBottom: 100,
+  x: {paddingOuter: 0.2, tickRotate: 90},
+  y: {grid: true},
+  color: {legend: true},
+  marks: [
+    Plot.barY(uses_berney, Plot.groupX({y: "count"}, {sort: {x: "y"}})),
+    Plot.ruleY([0])
+  ]
+}));
+display(Plot.plot({
+  marginBottom: 100,
+  x: {paddingOuter: 0.2, tickRotate: 90},
+  y: {grid: true},
+  color: {legend: true},
+  marks: [
+    Plot.barY(uses_renove, Plot.groupX({y: "count"}, {sort: {x: "y"}})),
+    Plot.ruleY([0])
+  ]
+}));
 ```
+
+</div>

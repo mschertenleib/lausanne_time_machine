@@ -489,7 +489,7 @@
                 "use": "forge, machine \u00e0 vapeur",
                 "owner": "Blanc, les enfants de feu Jean Georges Elie Henri (Clara; Charles Elie; Blanche Mathilde)",
                 "address": "Le Valentin",
-                "building_id": null
+                "building_id": 12
             }
         },
         {
@@ -687,7 +687,7 @@
                 "use": "forge, machine \u00e0 vapeur",
                 "owner": "Blanc, les enfants de feu Jean Georges Elie Henri (Clara; Charles Elie; Blanche Mathilde)",
                 "address": "Le Valentin",
-                "building_id": null
+                "building_id": 12
             }
         },
         {
@@ -5919,7 +5919,7 @@
                 "use": "maison d'habitation, bains",
                 "owner": "Blanc, les enfants de feu Jean Georges Elie Henri (Clara; Charles Elie; Blanche Mathilde)",
                 "address": "Le Valentin",
-                "building_id": null
+                "building_id": 12
             }
         }
     ]
