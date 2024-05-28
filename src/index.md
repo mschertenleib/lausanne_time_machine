@@ -123,8 +123,13 @@ function on_each_feature(feature, layer, polygons_and_markers) {
         if (building !== undefined) {
             tooltip_html += '<h4>' + building.name + '</h4>';
             if (building.images && building.preferred_image !== null) {
-                const image_id = building.images[building.preferred_image].image_id;
-                tooltip_html += '<img src="./_file/data/images/building_' + building.building_id + '/' + image_id + '.jpg" style="width:250px"> <br>';
+                const image = building.images.find((i) => i.image_id == building.preferred_image);
+                if (image !== undefined) {
+                    tooltip_html += '<img src="./_file/data/images/building_' + building.building_id + '/' + image.image_id + '.jpg" style="width:250px"> <br>';
+                } else {
+                    display("failed to find preferred_image");
+                    display(building.preferred_image);
+                }
             }
         }
     }

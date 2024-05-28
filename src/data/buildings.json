@@ -4,7 +4,7 @@
             "building_id": 1,
             "name": "Chocolaterie Kohler",
             "informations": "Chocolaterie: En 1793, Gottlieb-Am\u00e9d\u00e9e Kohler ouvre au Grand-Saint-Jean un commerce de denr\u00e9es coloniales et de vins du pays. En 1831, son fils, Charles-Am\u00e9d\u00e9e, introduit le chocolat. Il installe alors la fabrique dans un ancien moulin du Petit-Saint-Jean (moulin Bramafan), en contrebas de l'H\u00f4tel de ville. En 1849, Ch.-Am\u00e9d\u00e9e Kohler ach\u00e8te \u00e0 Sauvabelin la scierie communale pour en faire une chocolaterie moderne. Il remplace l'ancienne roue \u00e0 aube par une chaudi\u00e8re \u00e0 vapeur. Cette innovation fait sensation \u00e0 Lausanne. En 1865, Charles-Am\u00e9d\u00e9e vend les propri\u00e9t\u00e9s de Sauvabelin et en ville \u00e0 ses deux fils, Charles et Adolphe, qui continuent le commerce de denr\u00e9es coloniales en gros et la fabrique de chocolat sous la m\u00eame raison sociale: Am\u00e9d\u00e9e Kohler et fils. Vers 1874, un d\u00e9p\u00f4t de la fabrique de Sauvabelin est construit \u00e0 l'emplacement de l'actuelle place Centrale (devient ensuite le Royal Biograph). En 1896, la fabrique est transf\u00e9r\u00e9e \u00e0 Echandens dans une nouvelle usine construite de 1894 \u00e0 1896. Le b\u00e2timent de Sauvabelin a \u00e9t\u00e9 vendu en 1903 et d\u00e9moli en 1957 (Polla, \"Lausanne 1860-1910\" page 177).\n\nMoulin: appel\u00e9 Moulin-Dessus de Sauvabelin ou Moulin de Vennes, puis Val Omega. Autrefois une petite scierie, actionn\u00e9e par l'eau du Flon. En 1866, le moulin est rachet\u00e9 par les fr\u00e8res Charles-Am\u00e9d\u00e9e et Jules-Albert Kohler. Le moulin subsiste jusque vers 1870; on installe alors des appartements dans le b\u00e2timent. En 1919, les fr\u00e8res Kohler vendent l'ancien moulin qui est d\u00e9moli en 1965. Le moulin se trouvait au dessous de la chocolaterie sur la rive droite du Flon. La vo\u00fbte sous la maison et une passerelle permettaient d'acc\u00e9der au deuxi\u00e8me moulin situ\u00e9 quelques m\u00e8tres en dessous dans un coude du Flon (Polla, \"Lausanne 1860-1910 vie quotidienne\", page 16).",
-            "preferred_image": 0,
+            "preferred_image": 96824,
             "images": [
                 {
                     "image_id": 96825,
@@ -39,7 +39,7 @@
             "building_id": 2,
             "name": "Moulin-Dessus de Sauvabelin, Moulin de Vennes, Val Omega",
             "informations": "Chocolaterie: En 1793, Gottlieb-Am\u00e9d\u00e9e Kohler ouvre au Grand-Saint-Jean un commerce de denr\u00e9es coloniales et de vins du pays. En 1831, son fils, Charles-Am\u00e9d\u00e9e, introduit le chocolat. Il installe alors la fabrique dans un ancien moulin du Petit-Saint-Jean (moulin Bramafan), en contrebas de l'H\u00f4tel de ville. En 1849, Ch.-Am\u00e9d\u00e9e Kohler ach\u00e8te \u00e0 Sauvabelin la scierie communale pour en faire une chocolaterie moderne. Il remplace l'ancienne roue \u00e0 aube par une chaudi\u00e8re \u00e0 vapeur. Cette innovation fait sensation \u00e0 Lausanne. En 1865, Charles-Am\u00e9d\u00e9e vend les propri\u00e9t\u00e9s de Sauvabelin et en ville \u00e0 ses deux fils, Charles et Adolphe, qui continuent le commerce de denr\u00e9es coloniales en gros et la fabrique de chocolat sous la m\u00eame raison sociale: Am\u00e9d\u00e9e Kohler et fils. Vers 1874, un d\u00e9p\u00f4t de la fabrique de Sauvabelin est construit \u00e0 l'emplacement de l'actuelle place Centrale (devient ensuite le Royal Biograph). En 1896, la fabrique est transf\u00e9r\u00e9e \u00e0 Echandens dans une nouvelle usine construite de 1894 \u00e0 1896. Le b\u00e2timent de Sauvabelin a \u00e9t\u00e9 vendu en 1903 et d\u00e9moli en 1957 (Polla, \"Lausanne 1860-1910\" page 177).\n\nMoulin: appel\u00e9 Moulin-Dessus de Sauvabelin ou Moulin de Vennes, puis Val Omega. Autrefois une petite scierie, actionn\u00e9e par l'eau du Flon. En 1866, le moulin est rachet\u00e9 par les fr\u00e8res Charles-Am\u00e9d\u00e9e et Jules-Albert Kohler. Le moulin subsiste jusque vers 1870; on installe alors des appartements dans le b\u00e2timent. En 1919, les fr\u00e8res Kohler vendent l'ancien moulin qui est d\u00e9moli en 1965. Le moulin se trouvait au dessous de la chocolaterie sur la rive droite du Flon. La vo\u00fbte sous la maison et une passerelle permettaient d'acc\u00e9der au deuxi\u00e8me moulin situ\u00e9 quelques m\u00e8tres en dessous dans un coude du Flon (Polla, \"Lausanne 1860-1910 vie quotidienne\", page 16).",
-            "preferred_image": 0,
+            "preferred_image": 143160,
             "images": [
                 {
                     "image_id": 110647,
@@ -67,6 +67,15 @@
                     "bibliography": null,
                     "institution": "Mus\u00e9e Historique Lausanne",
                     "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL143881_1.JPG&amp;id=143881"
+                },
+                {
+                    "image_id": 110673,
+                    "date_begin": 1923,
+                    "date_end": 1923,
+                    "description": "Vue d'un ancien moulin (peut-\u00eatre l'ancien moulin Creux ou moulin de Sauvabelin-dessous) transform\u00e9 en ferme au bord du Flon, au sud-est de la chocolaterie Kohler, dans la r\u00e9gion de Sauvabelin.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgBD/110769/F446/ImgDeg/DSC_1752_1.jpg&amp;id=110769"
                 }
             ]
         },
@@ -74,7 +83,7 @@
             "building_id": 3,
             "name": "Deuxi\u00e8me moulin sous la chocolaterie Kohler",
             "informations": "Deuxi\u00e8me moulin situ\u00e9 en dessous de la chocolaterie Kohler et imm\u00e9diatement en dessous du premier moulin dit de Sauvabelin (P.1.A.1.B.52.005). La vo\u00fbte, sous la maison [du premier moulin], permettait d'atteindre un autre moulin, situ\u00e9 plus bas (Polla, \"Lausanne 1860-1910 vie quotidienne\", page 16).",
-            "preferred_image": 0,
+            "preferred_image": 96823,
             "images": [
                 {
                     "image_id": 96823,
@@ -91,7 +100,7 @@
             "building_id": 4,
             "name": "Moulin de Pierre de Plan, Moulin de Sauvabelin-Dessous, Moulin Creux",
             "informations": "Le moulin de Pierre de Plan ou de Sauvabelin-Dessous a \u00e9t\u00e9 une tannerie et une forge. Transform\u00e9 en ferme d'apr\u00e8s image de 1923 (TODO: essayer de trouver dates plus pr\u00e9cises). Appel\u00e9 aussi plus tard moulin Creux, reste des \"Moulins Creux\", maison natale du missionnaire Ernest Creux (1845-1929), l'un des pionniers de la Mission suisse dans l'Afrique du Sud. Fut utilis\u00e9 vers 1900 comme lazaret cantonal lors d'une \u00e9pid\u00e9mie de variole (Louis Polla, Lausanne 1860-1910: Maisons et quartiers d'autrefois, p. 195). Il fut d\u00e9moli en 1933. A son emplacement, une usine d'incin\u00e9ration des d\u00e9chets fut inaugur\u00e9e le 22 novembre 1958 (emplacement de l'actuelle usine TRIDEL).",
-            "preferred_image": 0,
+            "preferred_image": 147612,
             "images": [
                 {
                     "image_id": 110644,
@@ -101,24 +110,6 @@
                     "bibliography": null,
                     "institution": "Mus\u00e9e Historique Lausanne",
                     "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL110740_1.JPG&amp;id=110740"
-                },
-                {
-                    "image_id": 110673,
-                    "date_begin": 1923,
-                    "date_end": 1923,
-                    "description": "Vue d'un ancien moulin (peut-\u00eatre l'ancien moulin Creux ou moulin de Sauvabelin-dessous) transform\u00e9 en ferme au bord du Flon, au sud-est de la chocolaterie Kohler, dans la r\u00e9gion de Sauvabelin.",
-                    "bibliography": null,
-                    "institution": "Mus\u00e9e Historique Lausanne",
-                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgBD/110769/F446/ImgDeg/DSC_1752_1.jpg&amp;id=110769"
-                },
-                {
-                    "image_id": 110651,
-                    "date_begin": 1802,
-                    "date_end": 1802,
-                    "description": "Vue d'un restaurant pr\u00e8s de la tannerie appel\u00e9e aussi moulin Creux, dans la vall\u00e9e du Flon, au-dessous de Sauvabelin. A l'avant-plan, sur un chemin longeant la roche, on distingue une femme portant une corbeille sur la t\u00eate et son enfant. Devant eux, un homme se dirige du c\u00f4t\u00e9 du restaurant dont on voit quelques tables sur l'herbe et des personnages attabl\u00e9s. A l'arri\u00e8re-plan, on aper\u00e7oit le Ch\u00e2teau Saint-Maire.",
-                    "bibliography": null,
-                    "institution": "Mus\u00e9e Historique Lausanne",
-                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgBD/110747/F446/ImgDeg/DSC_1739_1.jpg&amp;id=110747"
                 },
                 {
                     "image_id": 147612,
@@ -153,7 +144,7 @@
             "building_id": 5,
             "name": "Ateliers Panchaud, Duvillard, fonderie du Vallon, ancien moulin et scierie",
             "informations": "Au lieu-dit \u00ab La poudri\u00e8re \u00bb se trouvait un moulin et une scierie. En 1839, Daniel Grillet y installe un atelier m\u00e9canique. En 1851, Etienne Panchaud rach\u00e8te les b\u00e2timents, convertit le moulin en usine \u00e0 chocolat et garde l'atelier m\u00e9canique. Le 1er juillet 1863, Wilhelm Kaiser, m\u00e9canicien-constructeur et Charles-Jules Duvillard, ing\u00e9nieur-m\u00e9canicien, s'associent pour exploiter les ateliers qu'ils viennent de racheter \u00e0 Panchaud, pour cr\u00e9er une fabrique de machines. Panchaud continue \u00e0 travailler pour Kaiser et Duvillard et s'engage \u00e0 terminer l'agrandissement d'un atelier de menuiserie et \u00e0 installer une machine \u00e0 vapeur. Kaiser et Duvillard cr\u00e9ent une fonderie dans les autres locaux qu'ils agrandissent jusqu'en 1880. La fonderie fa\u00e7onne des pi\u00e8ces destin\u00e9es \u00e0 la construction des machines. En 1913 la fonderie est reprise par Adolphe Gisling et Pierre Grimb\u00fchler et les ateliers m\u00e9caniques vendus \u00e0 la Soci\u00e9t\u00e9 des tramways lausannois. En 1949, la fonderie d\u00e9m\u00e9nage \u00e0 Moudon et l'Usine d'incin\u00e9ration des ordures de la ville s'installe sur l'emplacement lib\u00e9r\u00e9. (Polla, Louis, Lausanne 1860-1910, Maisons et quartiers d'autrefois, 1969, Ed. Payot, Lausanne)",
-            "preferred_image": 0,
+            "preferred_image": 98100,
             "images": [
                 {
                     "image_id": 98101,
@@ -188,7 +179,7 @@
             "building_id": 6,
             "name": "Forge et huilerie Panchaud",
             "informations": "La forge, o\u00f9 passe le bief (canal de d\u00e9rivation) du Flon, est attest\u00e9e en tant que telle sur le plan de 1856 (I.37.A.82.e). Le b\u00e2timent est pr\u00e9sent sur celui de 1829 (I.35.K.45). La forge Panchaud est attest\u00e9e dans la FAL du 11.07.1848. On parle de l'huilerie Panchaud dans l'Estafette du 11.11.1873.",
-            "preferred_image": 0,
+            "preferred_image": 98054,
             "images": [
                 {
                     "image_id": 99042,
@@ -223,7 +214,7 @@
             "building_id": 7,
             "name": "Filature Juat, scierie (en face la future Grande Meunerie Lausannoise)",
             "informations": "Ancienne filature Juat. Devient ensuite un scierie. En 1891-1892, la scierie a d\u00e9j\u00e0 \u00e9t\u00e9 d\u00e9truite (TODO: essayer de trouver une date butoir de d\u00e9but pour la destruction, \u00e0 partir des images). La buanderie Haldimand se trouvera \u00e0 cet emplacement en 1893 (actuel n\u00b01 rue de l'Industrie). Le b\u00e2timent est d\u00e9saffect\u00e9 en 1970 puis d\u00e9moli en 1976 (INSA, p. 349 + 370).",
-            "preferred_image": 0,
+            "preferred_image": 98097,
             "images": [
                 {
                     "image_id": 98957,
@@ -510,7 +501,7 @@
             "building_id": 7,
             "name": "Scierie Coeytaux, Bauverd, scierie du Tunnel",
             "informations": "Scierie sur le Flon, au pied du Calvaire, la scierie Coeytaux, puis Bauverd, ou encore scierie du Tunnel.",
-            "preferred_image": 0,
+            "preferred_image": 98097,
             "images": [
                 {
                     "image_id": 98957,
@@ -797,7 +788,7 @@
             "building_id": 8,
             "name": "Moulin Rochat, Moulin du Tunnel, Moulin et boulangerie du Tunnel, Grande Meunerie Lausannoise",
             "informations": "Inscription \"Boulangerie du Tunnel\" sur le b\u00e2timent qui deviendra la \"Grande meunerie lausannoise\". Initialement il s'agissait du moulin Rochat, selon un plan de 1829 (I.35.K.45).\nL'ancien moulin au bord du Flon existe depuis le Moyen Age. Le b\u00e2timent qui deviendra la Grande meunerie lausannoise \u00e9tait initialement le moulin Rochat, selon un plan de 1829 (I.35.K.45). En 1856, le b\u00e2timent est \u00e9quip\u00e9 de fours pour cr\u00e9er une meunerie-boulangerie. Il existait des d\u00e9p\u00f4ts de la boulangerie en divers endroits de Lausanne.  Succursales de la maison \"Moulin et Boulangerie du Tunnel\" fond\u00e9e en 1857 sur la place Saint-Laurent, \u00e0 la rue Centrale, \u00e0 la rue de Bourg et \u00e0 Ouchy. En 1862-1866, le b\u00e2timent \"derri\u00e8re\" celui la boulangerie du tunnel a d\u00e9j\u00e0 \u00e9t\u00e9 agrandi (travaux visibles sur P.1.A.2.0112.008)., L'inscription \"moulin - boulangerie du Tunnel\" sur le b\u00e2timent qui deviendra \"la Grande meunerie lausannoise\" est lisible. Elle n'appara\u00eet pas sur des photos de la m\u00eame \u00e9poque. En 1899, la boulangerie du Tunnel et celle des Familles (cr\u00e9\u00e9e en 1840, FAL 08.12.1840) fusionnent pour devenir la Grande boulangerie et meunerie lausannoise (Nouvelliste vaudoise, 22.09.1899). En 1912, la soci\u00e9t\u00e9 s'appelle \u00ab Grande meunerie lausannoise \u00bb (FAL 05.07.1912). D\u00e8s 1913, elle abandonne l'activit\u00e9 de panification (Tribune de Lausanne 31.01.1913). La soci\u00e9t\u00e9 est dissoute le 25.04.1933 (FAL 20.04.1933) et l'ensemble des b\u00e2timents est repris par la Laiterie agricole. Ils sont d\u00e9molis d\u00e8s octobre 1938, quand la Laiterie agricole entreprend des travaux d'extension et de construction de nouveaux locaux qu'elle occupe en 1940 (FAL 26.07.1940).",
-            "preferred_image": 0,
+            "preferred_image": 130623,
             "images": [
                 {
                     "image_id": 98956,
@@ -1237,7 +1228,7 @@
             "building_id": 8,
             "name": "Moulin de la Barre",
             "informations": "Dessins vers 1830-1840 selon annotations",
-            "preferred_image": 0,
+            "preferred_image": 130623,
             "images": [
                 {
                     "image_id": 98956,
@@ -1677,7 +1668,7 @@
             "building_id": 9,
             "name": "Moulin br\u00fbl\u00e9, manufacture Renou",
             "informations": "L'ancien moulin, dit \u00e9galement \"moulin br\u00fbl\u00e9\", propri\u00e9t\u00e9 Jacob-Henri Ogay, est achet\u00e9 en 1831 par Jacob Renou-Burnens. La manufacture Renou fut une importante industrie lausannoise. Le premier fils de Jacob Renou-Burnens, Louis Renou-Weibel, s'occupa de la fabrique de draps et de la filature de la laine (emplacement du moulin, emplacement n\u00b0 30 rue Saint-Martin actuelle), tandis que le second, Alexandre Renou-Picard, \u00e9tait responsable de la filature et de la teinturerie de coton (future menuiserie Billharz et maison d'habitation attenante, emplacement n\u00b0 34 rue Saint-Martin). Visiblement l'ancienne fabrique de draps devint \u00e9galement un atelier de m\u00e9canique, en plus de la menuiserie.",
-            "preferred_image": 0,
+            "preferred_image": 98027,
             "images": [
                 {
                     "image_id": 153500,
@@ -1730,7 +1721,7 @@
             "building_id": 9,
             "name": "Moulin sous la Solitude 2",
             "informations": null,
-            "preferred_image": 0,
+            "preferred_image": 98027,
             "images": [
                 {
                     "image_id": 153500,
@@ -1783,7 +1774,7 @@
             "building_id": 9,
             "name": "Scierie \u00e0 Couvaloup",
             "informations": null,
-            "preferred_image": 0,
+            "preferred_image": 98027,
             "images": [
                 {
                     "image_id": 153500,
@@ -1836,7 +1827,7 @@
             "building_id": 10,
             "name": "Tannerie Mercier",
             "informations": "La tannerie Mercier avait \u00e9t\u00e9 fond\u00e9e par Pierre Mercier au milieu du XVIIIe si\u00e8cle. En 1864 sa direction \u00e9tait entre les mains de J.-J. Pierre-Fran\u00e7ois Mercier, arri\u00e8re-petit-fils du fondateur. C'\u00e9tait une \u00e9poque d'expansion pour cette tannerie. On remarque que la tannerie Mercier r\u00e9nove ses b\u00e2timents au tournant des ann\u00e9es 1890. Reconstruction de la chemin\u00e9e apr\u00e8s l'inondation de juin 1889. La partie inf\u00e9rieure de la rue Saint-Martin subit d'importants travaux au d\u00e9but des ann\u00e9es 1960 (voir projet dans Tribune de Lausanne, 05.10.1960). Le plan de quartier \u00ab Saint-Martin Tannerie \u00bb est mis \u00e0 l'enqu\u00eate du 08.04 au 07.05.1959 (FAL 07.04.1959). Il est adopt\u00e9 par le Conseil communal en juillet (FAL, 01.07.1959). La d\u00e9molition des anciens b\u00e2timents de la tannerie Mercier d\u00e9buta en 1959 (FAL 18.12.1962). Il fallut vo\u00fbter le Flon qui jadis alimentait la tannerie. La chemin\u00e9e tomba le 28 janvier 1960 (FAL 29.01.1960). Voir document attach\u00e9, article \"Voici ce que sera dans quatre ans le nouveau quartier Saint-Martin\", Tribune de Lausanne du 05.10.1960. Sur l'historique de la tannerie Mercier, voir les documents attach\u00e9s, articles de Louis Polla \"Maisons et quartiers d'autrefois\", FAL 11.08.1961 et 03.11.1972.",
-            "preferred_image": 0,
+            "preferred_image": 149987,
             "images": [
                 {
                     "image_id": 150892,
@@ -2123,7 +2114,7 @@
             "building_id": 10,
             "name": "Tannerie (vraisemblablement Mercier, mais \u00e0 d\u00e9terminer)",
             "informations": "Rue Saint-Martin: Ancienne tannerie (nos 3 \u00e0 23).",
-            "preferred_image": 0,
+            "preferred_image": 149987,
             "images": [
                 {
                     "image_id": 150892,
@@ -2410,7 +2401,7 @@
             "building_id": 11,
             "name": "Moulin et pont sur la Louve derri\u00e8re l'H\u00f4tel de Ville",
             "informations": null,
-            "preferred_image": 0,
+            "preferred_image": 100511,
             "images": [
                 {
                     "image_id": 107612,
@@ -2420,15 +2411,6 @@
                     "bibliography": null,
                     "institution": "Mus\u00e9e Historique Lausanne",
                     "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL107612_1.JPG&amp;id=107612"
-                },
-                {
-                    "image_id": 110679,
-                    "date_begin": 1820,
-                    "date_end": 1820,
-                    "description": "Vue du pont en pierre derri\u00e8re l'h\u00f4tel de ville avec la Louve qui tombe en cascade et une roue de moulin \u00e0  l'avant-plan. A l'arri\u00e8re-plan \u00e0 gauche on distingue une haute maison avec peuplier, actuelle Placette du Grand-Saint-Jean, et \u00e0 droite le clocher du temple Saint-Laurent \u00e9mergeant de la verdure et d'un groupe de maisons.",
-                    "bibliography": "Borgeaud, p. 88",
-                    "institution": "Mus\u00e9e Historique Lausanne",
-                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL110775_1.JPG&amp;id=110775"
                 },
                 {
                     "image_id": 100498,
@@ -2499,7 +2481,7 @@
             "building_id": 11,
             "name": "Moulin Bramafan, chocolaterie Kohler",
             "informations": "En 1793, Gottlieb-Am\u00e9d\u00e9e Kohler ouvre au Grand-Saint-Jean un commerce de denr\u00e9es coloniales et de vins du pays. En 1831, son fils, Charles-Am\u00e9d\u00e9e, introduit le chocolat. Il installe alors la fabrique dans un ancien moulin du Petit-Saint-Jean (moulin Bramafan), en-dessous de la place de la Louve, en contrebas de l'H\u00f4tel de ville. En 1849, Ch.-Am\u00e9d\u00e9e Kohler ach\u00e8te \u00e0 Sauvabelin la scierie communale pour en faire une chocolaterie moderne. Il remplace l'ancienne roue \u00e0 aube par une chaudi\u00e8re \u00e0 vapeur. Cette innovation fait sensation \u00e0 Lausanne. En 1865, Charles-Am\u00e9d\u00e9e vend les propri\u00e9t\u00e9s de Sauvabelin et en ville \u00e0 ses deux fils, Charles et Adolphe, qui continuent le commerce de denr\u00e9es coloniales en gros et la fabrique de chocolat sous la m\u00eame raison sociale: Am\u00e9d\u00e9e Kohler et fils. Vers 1874, un d\u00e9p\u00f4t de la fabrique de Sauvabelin est construit \u00e0 l'emplacement de l'actuelle place Centrale (devient ensuite le Royal Biograph). En 1896, la fabrique est transf\u00e9r\u00e9e \u00e0 Echandens dans une nouvelle usine construite de 1894 \u00e0 1896. (Polla, \"Lausanne 1860-1910\" page 177)",
-            "preferred_image": 0,
+            "preferred_image": 100511,
             "images": [
                 {
                     "image_id": 107612,
@@ -2509,15 +2491,6 @@
                     "bibliography": null,
                     "institution": "Mus\u00e9e Historique Lausanne",
                     "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL107612_1.JPG&amp;id=107612"
-                },
-                {
-                    "image_id": 110679,
-                    "date_begin": 1820,
-                    "date_end": 1820,
-                    "description": "Vue du pont en pierre derri\u00e8re l'h\u00f4tel de ville avec la Louve qui tombe en cascade et une roue de moulin \u00e0  l'avant-plan. A l'arri\u00e8re-plan \u00e0 gauche on distingue une haute maison avec peuplier, actuelle Placette du Grand-Saint-Jean, et \u00e0 droite le clocher du temple Saint-Laurent \u00e9mergeant de la verdure et d'un groupe de maisons.",
-                    "bibliography": "Borgeaud, p. 88",
-                    "institution": "Mus\u00e9e Historique Lausanne",
-                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL110775_1.JPG&amp;id=110775"
                 },
                 {
                     "image_id": 100498,
@@ -2588,7 +2561,7 @@
             "building_id": 12,
             "name": "Moulin au bas de la Borde",
             "informations": null,
-            "preferred_image": 0,
+            "preferred_image": 131912,
             "images": [
                 {
                     "image_id": 131912,
@@ -2605,7 +2578,7 @@
             "building_id": 13,
             "name": "Moulin Rochat sous le Grand Pont",
             "informations": null,
-            "preferred_image": 0,
+            "preferred_image": 111262,
             "images": [
                 {
                     "image_id": 111262,
@@ -2622,7 +2595,7 @@
             "building_id": 14,
             "name": "Moulin du Clos, Moulin de la Follaz, Moulin Bourgeois, Moulin du Milieu, Moulin Rochat, usine Charton, Bains du Grand-Pont, Bains Michaud",
             "informations": "Le moulin du Clos est aussi appel\u00e9 au XVe si\u00e8cle moulin de la Follaz, au XVIIe si\u00e8cle moulin Bourgeois et au XVIIIe si\u00e8cle moulin du Milieu. Il devient le moulin et la scierie de Samuel Rochat vers 1830. Il y aurait un deuxi\u00e8me moulin pas loin, de Christian Rochat. En 1875, le moulin est propri\u00e9t\u00e9 de la Soci\u00e9t\u00e9 Lausanne-Ouchy qui vend le m\u00e9canisme du moulin (FAL 20.05.1875) (note: d\u00e8s 1873 commen\u00e7a le comblement du Flon qui enterra les arches inf\u00e9rieures du Grand-Pont). Le b\u00e2timent est d\u00e9moli en 1891 (Mus\u00e9e Historique Lausanne (\u00e9d.), L'Ere du chamboulement ..., p. 72). Les Bains du Grand-Pont furent construits sur l'emplacement de l'ancien moulin (apr\u00e8s le nouvel \u00e9largissement du tablier de 1933 ?). Ils furent appel\u00e9s un temps \"Bains Michaud\". On y entrait par les escaliers du Grand-Pont (Louis Polla, Lausanne 1860-1910 maisons et quartiers d'autrefois, p. 170). ANCIENNEMENT BAT8: Chemin du Pas-des-Anes, nomm\u00e9 aussi rue (chemin) des Moulins. Il y avait notamment un canal de d\u00e9viation du Flon qui servait \u00e0 alimenter les moulins.\nVraisemblablement deux moulins: il est fait mention \"du moulin au Pas-des-Anes\", mais \u00e9galement d'un vieux moulin que contournait le Flon au lieu-dit le Pas-des-Anes, sous le Grand Pont, \u00e0 gauche en descendant de P\u00e9pinet; Titre \"... [moulin] (sous le nouvel entrep\u00f4t des douanes) portant la date de 1699. Il sera prochainement d\u00e9moli\". TODO: analyser les images et les cartes pour r\u00e9soudre la question",
-            "preferred_image": 0,
+            "preferred_image": 99330,
             "images": [
                 {
                     "image_id": 110653,
@@ -2756,7 +2729,7 @@
             "building_id": 14,
             "name": "Moulins au Pas-des-\u00c2nes",
             "informations": "Chemin du Pas-des-Anes, nomm\u00e9 aussi rue (chemin) des Moulins. Il y avait notamment un canal de d\u00e9viation du Flon qui servait \u00e0 alimenter les moulins.\nVraisemblablement deux moulins: il est fait mention \"du moulin au Pas-des-Anes\", mais \u00e9galement d'un vieux moulin que contournait le Flon au lieu-dit le Pas-des-Anes, sous le Grand Pont, \u00e0 gauche en descendant de P\u00e9pinet; Titre \"... [moulin] (sous le nouvel entrep\u00f4t des douanes) portant la date de 1699. Il sera prochainement d\u00e9moli\". TODO: analyser les images et les cartes pour r\u00e9soudre la question",
-            "preferred_image": 0,
+            "preferred_image": 99330,
             "images": [
                 {
                     "image_id": 110653,
@@ -2890,7 +2863,7 @@
             "building_id": 15,
             "name": "Moulin de l'Ermitage et fabrique de chocolat Valloton (2 b\u00e2timents s\u00e9par\u00e9s!)",
             "informations": "Au d\u00e9but du XVIIIe, il y avait une foule d\u00e9pendant du moulin de l'Ermitage (foule s\u00e9par\u00e9e du moulin par le chemin du Moulin devenu chemin de la Mine et le pont en pierre dit pont du Tirage, pont de la Mine ou pont de Chauderon. Pendant des d\u00e9cennies ce sentier s'appelait chemin du Moulin, \u00e0 cause de la pr\u00e9sence du moulin de l'Ermitage. En suite il devint le chemin des Moulins, parce qu'il rejoignait le chemin du Pas-des-Anes, qui menait vers d'autres moulins, toujours le long du Flon. Enfin, il devint le chemin de la Mine). Vers 1780-1790, construction d'une habitation dans laquelle les fr\u00e8res Henri, Louis et Philippe Poudret install\u00e8rent une fabrique de chocolat. Vers 1800, d\u00e9bit de boissons en plus. En 1823 achat de la fabrique par Jean-Daniel Turel pour y installer une marbrerie; construction d'annexes. En 1866 Jules Turel vend l'habitation et l'atelier \u00e0 Jean-Abram Delisle, transformation et construction d'un b\u00e2timent pour la fabrique de chocolat. Vers 1870 F\u00e9lix Delisle-Fontannaz (fils de Jean-Abram) reprend la fabrique. Vers 1879 Adrien Vallotton-Roseng devient propri\u00e9taire de la fabrique de chocolat. En 1890, l'Ermitage compte les moulins de M.A. Delisle, la fabrique de chocolat Delisle et le chiffonnier Dissard. Le moulin de l'Ermitage \u00e9tait vers 1880-1890 la propri\u00e9t\u00e9 de Delisle & Cie. Ils exploitaient la \"Boulangerie Viennoise et le Moulin de l'Ermitage\", qui avaient \u00e0 cette \u00e9poque plusieurs magasins en ville. Le moulin de l'Ermitage a abrit\u00e9 au XIXe si\u00e8cle une meunerie et une boulangerie. C'est un gros commerce; de l\u00e0 des chars charg\u00e9s de sacs de farine partent dans le canton, en direction du Valais et de Fribourg.\n\nSur une description d'un plan: \"... Il est donc assez difficile de d\u00e9finir la fonction exacte de ces b\u00e2timents. Il est clairement indiqu\u00e9 sur le plan qu'il s'agit d'une chocolaterie. Peut-\u00eatre a-t-elle laiss\u00e9 sa place une dizaine d'ann\u00e9es plus tard \u00e0 une boulangerie? Ou peut-\u00eatre encore que ce plan ne sera rest\u00e9 qu'un projet? Les livres ne le disent pas. Il est n\u00e9anmoins certain qu'une chocolaterie et une boulangerie ont exist\u00e9 dans ce secteur\". Vers 1901-1902, la fabrique de chocolat cesse son exploitation. Vers 1904, le moulin est la propri\u00e9t\u00e9 de la Compagnie du Lausanne-Ouchy. Le hameau est d\u00e9truit vers 1910; la construction du pont Chauderon a eu lieu en 1904-1905.\n\nAval du futur Pont Chauderon: vers 1835, Alexandre Saucon, teinturier, installe son entreprise, situ\u00e9e en aval du Pont Chauderon ; 1851 achat par Fran\u00e7ois-Philippe Blanc-Longchamp, qui transforme la foule en appartement en 1863 ; en 1872, Charles Schnyder, coutelier, acquiert les b\u00e2timents ; en 1888, Pierre Dissard ach\u00e8te le domaine pour y installer une fabrique de poudre d'os pour engrais ; 1910-1911 d\u00e9molition.",
-            "preferred_image": 0,
+            "preferred_image": 98895,
             "images": [
                 {
                     "image_id": 107452,
@@ -3188,59 +3161,6 @@
                     "bibliography": null,
                     "institution": "Mus\u00e9e Historique Lausanne",
                     "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL98904_s_001_1.jpg&amp;id=98904"
-                }
-            ]
-        },
-        {
-            "building_id": 16,
-            "name": "Tannerie Brouilhet",
-            "informations": "La tour de s\u00e9chage de peaux de la tannerie, m\u00e9gisserie et fabrique de gants d'Antoine et Jean-Antoine Brouilhet est construite vers 1870-1873 au niveau du coude du passage Saint-Fran\u00e7ois (n\u00b012 \u00e0 l'angle). Mais les ateliers devaient d\u00e9j\u00e0 exister bien avant \u00e0 la ruelle Saint-Fran\u00e7ois 22 bis, puisque les Brouilhet ont quitt\u00e9 Millau (Aveyron) dans la deuxi\u00e8me moiti\u00e9 du 18e si\u00e8cle, pour s'installer \u00e0 Lausanne. (voir article Polla n\u00b0 95, du 19.01.1962)",
-            "preferred_image": 0,
-            "images": [
-                {
-                    "image_id": 100183,
-                    "date_begin": 1916,
-                    "date_end": 1920,
-                    "description": "Vue sur le passage Saint-Fran\u00e7ois, en direction de la rue Centrale. A gauche le n\u00b014 du passage et \u00e0 droite la fa\u00e7ade ouest du n\u00b05 de la place Saint-Fran\u00e7ois. Au n\u00b0 14 actuel (ancien 22 bis) se trouvaient les b\u00e2timents de la tannerie-fabrique de gants Brouilhet. Sur la photo \u00e0 gauche, la tour de s\u00e9chage des peaux, appel\u00e9e tour Brouilhet. (voir rubrique Polla n\u00b095 du 19.01.1962).",
-                    "bibliography": null,
-                    "institution": "Mus\u00e9e Historique Lausanne",
-                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL100183_1.JPG&amp;id=100183"
-                },
-                {
-                    "image_id": 100093,
-                    "date_begin": 1873,
-                    "date_end": 1900,
-                    "description": "Au premier plan, la rang\u00e9e d'immeubles construits en 1873. Derri\u00e8re, on aper\u00e7oit le haut de la tour de s\u00e9chage \u00e0 peaux de la fabrique de gants Brouillhet. A droite la tour de l'\u00e9glise Saint-Fran\u00e7ois.",
-                    "bibliography": null,
-                    "institution": "Mus\u00e9e Historique Lausanne",
-                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL100093_1.JPG&amp;id=100093"
-                },
-                {
-                    "image_id": 100031,
-                    "date_begin": 1913,
-                    "date_end": 1913,
-                    "description": "Vue sur le chantier de d\u00e9molition de la maison Bergier au nord de la place Saint-Fran\u00e7ois. L'espace vide du chantier, au niveau du n\u00b05 actuel, permet de voir les b\u00e2timent au nord du passage Saint-Fran\u00e7ois : la \"Gazette de Lausanne\" - Imprimerie Vincent et la manufacture de peaux de M. Brouilhet avec sa tour au niveau du coude du passage Saint-Fran\u00e7ois (n\u00b012 \u00e0 l'angle).",
-                    "bibliography": null,
-                    "institution": "Mus\u00e9e Historique Lausanne",
-                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL100031_s_001_1.jpg&amp;id=100031"
-                },
-                {
-                    "image_id": 100185,
-                    "date_begin": 1916,
-                    "date_end": 1916,
-                    "description": "Vue sur le n\u00b014 du passage Saint-Fran\u00e7ois, lors des travaux d'abaissement de la rue. A droite le poste de police, \u00e0 gauche l'ancien s\u00e9choir \u00e0 peaux de la manufacture de peaux Antoine Brouilhet.",
-                    "bibliography": null,
-                    "institution": "Mus\u00e9e Historique Lausanne",
-                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL100185_1.JPG&amp;id=100185"
-                },
-                {
-                    "image_id": 100184,
-                    "date_begin": 1916,
-                    "date_end": 1916,
-                    "description": "Vue sur le n\u00b014 du passage Saint-Fran\u00e7ois, lors des travaux d'abaissement de la rue. A droite le poste de police, \u00e0 gauche l'ancien s\u00e9choir \u00e0 peaux de la manufacture de peaux Antoine Brouilhet.",
-                    "bibliography": null,
-                    "institution": "Mus\u00e9e Historique Lausanne",
-                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL100184_1.JPG&amp;id=100184"
                 }
             ]
         }
