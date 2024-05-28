@@ -263,12 +263,14 @@ view(Inputs.button([
 
 <br><br>
 
+## Distribution des utilisations
+
 ```js
 function get_uses(geojson) {
     var uses = [];
     geojson.features.forEach(function(feature) {
         if (feature.properties.use) {
-            uses = uses.concat(feature.properties.use.split('|').join(',').split('et').join(',').split(','));
+            uses = uses.concat(feature.properties.use.split('|').join(',').split(' et ').join(',').split(','));
         }
     });
     uses = uses.map(s => s.trim());
@@ -287,35 +289,51 @@ uses_renove.forEach(use => {uses.push({"use": use, "cadastre": "renove"})});
 
 ```js
 display(Plot.plot({
-  marginLeft: 200,
-  x: {grid: true},
-  y: {paddingOuter: 0.2},
-  marks: [
-    Plot.barX(uses_melotte, Plot.groupY({x: "count"}, {sort: {y: "x"}})),
-    Plot.ruleX([0])
-  ]
-}));
-display(Plot.plot({
-  marginLeft: 200,
-  x: {grid: true},
-  y: {paddingOuter: 0.2},
-  marks: [
-    Plot.barX(uses_berney, Plot.groupY({x: "count"}, {sort: {y: "x"}})),
-    Plot.ruleX([0])
-  ]
-}));
-display(Plot.plot({
-  marginLeft: 200,
-  x: {grid: true},
-  y: {paddingOuter: 0.2},
-  marks: [
-    Plot.barX(uses_renove, Plot.groupY({x: "count"}, {sort: {y: "x"}})),
-    Plot.ruleX([0])
-  ]
+    marginLeft: 200,
+    x: {grid: true, domain: [0, 18], ticks: 19},
+    title: "Cadastre Melotte 1727",
+    marks: [
+        Plot.barX(uses_melotte, Plot.groupY({x: "count"}, {sort: "y"})),
+        Plot.ruleX([0])
+    ]
 }));
 ```
 
 </div>
+<div class="card" className="card">
+
+```js
+display(Plot.plot({
+    marginLeft: 200,
+    x: {grid: true, domain: [0, 18], ticks: 19},
+    title: "Cadastre Berney 1831",
+    marks: [
+        Plot.barX(uses_berney, Plot.groupY({x: "count"}, {sort: "y"})),
+        Plot.ruleX([0])
+    ]
+}));
+```
+
+</div>
+<div class="card" className="card">
+
+```js
+display(Plot.plot({
+    marginLeft: 200,
+    x: {grid: true, domain: [0, 18], ticks: 19},
+    title: "Cadastre Rénové 1888",
+    marks: [
+        Plot.barX(uses_renove, Plot.groupY({x: "count"}, {sort: "y"})),
+        Plot.ruleX([0])
+    ]
+}));
+```
+
+</div>
+
+<br>
+
+## Distribution des familles propriétaires
 
 ```js
 function get_surnames(geojson, is_surname_first) {
@@ -332,11 +350,11 @@ function get_surnames(geojson, is_surname_first) {
 
     var surnames = [];
     owners.forEach(function(owner) {
-        if (owner.startsWith('Etat')) {
-            surnames.push('Etat');
+        if (owner.startsWith('Etat') || owner.startsWith('Vaud')) {
+            surnames.push('Etat de Vaud');
             return;
-        } else if (owner.startsWith('Commune')) {
-            surnames.push('Commune');
+        } else if (owner.startsWith('Commune') || owner.startsWith('Lausanne')) {
+            surnames.push('Commune de Lausanne');
             return;
         }
         if (is_surname_first) {
@@ -355,22 +373,28 @@ const surnames_renove = get_surnames(renove_buildings_geojson, true);
 
 ```js
 display(Plot.plot({
-  marginLeft: 150,
-  x: {grid: true},
-  y: {paddingOuter: 0.2},
-  marks: [
-    Plot.barX(surnames_berney, Plot.groupY({x: "count"}, {sort: "y"})),
-    Plot.ruleX([0])
-  ]
+    marginLeft: 120,
+    x: {grid: true, domain: [0, 18], ticks: 19},
+    title: "Cadastre Berney 1831",
+    marks: [
+        Plot.barX(surnames_berney, Plot.groupY({x: "count"}, {sort: "y"})),
+        Plot.ruleX([0])
+    ]
 }));
+```
+
+</div>
+<div class="card" className="card">
+
+```js
 display(Plot.plot({
-  marginLeft: 150,
-  x: {grid: true},
-  y: {paddingOuter: 0.2},
-  marks: [
-    Plot.barX(surnames_renove, Plot.groupY({x: "count"}, {sort: "y"})),
-    Plot.ruleX([0])
-  ]
+    marginLeft: 120,
+    x: {grid: true, domain: [0, 18], ticks: 19},
+    title: "Cadastre Rénové 1888",
+    marks: [
+        Plot.barX(surnames_renove, Plot.groupY({x: "count"}, {sort: "y"})),
+        Plot.ruleX([0])
+    ]
 }));
 ```
 
