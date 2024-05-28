@@ -46,6 +46,10 @@ Concernant l'iconographie, un nouveau champ a été ajouté à la table des attr
 
 Pour l'intégration finale avec ce site Web, les couches de bâtiments identifiés sur les cadastres (avec leur numéro de bâtiment de l'iconographie, si présent) ont été exportés en format GeoJSON. Les fichiers ont été filtrés par un script afin de supprimer les attributs inutiles, et d'obtenir une nomenclature des attributs commune aux trois cadastres. D'autre part, les informations des bâtiments identifiés dans l'iconographie et de leurs images associées ont été fusionnées en un seul fichier JSON.
 
+```js
+FileAttachment("./data/static_images/diagram.png").image({width: 650})
+```
+
 </div>
 <div class="card">
 <h2>Limites et difficultés</h2>
