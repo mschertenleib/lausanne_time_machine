@@ -76,3 +76,45 @@ Ces infrastructures font alors du Flon la principale gare de marchandises de Lau
 En 1898, la famille vend la tannerie, devenue incapable de concurrencer le protectionnisme du marché américain. Les Mercier continuent à investir dans l'immobilier, possédant tous les bâtiments du Flon, le lac de Bret (source d'eau potable et d'énergie pour Lausanne) et le château d'Ouchy. Ils maintiennent parallèlement leur implication dans le chemin de fer. Cette diversification permet à la famille de laisser une empreinte durable sur l'infrastructure et l'économie de Lausanne.
 
 </div>
+
+<div class="card">
+<h2>Bibliographie</h2>
+
+<h3>Kohler</h3>
+
+- Barel Michel, _Du cacao au chocolat: L’épopée d’une gourmandise_, sans lieu, QUAE, 2016. Google-Books-ID: KqEKDQAAQBAJ.
+
+- Hermé Pierre, _Le Larousse du chocolat_, sans lieu, Larousse, 2019.
+
+- _Kohler Chocolat : Charles Trenet...Le Fou Chantant (France, 1955)_, 1955, 1:15 (en ligne : https://www.youtube.com/watch?v=hYwqJ2ka3x8 ; consulté le 22 mai 2024).
+
+- "A la découverte d’Echandens/ L’auberge communale / La Chocolatière", sur _Commune d’Echandens_, sans date (en ligne : https://echandens.ch/a-la-decouverte-dechandens/ ; consulté le 22 mai 2024).
+
+- "Kohler / Suisse / Europe / Dictionnaire des chocolateries", sur _Viva chocolat !_, sans date (en ligne : https://www.vivachocolat.fr/dictionnaire-des-chocolateries/europe-1/suisse/kohler ; consulté le 22 mai 2024).
+
+- "Consultation personnes < chocolaterie Köhler", sur _Les musées de Lausanne et de sa région, Bases de données patrimoniales de Suisse romande_, sans date (en ligne : https://museris.lausanne.ch/SGP/Consultation.aspx?Id=9230 ; consulté le 22 mai 2024).
+
+<br>
+<h3>Rochat</h3>
+
+- Rochat Loïc et Jean-Pierre Bastian, _Les Rochat: de la famille comtoise à la tribu vaudoise_, L’Abbaye, Association de la famille Rochat, 2022.
+
+- Rochat Rémy, _Notice historique sur la famille Rochat: publiée à l’occasion du 500e anniversaire de l’arrivée de Vinet Rochat et de ses trois fils en Suisse ..._, Lieu de publication non identifié, éditeur non identifié, 1980.
+
+- Rochaz Eugène, _Ma famille: 1940 environ_, Les Charbonnières, Le Pèlerin, coll. "Etudes et documents no 31", 2000.
+
+- Rochaz Eugène, _Ma famille: 1930 à 1940 environ_, Les Charbonnières, Le Pèlerin, coll. "Etudes et documents", 1987.
+
+<br>
+<h3>Mercier</h3>
+
+- Gillabert Léa, "Lausanne c’était mieux avant ? Le Flon à travers le temps", sur TocToc, 23 août 2017 (en ligne : https://www.cogestim.ch/blog/lausanne-cetait-mieux-avant-le-flon-a-travers-le-temps/ ; consulté le 25 mai 2024).
+
+- Leresche Anne, _La tannerie Mercier: une ascension économique et sociale_, Lausanne, Musée historique Lausanne, 2018.
+
+<br>
+<h3>Transversal</h3>
+
+- Barblan Marc-Antonio et Association pour le patrimoine industriel, _Il était une fois l’industrie: Zurich - Suisse romande : paysages retravaillés : quelques exemples d’occupation industrielle du territoire_, Genève, Association pour le patrimoine industriel, coll. "Patrimoine industriel de la Suisse", 1984.
+
+</div>

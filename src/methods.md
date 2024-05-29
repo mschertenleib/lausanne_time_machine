@@ -12,7 +12,9 @@ Dans cette section, nous allons discuter de la méthodologie que nous avons util
 Le but est d'obtenir une cartographie et une table d'attributs correspondante comportant au minimum l'utilisation de la parcelle et le nom du propriétaire.
 
 - **Melotte 1727:** Le cadastre source a été étudié manuellement (raster + archives). Toute la légende est présente sur la cartographie elle-même, nous l'avons recopiée depuis les planches pour les bâtiments intéressants.
+
 - **Berney 1831:** La table d'attributs était déjà très complète, et la légende du cadastre était déjà reprise dans la table d'attributs.
+
 - **Rénové 1888:** Il a été nécessaire de créer des couches contenant les numéros des parcelles, le tracé des rues et les toponymes. Un processus de fusion de ces couches avec la légende du cadastre nous a permis d'obtenir une table d'attributs exploitable pour les bâtiments que nous avions repérés comme intéressants.
 
 </div>
