@@ -27,9 +27,6 @@ const map = L.map(div, { fadeAnimation: false })
     .setMinZoom(14)
     .setMaxZoom(18);
 
-// URL for online tiles (example):
-// https://github.com/mschertenleib/lausanne_time_machine/raw/main/src/data/berney_tiles/{z}/{x}/{y}.png
-
 const melotte_tiles = L.tileLayer("./_file/data/melotte_tiles/{z}/{x}/{y}.png",
     { minZoom: 14, maxZoom: 18, opacity: 1.0 });
 const berney_tiles = L.tileLayer("./_file/data/berney_tiles/{z}/{x}/{y}.png",
