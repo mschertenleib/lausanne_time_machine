@@ -1,0 +1,1078 @@
+{
+    "buildings": [
+        {
+            "building_id": 1,
+            "name": "Chocolaterie Kohler",
+            "informations": "En 1793, Gottlieb-Am\u00e9d\u00e9e Kohler ouvre au Grand-Saint-Jean un commerce de denr\u00e9es coloniales et de vins du pays. En 1831, son fils, Charles-Am\u00e9d\u00e9e, introduit le chocolat. Il installe alors la fabrique dans un ancien moulin du Petit-Saint-Jean (moulin Bramafan), en contrebas de l'H\u00f4tel de ville. En 1849, Charles-Am\u00e9d\u00e9e Kohler ach\u00e8te \u00e0 Sauvabelin la scierie communale pour en faire une chocolaterie moderne. Il remplace l'ancienne roue \u00e0 aube par une chaudi\u00e8re \u00e0 vapeur. Cette innovation fait sensation \u00e0 Lausanne. En 1865, Charles-Am\u00e9d\u00e9e vend les propri\u00e9t\u00e9s de Sauvabelin et en ville \u00e0 ses deux fils, Charles et Adolphe, qui continuent le commerce de denr\u00e9es coloniales en gros et la fabrique de chocolat sous la m\u00eame raison sociale: Am\u00e9d\u00e9e Kohler et fils. Vers 1874, un d\u00e9p\u00f4t de la fabrique de Sauvabelin est construit \u00e0 l'emplacement de l'actuelle place Centrale (devient ensuite le Royal Biograph). En 1896, la fabrique est transf\u00e9r\u00e9e \u00e0 Echandens dans une nouvelle usine construite de 1894 \u00e0 1896. Le b\u00e2timent de Sauvabelin a \u00e9t\u00e9 vendu en 1903 et d\u00e9moli en 1957 (Polla, \"Lausanne 1860-1910\" page 177).<br><br><i>Plus d'informations: voir l'\u00e9tude de cas sur les Kohler.</i>",
+            "preferred_image": 96824,
+            "images": [
+                {
+                    "image_id": 96825,
+                    "date_begin": 1893,
+                    "date_end": 1893,
+                    "description": "Vue g\u00e9n\u00e9rale de l'usine. Un personnage se trouve devant la chocolaterie. A sa gauche, on distingue un chalet. A l'arri\u00e8re-plan, il y a la for\u00eat. Au premier plan juste en face de l'usine, il y a une cabane de jardinage et un jardin potager.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL96825_1.JPG&amp;id=96825"
+                },
+                {
+                    "image_id": 96826,
+                    "date_begin": 1904,
+                    "date_end": 1904,
+                    "description": "\u00c0 l'arri\u00e8re-plan, il y a la chocolaterie et la for\u00eat, devant elle, on distingue quatre chevaux et leurs deux attelages (sur l'un il y a des cageots et sur l'autre une chaudi\u00e8re), \u00e0 gauche de l'usine, il y a deux b\u00e2timents dont un chalet; au premier plan, il y a un pont en pierre avec des barri\u00e8res en bois. Sur une des barri\u00e8res se trouve une canne et, \u00e0 c\u00f4t\u00e9 par terre, il y a une besace.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL96826_1.JPG&amp;id=96826"
+                },
+                {
+                    "image_id": 96824,
+                    "date_begin": 1900,
+                    "date_end": 1910,
+                    "description": "Gros plan sur la chocolaterie et de sa grande chemin\u00e9e qui se trouve dans la cour centrale. On distingue \u00e0 l'avant-plan, devant l'usine, deux hommes, quatre chevaux et deux attelages (sur l'un il y a des cageots et sur l'autre une grande citerne). A l'arri\u00e8re-plan, il y a la for\u00eat.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL96824_1.JPG&amp;id=96824"
+                }
+            ]
+        },
+        {
+            "building_id": 2,
+            "name": "Moulin-Dessus de Sauvabelin, Moulin de Vennes",
+            "informations": "Le Moulin-Dessus de Sauvabelin a aussi \u00e9t\u00e9 appel\u00e9 Moulin de Vennes et Val Omega. Ils'agissait autrefois d'une petite scierie, actionn\u00e9e par l'eau du Flon. En 1866, le moulin est rachet\u00e9 par les fr\u00e8res Charles-Am\u00e9d\u00e9e et Jules-Albert Kohler. Le moulin subsiste jusque vers 1870; on installe alors des appartements dans le b\u00e2timent. En 1919, les fr\u00e8res Kohler vendent l'ancien moulin qui est d\u00e9moli en 1965. Le moulin se trouvait en dessous de la chocolaterie Kohler sur la rive droite du Flon. La vo\u00fbte sous la maison et une passerelle permettaient d'acc\u00e9der au deuxi\u00e8me moulin situ\u00e9 quelques m\u00e8tres en dessous dans un coude du Flon (Polla, \"Lausanne 1860-1910 vie quotidienne\", page 16).",
+            "preferred_image": 143160,
+            "images": [
+                {
+                    "image_id": 110647,
+                    "date_begin": 1836,
+                    "date_end": 1836,
+                    "description": "Vue du moulin de Sauvabelin avec grand avant-toit en bois couvert de tuile prot\u00e9geant une petite cour donnant sur le Flon. Le torrent passe sous la partie gauche du moulin, laquelle est pourvue d'une petite vo\u00f9te \u00e0 cet effet. V\u00e9g\u00e9tation luxuriante tout autour.",
+                    "bibliography": "Grandjean, t. III, p. 77 (la date de 1836 y est mentionn\u00e9e avec un point d'interrogation)",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL110743_1.JPG&amp;id=110743"
+                },
+                {
+                    "image_id": 110612,
+                    "date_begin": 1901,
+                    "date_end": 1901,
+                    "description": "Vue rapproch\u00e9e d'un des moulins de Sauvabelin (c\u00f4t\u00e9 habitable) avec un escalier d'entr\u00e9e en bois et un petit cabanon devant la maison. Arbres aux couleurs automnales autour du moulin.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL110708_1.JPG&amp;id=110708"
+                },
+                {
+                    "image_id": 143160,
+                    "date_begin": 1945,
+                    "date_end": 1960,
+                    "description": "L'ancien moulin de la Chocolati\u00e8re vue du nord-ouest dans la vall\u00e9e du Flon. Appel\u00e9 Moulin-Dessus de Sauvabelin ou Moulin de Vennes, puis val Omega. En 1866, le moulin est rachet\u00e9 par les fr\u00e8res Charles-Am\u00e9d\u00e9e et Jules-Albert Kohler. Vers 1870 on installe des appartements dans le b\u00e2timent. En 1919, les fr\u00e8res Kohler vendent l'ancien moulin qui est d\u00e9moli en 1965. Le moulin se trouvait au dessous de la chocolaterie sur la rive droite du Flon. Une passerelle permettait d'acc\u00e9der au deuxi\u00e8me moulin situ\u00e9 quelques m\u00e8tres en dessous dans un coude du Flon.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL143881_1.JPG&amp;id=143881"
+                },
+                {
+                    "image_id": 110673,
+                    "date_begin": 1923,
+                    "date_end": 1923,
+                    "description": "Vue d'un ancien moulin (peut-\u00eatre l'ancien moulin Creux ou moulin de Sauvabelin-dessous) transform\u00e9 en ferme au bord du Flon, au sud-est de la chocolaterie Kohler, dans la r\u00e9gion de Sauvabelin.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgBD/110769/F446/ImgDeg/DSC_1752_1.jpg&amp;id=110769"
+                }
+            ]
+        },
+        {
+            "building_id": 3,
+            "name": "Deuxi\u00e8me moulin de Sauvabelin",
+            "informations": "Le deuxi\u00e8me moulin de Sauvabelin \u00e9tait situ\u00e9 en dessous de la chocolaterie Kohler, et imm\u00e9diatement en dessous du premier moulin dit de Sauvabelin, dans un coude du Flon. La vo\u00fbte sous le premier moulin et une passerelle permettaient d'y acc\u00e9der (Polla, \"Lausanne 1860-1910 vie quotidienne\", page 16).",
+            "preferred_image": 96823,
+            "images": [
+                {
+                    "image_id": 96823,
+                    "date_begin": 1880,
+                    "date_end": 1900,
+                    "description": "Vue, probablement, sur le deuxi\u00e8me moulin situ\u00e9 en dessous de la chocolaterie Kohler et imm\u00e9diatement en dessous du premier moulin dit de Sauvabelin (P.1.A.1.B.52.005).",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL96823_1.JPG&amp;id=96823"
+                }
+            ]
+        },
+        {
+            "building_id": 4,
+            "name": "Moulin de Pierre de Plan, Moulin de Sauvabelin-Dessous, Moulin Creux",
+            "informations": "Le moulin de Pierre de Plan ou de Sauvabelin-Dessous a \u00e9t\u00e9 une tannerie et une forge. Il a aussi \u00e9t\u00e9 appel\u00e9 plus tard moulin Creux, reste des \"Moulins Creux\", maison natale du missionnaire Ernest Creux (1845-1929). Vers 1900, il fut utilis\u00e9 comme lazaret cantonal lors d'une \u00e9pid\u00e9mie de variole (Louis Polla, Lausanne 1860-1910, Maisons et quartiers d'autrefois, p. 195). Il fut d\u00e9moli en 1933. A son emplacement, une usine d'incin\u00e9ration des d\u00e9chets fut inaugur\u00e9e le 22 novembre 1958 (emplacement de l'actuelle usine TRIDEL).",
+            "preferred_image": 147612,
+            "images": [
+                {
+                    "image_id": 110644,
+                    "date_begin": 1800,
+                    "date_end": 1850,
+                    "description": "Vue du moulin Creux (appellation tardive) dans la vall\u00e9e du Flon avec ceinture d'arbustes sur le devant. A l'arri\u00e8re-plan, dans la trou\u00e9e de la for\u00eat , on distingue le clocher de la Cath\u00e9drale, peut-\u00eatre avec la fl\u00e8che de Perregaux.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL110740_1.JPG&amp;id=110740"
+                },
+                {
+                    "image_id": 147612,
+                    "date_begin": 1831,
+                    "date_end": 1831,
+                    "description": "Vue depuis le sud sur la forge du moulin Creux, anciennement appel\u00e9 le moulin de Pierre de Plan, au-dessous du bois de Sauvabelin, sur le Flon. Le paysage est compos\u00e9 de deux flancs de colline formant un petit vallon au centre o\u00f9 s'\u00e9tagent les b\u00e2timents et o\u00f9 passe la rivi\u00e8re. Au premier plan, \u00e0 droite, une grande \u00e9tendue de v\u00e9g\u00e9tation, des buissons pour la plupart. A gauche, la forge proprement dite. Elle est faite de pierre, pour le premier \u00e9tage, et de bois, pour le second. Une cascade du Flon alimente la roue du moulin. Une chemin\u00e9e fume sur le toit. A gauche au premier plan, un petit chemin m\u00e8ne \u00e0 la forge, qui se trouve au bas d'une colline fortement bois\u00e9e. Au second plan, \u00e0 droite, deux autres b\u00e2timents, probablement des fermes surplombent la forge.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL148333_1.JPG&amp;id=148333"
+                },
+                {
+                    "image_id": 110649,
+                    "date_begin": 1802,
+                    "date_end": 1802,
+                    "description": "Vue d'une tannerie, appel\u00e9e plus tard moulin Creux, dans le vallon du Flon au-dessous de Sauvabelin. A l'avant-plan deux hommes parlent en gesticulant sur un talus herbeux au pied d'une cascade form\u00e9e par le Flon. Sur la gauche on distingue un gros rocher couvert de verdure. A l'arri\u00e8re-plan \u00e0 droite, derri\u00e8re la tannerie, on distingue une masse montagneuse et quelques oiseaux dans le ciel.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL110745_s_001_1.jpg&amp;id=110745"
+                },
+                {
+                    "image_id": 97176,
+                    "date_begin": 1917,
+                    "date_end": 1917,
+                    "description": "Vue g\u00e9n\u00e9rale du moulin, fa\u00e7ades sud et est, situ\u00e9 \u00e0 proximit\u00e9 de la Sallaz, dans la vall\u00e9e du Flon, \u00e0 l'emplacement exact de l'actuelle usine TRIDEL, sise \u00e0 la rue du Vallon. Vue depuis le sud sur la forge du moulin Creux, anciennement appel\u00e9 le moulin de Pierre de Plan, au-dessous du bois de Sauvabelin, sur le Flon.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL97176_1.JPG&amp;id=97176"
+                }
+            ]
+        },
+        {
+            "building_id": 5,
+            "name": "Ateliers Panchaud, fonderie du Vallon",
+            "informations": "Au lieu-dit \"La Poudri\u00e8re\" se trouvait un moulin et une scierie. En 1839, Daniel Grillet y installe un atelier m\u00e9canique. En 1851, Etienne Panchaud rach\u00e8te les b\u00e2timents, convertit le moulin en usine \u00e0 chocolat et garde l'atelier m\u00e9canique. Le 1er juillet 1863, Wilhelm Kaiser, m\u00e9canicien-constructeur et Charles-Jules Duvillard, ing\u00e9nieur-m\u00e9canicien, s'associent pour exploiter les ateliers qu'ils viennent de racheter \u00e0 Panchaud, pour cr\u00e9er une fabrique de machines. Panchaud continue \u00e0 travailler pour Kaiser et Duvillard et s'engage \u00e0 terminer l'agrandissement d'un atelier de menuiserie et \u00e0 installer une machine \u00e0 vapeur. Kaiser et Duvillard cr\u00e9ent une fonderie dans les autres locaux qu'ils agrandissent jusqu'en 1880. La fonderie fa\u00e7onne des pi\u00e8ces destin\u00e9es \u00e0 la construction des machines. En 1913 la fonderie est reprise par Adolphe Gisling et Pierre Grimb\u00fchler et les ateliers m\u00e9caniques vendus \u00e0 la Soci\u00e9t\u00e9 des tramways lausannois. En 1949, la fonderie d\u00e9m\u00e9nage \u00e0 Moudon et l'Usine d'incin\u00e9ration des ordures de la ville s'installe sur l'emplacement lib\u00e9r\u00e9 (Louis Polla, Lausanne 1860-1910, Maisons et quartiers d'autrefois).",
+            "preferred_image": 98100,
+            "images": [
+                {
+                    "image_id": 98101,
+                    "date_begin": 1913,
+                    "date_end": 1913,
+                    "description": "Vue partielle sur les usines Duvillard, au Vallon. Cour int\u00e9rieure de l'usine, avec quelques b\u00e2timents attenants.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL98101_1.JPG&amp;id=98101"
+                },
+                {
+                    "image_id": 98100,
+                    "date_begin": 1954,
+                    "date_end": 1954,
+                    "description": "Place du Vallon: Vue d'ensemble sur le Vallon avec la place du Vallon, prise depuis le sud en direction du nord. Au premier plan, les ateliers avec la fonderie et usine Duvillard. Sur la gauche, on aper\u00e7oit la pente herbeuse de l'Hermitage, sur la droite la for\u00eat du Calvaire. A l'arri\u00e8re-plan, la for\u00eat de Sauvabelin et Montmeillan.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL98100_1.JPG&amp;id=98100"
+                },
+                {
+                    "image_id": 98099,
+                    "date_begin": 1928,
+                    "date_end": 1940,
+                    "description": "Vue d'ensemble sur le Vallon avec la place du Vallon, prise depuis le nord en direction de la ville. Au premier plan, les ateliers avec la fonderie et usine Duvillard. Sur la gauche, on aper\u00e7oit la for\u00eat du Calvaire. A l'arri\u00e8re-plan, on voit la place du Vallon avec un immeuble d'habitation sur la droite. On peut aussi apercevoir une partie de l'h\u00f4pital cantonal.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL98099_1.JPG&amp;id=98099"
+                }
+            ]
+        },
+        {
+            "building_id": 6,
+            "name": "Forge Panchaud",
+            "informations": "Le bief (canal de d\u00e9rivation) du Flon passe par la forge Panchaud. On parle de l'huilerie Panchaud dans l'Estafette du 11.11.1873.",
+            "preferred_image": 98054,
+            "images": [
+                {
+                    "image_id": 99042,
+                    "date_begin": 1872,
+                    "date_end": 1873,
+                    "description": "Vue g\u00e9n\u00e9rale de la place du  Vallon et de la future rue du Nord \u00e9tablie sur le cours du Flon. Au premier plan on voit un terrain vague, au centre une charrette et \u00e0 gauche deux hommes (l'homme assis regarde en direction du photographe). Au second plan on voit quelques maisons d'habitation, on voit quelques maisons d'habitation, la forge Panchaud vers laquelle coule le bief du Flon (canal de d\u00e9rivation) et sur la droite le cours du Flon, canalis\u00e9. A l'arri\u00e8re-plan on voit la cath\u00e9drale, la porte et le ch\u00e2teau St-Maire.",
+                    "bibliography": "Polla Louis, Places de Lausanne, Lausanne, Ed. 24 heures, 1987, pp. 21-42, Grandjean Marcel, Les Monuments d'art et d'histoire du canton de Vaud, B\u00e2le, Birkh\u00e4user, 1979, tome III, pp. 103-111, pp. 166-169",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL99042-1_s_001_1.jpg&amp;id=99042"
+                },
+                {
+                    "image_id": 112025,
+                    "date_begin": 1841,
+                    "date_end": 1841,
+                    "description": "Vue de la colline du Champ-de-l'Air avec la Solitude et le Calvaire et peut-\u00eatre au bas du chemin, l'huilerie et la forge Panchaud, Taillandier. Plus loin, au fond \u00e0 droite, le b\u00e2timent allong\u00e9 correspond \u00e0 l'Institut Isler, dans le domaine de la Solitude. A cette date, il s'agit d\u00e9j\u00e0 du pensionnat et non plus des Bains en fonction jusqu'en 1831. A l'avant-plan on distingue quelques toits de maisons entre les arbres.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL112121_1.JPG&amp;id=112121"
+                },
+                {
+                    "image_id": 98054,
+                    "date_begin": 1850,
+                    "date_end": 1850,
+                    "description": "Vue d'ensemble sur la Cit\u00e9 et la Barre depuis le bas du Calvaire. Au premier plan, un chemin,  des barri\u00e8res de bois, un potager. Au second plan, des maisons. On se trouver derri\u00e8re la forge Panchaud. A l'arri\u00e8re-plan, la porte et le ch\u00e2teau St-Maire, les maisons d'habitation de la Barre.",
+                    "bibliography": "Grandjean Marcel, Les Monuments d'art et d'histoire du canton de Vaud, B\u00e2le, Birkh\u00e4user, 1979, tome III, pp. 103-111, pp. 166-169",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL98054_s_001_1.jpg&amp;id=98054"
+                }
+            ]
+        },
+        {
+            "building_id": 7,
+            "name": "Filature Juat, scierie Bauverd",
+            "informations": "L'ancienne filature Juat devient la scierie Coeytaux, puis Bauverd, ou encore scierie du Tunnel. La buanderie Haldimand se trouvera \u00e0 cet emplacement en 1893 (actuel n\u00b01 rue de l'Industrie). Le b\u00e2timent est d\u00e9saffect\u00e9 en 1970 puis d\u00e9moli en 1976 (INSA, p. 349 + 370).",
+            "preferred_image": 98097,
+            "images": [
+                {
+                    "image_id": 98957,
+                    "date_begin": 1862,
+                    "date_end": 1866,
+                    "description": "Vue d'ensemble de la Cit\u00e9 et du ch\u00e2teau Saint-Maire depuis le nord-est (bas du Calvaire). Au premier plan on voit, derri\u00e8re des arbres, l'ensemble des b\u00e2timents, situ\u00e9s au Vallon, au pied des murs d'enceinte de la Cit\u00e9, le moulin du Tunnel, la scierie (en face du moulin, chemin\u00e9e reconnaissable, ancienne filature Juat) et le chemin de Couvaloup qui longe la pente. A l'arri\u00e8re plan, on distingue la Cit\u00e9, la cath\u00e9drale, la porte et le ch\u00e2teau Saint-Maire.",
+                    "bibliography": "Polla Louis, Places de Lausanne, Lausanne, Ed. 24 heures, 1987, pp. 37-42, Grandjean Marcel, Les Monuments d'art et d'histoire du canton de Vaud, B\u00e2le, Birkh\u00e4user, 1979, tome III, pp. 103-112",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL98957_1.JPG&amp;id=98957"
+                },
+                {
+                    "image_id": 98956,
+                    "date_begin": 1862,
+                    "date_end": 1866,
+                    "description": "Vue g\u00e9n\u00e9rale du Vallon et de la Cit\u00e9 et avec le ch\u00e2teau Saint-Maire, depuis le bas du Calvaire. Au premier plan, on voit un ensemble de b\u00e2timents en bois, situ\u00e9s au Vallon, dont la forge Panchaud (voir \"contexte\"), aliment\u00e9e par le bief (canal de d\u00e9rivation) du Flon, le moulin du Tunnel et la chemin\u00e9e de la scierie (chemin\u00e9e qui d\u00e9passe, tout \u00e0 droite, ancienne filature Juat), au pied des murs d'enceinte de la Cit\u00e9. Au second plan, on distingue l'\u00e9peron de la Cit\u00e9 avec le beffroi de la Cath\u00e9drale, la porte et le ch\u00e2teau Saint-Maire.",
+                    "bibliography": "Grandjean Marcel, Les Monuments d'art et d'histoire du canton de Vaud, B\u00e2le, Birkh\u00e4user, 1979, tome III, pp. 103-112, 166-169",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL98956_1.JPG&amp;id=98956"
+                },
+                {
+                    "image_id": 98088,
+                    "date_begin": 1867,
+                    "date_end": 1870,
+                    "description": "Vue d'ensemble sur le Vallon, la Cit\u00e9 et le Tunnel depuis le nord-est. Au milieu on aper\u00e7oit la rivi\u00e8re le Flon et son canal de d\u00e9rivation (bief) sur la gauche, coulant vers la forge Panchaud. La rue de l'Industrie n'existe pas encore, mais le b\u00e2timent au milieu de la photo est sur l'emplacement de l'actuel n\u00b013 de cette rue. Juste derri\u00e8re une scierie avec sa chemin\u00e9e (ancienne filature Juat). Au second plan, il y a le Vallon et ses maisons (on aper\u00e7oit principalement les toits), le Tunnel et la Barre. A l'arri\u00e8re-plan, on distingue la Cit\u00e9, avec la cath\u00e9drale, la porte et le ch\u00e2teau St-Maire.",
+                    "bibliography": "Polla Louis, Places de Lausanne, Lausanne, Ed. 24 heures, 1987, pp. 27-42, Grandjean Marcel, Les Monuments d'art et d'histoire du canton de Vaud, B\u00e2le, Birkh\u00e4user, 1979, tome III, pp. 103-112, 166-169, Grandjean, Tome IV, p. 185",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL98088_1.JPG&amp;id=98088"
+                },
+                {
+                    "image_id": 98078,
+                    "date_begin": 1883,
+                    "date_end": 1883,
+                    "description": "Vue d'ensemble sur le Vallon et la Cit\u00e9, prise depuis le haut du Calvaire. Au premier plan, \u00e0 gauche, des arbres, un chemin, la forge Panchaud en contrebas, vers laquelle coule le bief (canal de d\u00e9rivation) du Flon. Sur la gauche du chemin, des tonneaux devant une maison (tonnelier Furster). Au second plan, \u00e0 gauche, de la fum\u00e9e (fabrique de bougies?), la scierie (ancienne filature Juat) en face du moulin du Tunnel, et dont la chemin\u00e9e d\u00e9passe. Sur la droite, la place du Nord, la placette du Tunnel, le Tunnel. Au fond, la cath\u00e9drale, l'aile sud de l'\u00e9cole de chimie (au-dessous de laquelle le terrain est encore en terre) la porte et le ch\u00e2teau Saint-Maire, les maisons d'habitation de la Barre, des sortes de gabarits sont plant\u00e9s o\u00f9 la ferblanterie Christin se trouvera d\u00e8s fin 1884 (ancienne Barre n\u00b0 13), l'auberge du Guillaume Tell (actuel Barre n\u00b0 1). Au loin sur la droite, on reconna\u00eet la maison du Riant-Mont, on devine la maison Hollard et la ferme du Cazard. Derri\u00e8re, on voit le lac.",
+                    "bibliography": "Polla Louis, Places de Lausanne, Lausanne, Ed. 24 heures, 1987, pp. 27-42, Grandjean Marcel, Les Monuments d'art et d'histoire du canton de Vaud, B\u00e2le, Birkh\u00e4user, 1979, tome III, pp. 103-111, pp. 166-169, Grandjean, Tome IV, p. 185",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL98078_1.JPG&amp;id=98078"
+                },
+                {
+                    "image_id": 98097,
+                    "date_begin": 1862,
+                    "date_end": 1867,
+                    "description": "Vue d'ensemble sur le Vallon et la place du Nord depuis le sud. Au premier plan, on voit le toit du moulin du tunnel. Au second plan, il y a la scierie (ancienne filature Juat), qui deviendra la buanderie Haldimand en 1893; on trouve \u00e9galement des immeubles de la place du Nord et de la rue de l'Industrie. A l'arri\u00e8re-plan sur la gauche, on distingue la colline de Sauvabelin avec le Signal, et \u00e0 droite, le Calvaire et les Falaises.",
+                    "bibliography": "Polla Louis, Places de Lausanne, Lausanne, Ed. 24 heures, 2987, pp. 31-42, Grandjean Marcel, Les Monuments d'art et d'histoire du canton de Vaud, B\u00e2le, Birkh\u00e4user, 1979, tome IV, pp. 185-188",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL98097_1.JPG&amp;id=98097"
+                },
+                {
+                    "image_id": 98098,
+                    "date_begin": 1862,
+                    "date_end": 1867,
+                    "description": "Vue d'ensemble sur le Vallon et la place du Nord depuis le sud. Au premier plan, on voit le moulin du tunnel. Au second plan, il y a la scierie (ancienne filature Juat) qui deviendra la buanderie Haldimand en 1893, puis des  immeubles de la place du Nord et de la rue de l'Industrie; les arbres sont d\u00e9nud\u00e9s. A l'arri\u00e8re-plan sur la gauche, on distingue la colline de Sauvabelin avec le Signal, et \u00e0 droite, le Calvaire et les Falaises.",
+                    "bibliography": "Polla Louis, Places de Lausanne, Lausanne, Ed. 24 heures, 2987, pp. 31-42, Grandjean Marcel, Les Monuments d'art et d'histoire du canton de Vaud, B\u00e2le, Birkh\u00e4user, 1979, tome IV, pp. 185-188",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL98098_s_001_1.jpg&amp;id=98098"
+                },
+                {
+                    "image_id": 98053,
+                    "date_begin": 1867,
+                    "date_end": 1870,
+                    "description": "Vue d'ensemble du Vallon, du Tunnel et la Barre depuis le bas du Calvaire. Au premier plan, une maison d'habitation est en construction, on voit la forge Panchaud (vers laquelle coule un canal de d\u00e9rivation du Flon, peu visible sur cette photographie), la scierie (ancienne filature Juat) dont la chemin\u00e9e d\u00e9passe des toits et fume. Au second plan, la moulin du Tunnel, la placette du Tunnel, la place du Nord. A l'arri\u00e8re-plan, la porte et le ch\u00e2teau St-Maire, les maisons d'habitation de la Barre, le Tunnel et une partie du chemin des Eaux.",
+                    "bibliography": "Polla Louis, Places de Lausanne, Lausanne, Ed. 24 heures, 1987, pp. 27-42, Grandjean Marcel, Les Monuments d'art et d'histoire du canton de Vaud, B\u00e2le, Birkh\u00e4user, 1979, tome III, pp. 103-111, pp. 166-169",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL98053_1.JPG&amp;id=98053"
+                },
+                {
+                    "image_id": 98066,
+                    "date_begin": 1867,
+                    "date_end": 1870,
+                    "description": "Vue d'ensemble sur le Vallon et la Cit\u00e9, depuis le nord-est (bas du Calvaire). Au premier plan, on voit le branchage de quelques arbustes, ainsi qu'un personnage (enfant) assis sur la gauche (collage). De la fum\u00e9e s'\u00e9chappe d'un b\u00e2timent (fabrique de bougies?). Au second plan, il y a les maisons du bas du Vallon, dont la forge Panchaud vers laquelle se dirige le bief (canal de d\u00e9rivation) du Flon, le moulin-boulangerie du Tunnel, la scierie (en face du moulin, chemin\u00e9e qui d\u00e9passe), la placette du Tunnel, la place du Nord et les escaliers de Couvaloup. A l'arri\u00e8re-plan, on distingue la Cit\u00e9 avec la Cath\u00e9drale, la porte et le ch\u00e2teau St-Maire, une partie des maisons d'habitations de la Barre.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL98066_1.JPG&amp;id=98066"
+                }
+            ]
+        },
+        {
+            "building_id": 8,
+            "name": "Moulin Rochat, Moulin du Tunnel, Grande Meunerie Lausannoise",
+            "informations": "L'ancien moulin au bord du Flon existe depuis le Moyen Age. Au d\u00e9but de XIXe si\u00e8cle, il s'agit du moulin Rochat.  En 1856, le b\u00e2timent est \u00e9quip\u00e9 de fours pour cr\u00e9er une meunerie-boulangerie. Il existait des d\u00e9p\u00f4ts de la boulangerie en divers endroits de Lausanne.  La maison \"Moulin et Boulangerie du Tunnel\" est fond\u00e9e en 1857 et poss\u00e8de des succursales sur la place Saint-Laurent, \u00e0 la rue Centrale, \u00e0 la rue de Bourg et \u00e0 Ouchy. En 1899, la boulangerie du Tunnel et celle des Familles (cr\u00e9\u00e9e en 1840, FAL 08.12.1840) fusionnent pour devenir la Grande boulangerie et meunerie lausannoise (Nouvelliste vaudoise, 22.09.1899). En 1912, la soci\u00e9t\u00e9 s'appelle \"Grande meunerie lausannoise\" (FAL 05.07.1912). D\u00e8s 1913, elle abandonne l'activit\u00e9 de panification (Tribune de Lausanne 31.01.1913). La soci\u00e9t\u00e9 est dissoute le 25.04.1933 (FAL 20.04.1933) et l'ensemble des b\u00e2timents est repris par la Laiterie agricole. Ils sont d\u00e9molis d\u00e8s octobre 1938, quand la Laiterie agricole entreprend des travaux d'extension et de construction de nouveaux locaux qu'elle occupe en 1940 (FAL 26.07.1940).",
+            "preferred_image": 130623,
+            "images": [
+                {
+                    "image_id": 98083,
+                    "date_begin": 1876,
+                    "date_end": 1880,
+                    "description": "Vue d'ensemble sur le Vallon et la Cit\u00e9, prise depuis le Calvaire. Au premier plan, un talus et des arbres. De la fum\u00e9e s'\u00e9l\u00e8ve d'une chemin\u00e9e sur la gauche de l'image (fabrique de bougies?). Au second plan, on distingue la forge Panchaud, la scierie (ancienne filature Juat) en face du moulin du Tunnel, et dont la chemin\u00e9e d\u00e9passe. Sur la droite, la rue et la place du Nord, le Tunnel. Au fond, la cath\u00e9drale dont la fl\u00e8che a \u00e9t\u00e9 restaur\u00e9e, la Cit\u00e9, la porte et le ch\u00e2teau Saint-Maire, les maisons d'habitation de la Barre, l'auberge du Guillaume Tell (actuel Barre n\u00b0 1). Derri\u00e8re, on voit le lac et des montagnes.",
+                    "bibliography": "Polla Louis, Places de Lausanne, Lausanne, Ed. 24 heures, 1987, pp. 27-42, Grandjean Marcel, Les Monuments d'art et d'histoire du canton de Vaud, B\u00e2le, Birkh\u00e4user, 1979, tome III, pp. 103-111, pp. 166-169, Grandjean, Tome IV, p. 185",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL98083_1.JPG&amp;id=98083"
+                },
+                {
+                    "image_id": 97994,
+                    "date_begin": 1935,
+                    "date_end": 1935,
+                    "description": "Vue rapproch\u00e9e sur la fa\u00e7ade nord de la Grande meunerie lausannoise, \u00e0 la placette du Tunnel et au chemin de Couvaloup, prise depuis la rue C\u00e9sar-Roux. Au premier plan, on voit une partie de la route bord\u00e9e de trois arbres. Au second plan, le b\u00e2timent de la meunerie avec la fa\u00e7ade nord comportant l'inscription \"Grande Meunerie Lausannoise\". A l'arri\u00e8re-plan gauche, quelques maisons d'habitation, on distingue l'\u00e9cole de chimie, \u00e0 droite les enseignes \"E. Schumacher, \u00e9lectricit\u00e9, autos, r\u00e9parations\" et \"[caf\u00e9 d]u Tunnel\".",
+                    "bibliography": "Polla Louis, Places de Lausanne, Lausanne, Ed. 24 heures, 1987, pp. 35-42",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL97994_s_001_1.jpg&amp;id=97994"
+                },
+                {
+                    "image_id": 167779,
+                    "date_begin": 1935,
+                    "date_end": 1935,
+                    "description": "Vue sur l'ancien b\u00e2timent de la meunerie lausannoise, situ\u00e9 vraisemblablement entre la rue Dr-C\u00e9sar-Roux et la rue Saint-Martin, au N\u00b0 33 actuel.",
+                    "bibliography": null,
+                    "institution": "Urbanisme",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_URB168524_s_001_1.jpg&amp;id=168524"
+                },
+                {
+                    "image_id": 97970,
+                    "date_begin": 1867,
+                    "date_end": 1972,
+                    "description": "Vue g\u00e9n\u00e9rale du Vallon, du Tunnel, de la Barre et du ch\u00e2teau St-Maire. Au premier plan, on voit des toits, dont ceux de la forge Panchaud et de la scierie (ancienne filature Juat) dont la chemin\u00e9e d\u00e9passe. Au second plan, on reconna\u00eet le moulin du Tunnel, la placette du Tunnel, le Tunnel et la place du Nord. A l'arri\u00e8re-plan, il y a une partie de la porte et le ch\u00e2teau St-Maire, les maisons d'habitation de la Barre et l'auberge du Guillaume Tell. Au loin sur la droite, la campagne du Valentin, la maison le Riant-Mont et son vignoble.",
+                    "bibliography": "Polla Louis, Places de Lausanne, Lausanne, Ed. 24 heures, 1987, pp. 27-42, Grandjean Marcel, Les Monuments d'art et d'histoire du canton de Vaud, B\u00e2le, Birkh\u00e4user, 1979, tome III, pp. 103-111, pp. 166-169",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL97970_s_001_1.jpg&amp;id=97970"
+                },
+                {
+                    "image_id": 98078,
+                    "date_begin": 1883,
+                    "date_end": 1883,
+                    "description": "Vue d'ensemble sur le Vallon et la Cit\u00e9, prise depuis le haut du Calvaire. Au premier plan, \u00e0 gauche, des arbres, un chemin, la forge Panchaud en contrebas, vers laquelle coule le bief (canal de d\u00e9rivation) du Flon. Sur la gauche du chemin, des tonneaux devant une maison (tonnelier Furster). Au second plan, \u00e0 gauche, de la fum\u00e9e (fabrique de bougies?), la scierie (ancienne filature Juat) en face du moulin du Tunnel, et dont la chemin\u00e9e d\u00e9passe. Sur la droite, la place du Nord, la placette du Tunnel, le Tunnel. Au fond, la cath\u00e9drale, l'aile sud de l'\u00e9cole de chimie (au-dessous de laquelle le terrain est encore en terre) la porte et le ch\u00e2teau Saint-Maire, les maisons d'habitation de la Barre, des sortes de gabarits sont plant\u00e9s o\u00f9 la ferblanterie Christin se trouvera d\u00e8s fin 1884 (ancienne Barre n\u00b0 13), l'auberge du Guillaume Tell (actuel Barre n\u00b0 1). Au loin sur la droite, on reconna\u00eet la maison du Riant-Mont, on devine la maison Hollard et la ferme du Cazard. Derri\u00e8re, on voit le lac.",
+                    "bibliography": "Polla Louis, Places de Lausanne, Lausanne, Ed. 24 heures, 1987, pp. 27-42, Grandjean Marcel, Les Monuments d'art et d'histoire du canton de Vaud, B\u00e2le, Birkh\u00e4user, 1979, tome III, pp. 103-111, pp. 166-169, Grandjean, Tome IV, p. 185",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL98078_1.JPG&amp;id=98078"
+                },
+                {
+                    "image_id": 97985,
+                    "date_begin": 1860,
+                    "date_end": 1866,
+                    "description": "Vue g\u00e9n\u00e9rale du Vallon et du tunnel de la Barre, depuis le Calvaire. Au premier plan-gauche, on voit les toits de quelques maisons du bas du Vallon, dont la chemin\u00e9e de la scierie et \u00e0 droite on voit la place du Nord en train d'\u00eatre am\u00e9nag\u00e9e. Au second plan, on aper\u00e7oit la placette du Tunnel, le moulin du Tunnel et le tunnel \u00e0 sa droite. A l'arri\u00e8re-plan, on voit la porte St-Maire, le ch\u00e2teau, les maisons d'habitation de la Barre, l'auberge du Guillaume Tell (actuel Barre n\u00b0 1). Au fond, on voit la campagne du Valentin, avec les maisons Hollard et Riant-Mont.",
+                    "bibliography": "Polla Louis, Lausanne 1860-1910. Maisons et quartiers d'autrefois, Lausanne, Payot, 1969, p. 29, Polla Louis, Places de Lausanne, Lausanne, Ed. 24 heures, 1987, pp. 27-42, Grandjean Marcel, Les Monuments d'art et d'histoire du canton de Vaud, B\u00e2le, Birkh\u00e4user, 1979, tome III, pp. 166-169",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL97985_1.JPG&amp;id=97985"
+                },
+                {
+                    "image_id": 110714,
+                    "date_begin": 1879,
+                    "date_end": 1889,
+                    "description": "Vue du moulin de la Barre dans la partie m\u00e9diane de la vall\u00e9e du Flon. A l'avant-plan on distingue la rue de la Barre avec quelques personnages dont deux femmes portant une hotte et, perpendiculairement, le chemin de Couvaloup. Au deuxi\u00e8me plan \u00e0 gauche on aper\u00e7oit un petit pont de pierre que traverse un homme avec son cheval et le moulin de la Barre vers lequel s'approchent un homme et son mulet charg\u00e9. Sur la droite on distingue le Ch\u00e2teau Saint-Maire depuis le nord avec les remparts de la Cit\u00e9-Derri\u00e8re. A l'arri\u00e8re-plan s'\u00e9tend le vallon de Couvaloup, tr\u00e8s bois\u00e9, les toits de la ville, le lac et les montagnes.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL110810_1.JPG&amp;id=110810"
+                },
+                {
+                    "image_id": 111887,
+                    "date_begin": 1879,
+                    "date_end": 1889,
+                    "description": "Vue du moulin de la Barre dans la partie m\u00e9diane de la vall\u00e9e du Flon. A l'avant-plan on distingue la rue de la Barre avec quelques personnages dont deux femmes portant une hotte et, perpendiculairement, le chemin de Couvaloup. Au deuxi\u00e8me plan \u00e0 gauche on aper\u00e7oit un petit pont de pierre que traverse un homme avec son cheval et le moulin de la Barre vers lequel s'approchent un homme et son mulet charg\u00e9. Sur la droite on distingue une partie de la porte Saint-Maire depuis le nord avec les remparts de la Cit\u00e9-Derri\u00e8re. A l'arri\u00e8re-plan s'\u00e9tend le vallon de Couvaloup, tr\u00e8s bois\u00e9, les toits de la ville, le lac et les montagnes.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL111983_1.JPG&amp;id=111983"
+                },
+                {
+                    "image_id": 97988,
+                    "date_begin": 1939,
+                    "date_end": 1939,
+                    "description": "Vue sur le haut de la rue Saint-Martin \u00e0 la hauteur de Couvaloup. Au centre l'ancienne Grande meunerie lausannoise. A l'arri\u00e8re-plan, on aper\u00e7oit l'\u00e9cole de chimie \u00e0 gauche, le ch\u00e2teau au centre et les maisons d'habitation de la rue de la Barre \u00e0 droite.",
+                    "bibliography": "Polla Louis, Places de Lausanne, Lausanne, Ed. 24 heures, 1987, pp. 35-42, Grandjean Marcel, Les Monuments d'art et d'histoire du canton de Vaud, B\u00e2le, Birkh\u00e4user, 1979, tome III, pp. 103-111, pp. 166-169",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL97988_1.JPG&amp;id=97988"
+                },
+                {
+                    "image_id": 130624,
+                    "date_begin": 1913,
+                    "date_end": 1913,
+                    "description": "Vue rapproch\u00e9e de la fa\u00e7ade est de la Grande meunerie lausannoise, situ\u00e9e entre la rue Saint-Martin et le chemin de Couvaloup, \u00e0 la placette du Tunnel. Au premier plan \u00e0 gauche, on voit une charrette sur laquelle est pos\u00e9 un sac \u00e0 grain, la cour de la meunerie. Au fond, un homme en blanc (le meunier?) se tient devant l'une des entr\u00e9es du moulin. Tout \u00e0 droite, on voit une femme et six enfants. A l'arri\u00e8re-plan, sur la droite, on voit une partie du parc de l'Hermitage et quelques immeubles de la rue C\u00e9sar-Roux., La meunerie se trouvait \u00e0 l'emplacement de l'actuel poste de police, rue Saint-Martin n\u00b0 33.",
+                    "bibliography": "Polla Louis, Places de Lausanne, Lausanne, Ed. 24 heures, 1987, pp. 35-42",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL131344_1.JPG&amp;id=131344"
+                },
+                {
+                    "image_id": 98070,
+                    "date_begin": 1876,
+                    "date_end": 1880,
+                    "description": "Vue d'ensemble sur le Vallon et la Cit\u00e9, prise depuis le Calvaire. Au premier plan, des arbres. Au second plan, la forge Panchaud (barri\u00e8re en bois), la scierie (ancienne filature Juat, avec sa chemin\u00e9e dui d\u00e9passe des toits) en face du moulin du Tunnel. De la fum\u00e9e s'\u00e9l\u00e8ve d'une chemin\u00e9e sur la gauche de l'image (fabrique de bougies?). Sur la droite, les b\u00e2timents de la rue du Nord, la place du Nord et le Tunnel. Au fond, sur la gauche, la cath\u00e9drale, la Cit\u00e9, la porte et le ch\u00e2teau Saint-Maire, les maisons d'habitation de la Barre, l'auberge du Guillaume Tell (actuel Barre n\u00b0 1). Au loin, le lac et des montagnes.",
+                    "bibliography": "Polla Louis, Places de Lausanne, Lausanne, Ed. 24 heures, 1987, pp. 27-42, Grandjean Marcel, Les Monuments d'art et d'histoire du canton de Vaud, B\u00e2le, Birkh\u00e4user, 1979, tome III, pp. 103-111, pp. 166-169, Grandjean, Tome IV, p. 185",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL98070_1.JPG&amp;id=98070"
+                },
+                {
+                    "image_id": 126663,
+                    "date_begin": 1860,
+                    "date_end": 1869,
+                    "description": "Char charg\u00e9 de sacs de farine dans la cour du moulin du Tunnel, \u00e0 l'emplacement actuel de la rue Saint-Martin 33.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL127333_s_001_1.jpg&amp;id=127333"
+                },
+                {
+                    "image_id": 97972,
+                    "date_begin": 1884,
+                    "date_end": 1889,
+                    "description": "Vue g\u00e9n\u00e9rale de la place du Nord, de la Barre, de la placette du Tunnel et du ch\u00e2teau St-Maire  depuis la Solitude. Au premier plan, on voit la rue de la Solitude (actuelle C\u00e9sar-Roux), puis le moulin-boulangerie du Tunnel (on remarque sa chemin\u00e9e). Au second plan, une partie de l'\u00e9cole de chimie, la porte et le ch\u00e2teau St-Maire, les maisons d'habitation de la Barre et le Tunnel. A l'arri\u00e8re-plan, on distingue la campagne du Valentin, son vignoble et la caserne de la Pontaise.",
+                    "bibliography": "Polla Louis, Places de Lausanne, Lausanne, Ed. 24 heures, 1987, pp. 27-42, Grandjean Marcel, Les Monuments d'art et d'histoire du canton de Vaud, B\u00e2le, Birkh\u00e4user, 1979, tome III, pp. 166-169",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL97972_s_001_1.jpg&amp;id=97972"
+                },
+                {
+                    "image_id": 130623,
+                    "date_begin": 1913,
+                    "date_end": 1913,
+                    "description": "Vue des fa\u00e7ades nord et ouest de la grande meunerie lausannoise, situ\u00e9e entre la rue Saint-Martin et le chemin de Couvaloup, \u00e0 la placette du Tunnel. La meunerie se trouvait probablement \u00e0 l'emplacement de l'actuel poste de police, rue Saint-Martin n\u00b033. Au second plan, sur la gauche les immeubles de la rue C\u00e9sar-Roux, l'\u00e9cole de couture. Au second plan, sur la droite, une partie de l'\u00e9cole de chimie., La meunerie se trouvait \u00e0 l'emplacement de l'actuel poste de police, rue Saint-Martin n\u00b0 33.",
+                    "bibliography": "Polla Louis, Places de Lausanne, Lausanne, Ed. 24 heures, 1987, pp. 35-42",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL131343_1.JPG&amp;id=131343"
+                }
+            ]
+        },
+        {
+            "building_id": 9,
+            "name": "Moulin br\u00fbl\u00e9, manufacture Renou",
+            "informations": "L'ancien moulin, dit \u00e9galement \"moulin br\u00fbl\u00e9\", propri\u00e9t\u00e9 Jacob-Henri Ogay, est achet\u00e9 en 1831 par Jacob Renou-Burnens. La manufacture Renou fut une importante industrie lausannoise. Le premier fils de Jacob Renou-Burnens, Louis Renou-Weibel, s'occupa de la fabrique de draps et de la filature de la laine (emplacement du moulin, n\u00b0 30 de la Rue Saint-Martin actuelle), tandis que le second, Alexandre Renou-Picard, \u00e9tait responsable de la filature et de la teinturerie de coton (emplacement n\u00b0 34 de la Rue Saint-Martin actuelle).\n",
+            "preferred_image": 98027,
+            "images": [
+                {
+                    "image_id": 153500,
+                    "date_begin": 1831,
+                    "date_end": 1853,
+                    "description": "Vue, en contrebas, depuis le sud-est, sur la porte de Couvaloup, qui appara\u00eet entre des arbres. Au premier plan, une scierie au bord d'un chemin. Un petit pont de pierre, le pont de Couvaloup, y m\u00e8ne. Cinq personnes, trois femmes et deux hommes, y travaillent, post\u00e9s \u00e0 divers endroits. Des billes de bois sont entrepos\u00e9es. Sur la droite de l'image, on distingue une fontaine de pierre. En surplomb, la fl\u00e8che de la Cath\u00e9drale \u00e9merge de la cr\u00eate de la colline de la Cit\u00e9. Autour de la Cath\u00e9drale, quelques b\u00e2timents de la Cit\u00e9 sont visibles.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL154221_1.JPG&amp;id=154221"
+                },
+                {
+                    "image_id": 147614,
+                    "date_begin": 1831,
+                    "date_end": 1831,
+                    "description": "Vue notamment d'un moulin au Chemin de la Solitude \u00e0 Lausanne, sur le Flon. Au premier plan, un b\u00e2timent s'\u00e9l\u00e8ve. Il s'agit certainement d'un moulin car deux roues \u00e0 aubes sont visibles sur sa fa\u00e7ade et elles sont aliment\u00e9es par des biefs, des canaux de d\u00e9rivation amenant l'eau au moulin. A droite, un grand arbre se dresse en diagonale, entour\u00e9 de buissons et de pierres. A l'arri\u00e8re-plan, un second b\u00e2timent est visible d\u00e9limitant une cour int\u00e9rieure avec le moulin. Un petit escalier monte au premier \u00e9tage de ce b\u00e2timent. La trace d'un chemin m\u00e8ne \u00e0 cette cour. La v\u00e9g\u00e9tation environnante est tr\u00e8s abondante.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL148335_1.JPG&amp;id=148335"
+                },
+                {
+                    "image_id": 112078,
+                    "date_begin": 1831,
+                    "date_end": 1894,
+                    "description": "Vue des casernes et de la tour Saint-Maire avec une partie des remparts de la Cit\u00e9-Derri\u00e8re depuis le nord, plus exactement depuis la Solitude. A l'avant-plan on distingue une petite maison \u00e0 toit pointu (probablement une scierie) et sur la droite un pont de pierre en arc-de-vo\u00fbte enjambant le Flon. Arbres feuillus \u00e0 gauche et \u00e0 droite de la composition.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgBD/112174/F446/ImgDeg/DSC_1735_1.jpg&amp;id=112174"
+                },
+                {
+                    "image_id": 98027,
+                    "date_begin": 1913,
+                    "date_end": 1913,
+                    "description": "Vue rapproch\u00e9e sur une partie de l'ancienne fabrique de draps, puis atelier de m\u00e9canique et menuiserie, au chemin de Renou, \u00e0 l'emplacement du no 30 actuel de la rue St-Martin. Au pemier plan gauche, quelques maisons, partiellement en bois. A droite, un chemin d'acc\u00e8s, travers\u00e9 par une passerelle.  Au second plan, on voit quelques immeubles d'habitation, et une fa\u00e7ade de l'ancienne fabrique, sur trois niveaux, dont le dernier est un vitrage continu. On peut aussi apercevoir sur cette fa\u00e7ade l'inscription [menuiserie B]illharz et fils.",
+                    "bibliography": "Polla Louis, Rues de Lausanne, Lausanne, Ed. 24 heures, 1981, pp. 155-156",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL98027_s_001_1.jpg&amp;id=98027"
+                },
+                {
+                    "image_id": 98024,
+                    "date_begin": 1915,
+                    "date_end": 1915,
+                    "description": "Vue rapproch\u00e9e sur une partie de l'ancienne fabrique de draps, puis atelier de m\u00e9canique et menuiserie, au chemin de Renou, \u00e0 l'emplacement du no 30 actuel de la rue St-Martin. Au premier plan gauche, un chemin d'acc\u00e8s et \u00e0 droite une barri\u00e8re de bois et une partie du paroi de briques. Au second plan, une maison d'un \u00e9tage. A l'arri\u00e8re-plan gauche, une passerelle et une autre maison, de bois.",
+                    "bibliography": "Polla Louis, Rues de Lausanne, Lausanne, Ed. 24 heures, 1981, pp. 155-156",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL98024_s_001_1.jpg&amp;id=98024"
+                }
+            ]
+        },
+        {
+            "building_id": 10,
+            "name": "Tannerie Mercier",
+            "informations": "La tannerie Mercier avait \u00e9t\u00e9 fond\u00e9e par Pierre Mercier au milieu du XVIIIe si\u00e8cle. En 1864 sa direction \u00e9tait entre les mains de J.-J. Pierre-Fran\u00e7ois Mercier, arri\u00e8re-petit-fils du fondateur. On remarque que la tannerie Mercier r\u00e9nove ses b\u00e2timents au tournant des ann\u00e9es 1890. La chemin\u00e9e est reconstruite apr\u00e8s l'inondation de juin 1889. La partie inf\u00e9rieure de la rue Saint-Martin subit d'importants travaux au d\u00e9but des ann\u00e9es 1960 (voir projet dans Tribune de Lausanne, 05.10.1960). Le plan de quartier \u00ab Saint-Martin Tannerie \u00bb est mis \u00e0 l'enqu\u00eate du 08.04 au 07.05.1959 (FAL 07.04.1959). Il est adopt\u00e9 par le Conseil communal en juillet (FAL, 01.07.1959). La d\u00e9molition des anciens b\u00e2timents de la tannerie d\u00e9buta en 1959 (FAL 18.12.1962). La chemin\u00e9e tomba le 28 janvier 1960 (FAL 29.01.1960). Sur l'historique de la tannerie Mercier, voir les articles de Louis Polla \"Maisons et quartiers d'autrefois\".<br><br><i>Plus d'informations: voir l'\u00e9tude de cas sur les Mercier.</i>",
+            "preferred_image": 149987,
+            "images": [
+                {
+                    "image_id": 153076,
+                    "date_begin": 1960,
+                    "date_end": 1960,
+                    "description": "D\u00e9molition de la chemin\u00e9e de la tannerie Mercier. La foule y assiste depuis le pont Bessi\u00e8res.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL153797_1.JPG&amp;id=153797"
+                },
+                {
+                    "image_id": 132580,
+                    "date_begin": 1896,
+                    "date_end": 1900,
+                    "description": "La Cit\u00e9 vue depuis la Caroline. A gauche l'ancien coll\u00e8ge de la Mercerie, en bas \u00e0 droite les tanneries Mercier. Au milieu, les maisons de la rue Cit\u00e9-Derri\u00e8re et de la rue Curtat. Etat avant la construction du pont Bessi\u00e8res et le percement de la rue Pierre Viret.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL133300_1.JPG&amp;id=133300"
+                },
+                {
+                    "image_id": 149987,
+                    "date_begin": 1957,
+                    "date_end": 1957,
+                    "description": "Vue sur la rue Saint-Martin: Ancienne tannerie (nos 3 \u00e0 23). (Selon inscriptions figurant au recto et au verso du support en carton du positif).",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL150708_1.JPG&amp;id=150708"
+                },
+                {
+                    "image_id": 102421,
+                    "date_begin": 1886,
+                    "date_end": 1891,
+                    "description": "Vue d'ensemble sur la Cit\u00e9 depuis l'h\u00f4pital cantonal. Au premier plan, des toits, la tannerie Mercier et sa chemin\u00e9e, la rue Saint-Martin, la rue Curtat, l'avenue de Menthon. Au second plan, la Cit\u00e9, la cath\u00e9drale, les maisons d'habitation de la rue Cit\u00e9-Derri\u00e8re. Au loin sur la gauche l'\u00e9glise Saint-Fran\u00e7ois, sur la droite le tribunal de Montbenon a \u00e9t\u00e9 construit.",
+                    "bibliography": "Grandjean Marcel, Les Monuments d'art et d'histoire du canton de Vaud, B\u00e2le, Birkh\u00e4user, 1979, tome III, pp. 103-112",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL102421_s_001_1.jpg&amp;id=102421"
+                },
+                {
+                    "image_id": 179383,
+                    "date_begin": 1956,
+                    "date_end": 1956,
+                    "description": "Vue depuis le pont Bessi\u00e8res en direction de la rue Saint-Martin sur l'ancienne tannerie pendant la construction de l'immeuble des Retraites populaires. Au premier plan l'ancienne tannerie Mercier, actuel rue Saint-Martin 5 et au second plan, les immeubles qui occupaient autrefois l'emplacement des actuels n\u00b0 2 \u00e0 6 de la rue Saint-Martin.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL180137_1.JPG&amp;id=180137"
+                },
+                {
+                    "image_id": 149986,
+                    "date_begin": 1957,
+                    "date_end": 1957,
+                    "description": "Vue sur la rue Saint-Martin: Ancienne tannerie (nos 3 \u00e0 23). (Selon inscriptions figurant au recto et au verso du support en carton du positif).",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL150707_1.JPG&amp;id=150707"
+                },
+                {
+                    "image_id": 174198,
+                    "date_begin": 1869,
+                    "date_end": 1869,
+                    "description": "Le vallon du Flon, \u00e0 la hauteur de l'actuel Pont Bessi\u00e8res, avec les s\u00e9choirs des tanneries Mercier adoss\u00e9s aux murailles.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL174946_1.JPG&amp;id=174946"
+                },
+                {
+                    "image_id": 159481,
+                    "date_begin": 1867,
+                    "date_end": 1873,
+                    "description": "La Cit\u00e9 vue depuis la Caroline. A gauche l'ancien h\u00f4pital, puis coll\u00e8ge de la Mercerie, sur sa droite la buanderie de l'h\u00f4ptal avec sa chemin\u00e9e, en bas \u00e0 droite les tanneries Mercier. Contre la paroi, les s\u00e9choirs \u00e0 peaux. Au milieu, les maisons de la rue Cit\u00e9-Derri\u00e8re et de la rue Curtat. Etat avant la construction du pont Bessi\u00e8res et le percement de la rue Pierre Viret.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL160218_1.JPG&amp;id=160218"
+                },
+                {
+                    "image_id": 137931,
+                    "date_begin": 1889,
+                    "date_end": 1889,
+                    "description": "Vue rapproch\u00e9e de la tannerie Mercier depuis le sud-ouest en direction de la rue C\u00e9sar-Roux et de l'H\u00f4pital Cantonal, dont l'aile ouest est visible en arri\u00e8re-plan derri\u00e8re les arbres. reconstruction de la chemin\u00e9e apr\u00e8s l'inondation de juin 1889.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL138652_1.JPG&amp;id=138652"
+                },
+                {
+                    "image_id": 130414,
+                    "date_begin": 1912,
+                    "date_end": 1912,
+                    "description": "Vue plongeante depuis le pont Bessi\u00e8res sur la rue Saint-Martin. Au premier plan, on voit une s\u00e9rie d'ateliers: \"ameublement C. Petinerolli\", \"battage m\u00e9canique de tapis\", \"mensuiserie m\u00e9canique Louis Pache \u00e9b\u00e9nisterie\", \"Passera fr\u00e8res, succr de E. Borgeaud, gypserie &amp; peinture\". Sur la droite, la rue Saint-Martin. Au second plan, des maisons d'habitation de la rue Curtat, la chemin\u00e9e de la tannerie Mercier, des b\u00e2timents du chemin Renou. A l'arri\u00e8re-plan, l'\u00e9cole de couture, les barres d'immeubles de la rue C\u00e9sar-Roux et l'h\u00f4pital cantonal qui surplombe ces derniers. Au loin, le bois de Sauvabelin.",
+                    "bibliography": "Grandjean Marcel, \"Les Monuments d'art et d'histoire du canton de Vaud\", 1979, tome III, pp. 267-268",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL131134_1.JPG&amp;id=131134"
+                },
+                {
+                    "image_id": 130528,
+                    "date_begin": 1860,
+                    "date_end": 1868,
+                    "description": "La Cath\u00e9drale, vue depuis la rue Caroline.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL131248_1.JPG&amp;id=131248"
+                },
+                {
+                    "image_id": 169607,
+                    "date_begin": 1956,
+                    "date_end": 1956,
+                    "description": "Vue sur le quartier de Saint-Martin.",
+                    "bibliography": null,
+                    "institution": "Urbanisme",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_URB170353_l_001_1.jpg&amp;id=170353"
+                },
+                {
+                    "image_id": 137933,
+                    "date_begin": 1958,
+                    "date_end": 1960,
+                    "description": "Vue rapproch\u00e9e sur l'un des b\u00e2timents de la tannerie Mercier, sous le Pont Bessi\u00e8res, depuis le bas de la rue Cheneau-de-Bourg. Au premier plan, une balustrade, des voitures gar\u00e9es dans la pente. Au second plan, d'autres v\u00e9hicules, le b\u00e2timent occup\u00e9 par l'h\u00f4tellerie de l'Arm\u00e9e du Salut (\u00e9criteau \"Arm\u00e9e du Salut, Restaurant\") sous le pont Bessi\u00e8res, semble vide (avant la d\u00e9molition). Quelques ouvriers sont sur place (un sur le toit, deux au 1er \u00e9tage, debout). Un \u00e9criteau de l'entreprise Vonlanden est suspendu \u00e0 une fen\u00eatre. Sur la droite, une femme sur la rue Saint-Martin.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL138654_1.JPG&amp;id=138654"
+                },
+                {
+                    "image_id": 147294,
+                    "date_begin": 1878,
+                    "date_end": 1882,
+                    "description": "Vue g\u00e9n\u00e9rale du quartier de la rue Centrale et de l'extr\u00e9mit\u00e9 m\u00e9ridionale de la Cit\u00e9 prise de l'est, depuis la rue de la Caroline, entre l'\u00e9glise Saint-Fran\u00e7ois en-haut \u00e0 gauche et l'ancien h\u00f4pital de la Mercerie en-haut \u00e0 droite.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL148015_1.JPG&amp;id=148015"
+                }
+            ]
+        },
+        {
+            "building_id": 11,
+            "name": "Moulin Bramafan, chocolaterie Kohler",
+            "informations": "En 1793, Gottlieb-Am\u00e9d\u00e9e Kohler ouvre au Grand-Saint-Jean un commerce de denr\u00e9es coloniales et de vins du pays. En 1831, son fils, Charles-Am\u00e9d\u00e9e, introduit le chocolat. Il installe alors la fabrique dans un ancien moulin du Petit-Saint-Jean (moulin Bramafan), en-dessous de la place de la Louve, en contrebas de l'H\u00f4tel de ville.<br><br><i>Plus d'informations: voir l'\u00e9tude de cas sur les Kohler.</i>",
+            "preferred_image": 100511,
+            "images": [
+                {
+                    "image_id": 107612,
+                    "date_begin": 1907,
+                    "date_end": 1907,
+                    "description": "Rue du Petit-Saint-Jean vue depuis la place de la Louve. Au premier plan la rampe menant \u00e0 la place de la Louve, puis le moulin Bramafan et \u00e0 gauche le n\u00b0 3 de la Rue du Petit-Saint-Jean.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL107612_1.JPG&amp;id=107612"
+                },
+                {
+                    "image_id": 100498,
+                    "date_begin": 1904,
+                    "date_end": 1904,
+                    "description": "Vue sur la rue du Petit-Saint-Jean depuis la salle de la Municipalit\u00e9. Au premier plan on voit le toit du moulin Bramafan dans lequel se trouvait la chocolaterie Kohler.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL100498_1.JPG&amp;id=100498"
+                },
+                {
+                    "image_id": 107615,
+                    "date_begin": 1907,
+                    "date_end": 1907,
+                    "description": "Rue du Petit-Saint-Jean vue depuis la place de la Louve. Au premier plan la rampe menant \u00e0 la place de la Louve, puis le moulin Bramafan.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL107615_1.JPG&amp;id=107615"
+                },
+                {
+                    "image_id": 100511,
+                    "date_begin": 1960,
+                    "date_end": 1970,
+                    "description": "Ancien n\u00b0 11 de la rue du Petit-Saint-Jean. Vue prise en direction de la place P\u00e9pinet.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL100511_1.JPG&amp;id=100511"
+                },
+                {
+                    "image_id": 110721,
+                    "date_begin": 1879,
+                    "date_end": 1889,
+                    "description": "Vue du pont en pierre derri\u00e8re l'H\u00f4tel de Ville avec la Louve qui tombe en cascade. A l'arri\u00e8re-plan \u00e0 gauche on distingue une haute maison avec peuplier, actuelle Placette du Grand-Saint-Jean, et plus loin le clocher du temple Saint-Laurent \u00e9mergeant de la verdure et d'un groupe de maisons.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL110817_1.JPG&amp;id=110817"
+                },
+                {
+                    "image_id": 100500,
+                    "date_begin": 1919,
+                    "date_end": 1919,
+                    "description": "Vue de la rue du Petit-Saint-Jean en direction de la Place P\u00e9pinet depuis la place de la Louve. Cette image permet d'\u00e9voquer le march\u00e9 de la Louve et de la place P\u00e9pinet, la construction de la rue de la Louve ou le trafic international qui passait par ce quartier pour remonter la rue du Grand-Saint-Jean.\n Jusqu'au milieu du si\u00e8cle pass\u00e9, en amont en en aval de la place publique derri\u00e8re l'H\u00f4tel de Ville, la Louve coulait \u00e0 ciel ouvert.A cette \u00e9poque, on pouvait, certes, comme aujourd'hui, passer de la place de la Louve \u00e0 la place P\u00e9pinet; mais la rue de la Louve, de la place de la Louve \u00e0 la rue Saint-Laurent, n'existait pas encore. Quant au ruisseau, au bas de la place actuelle, il faisait un petit coude pour couler \u00e0 l'emplacement de l'impasse actuelle du Petit-Saint-Jean, \u00e0 l'est de l'immeuble abritant le Caf\u00e9 des Philosophes.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL100500_1.JPG&amp;id=100500"
+                },
+                {
+                    "image_id": 100512,
+                    "date_begin": 1960,
+                    "date_end": 1970,
+                    "description": "Ancien n\u00b0 11 de la rue du Petit-Saint-Jean. Vue prise en direction de la place de la Louve.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL100512_1.JPG&amp;id=100512"
+                }
+            ]
+        },
+        {
+            "building_id": 12,
+            "name": "Moulin au bas de la Borde",
+            "informations": "A la fin du XIXe si\u00e8cle, il y avait au bas de la Borde un ensemble de petites maisons avec aussi une buanderie et des bains. Autrefois, c'\u00e9tait un moulin aliment\u00e9 par un canal d\u00e9riv\u00e9 de la Louve.",
+            "preferred_image": 131912,
+            "images": [
+                {
+                    "image_id": 131912,
+                    "date_begin": 1916,
+                    "date_end": 1916,
+                    "description": "Vue prise depuis la terrasse du Ch\u00e2teau vers la place du Tunnel; le quartier de la Borde; le vallon de la Louve. A gauche de l'image, les vignes montaient \u00e0 l'assaut de l'actuel quartier de Riant-Mont. A la fin du XIXe si\u00e8cle, la Borde s'appelait la nouvelle route du Mont ou la nouvelle route de Thierrens. Autrefois les v\u00e9hicules, apr\u00e8s avoir franchi la porte Saint-Maire, passaient par l'avenue Vulliemin. Au loin, on remarque nettement la ciblerie du stand de la Pontaise, au pied de la for\u00eat. Et, sur la droite de la photo, on reconna\u00eet l'avenue Vulliemin et le petit Ch\u00e2teau. Toues ces maisons sont encore l\u00e0, mais il en a \u00e9t\u00e9 construit des nouvelles, notamment l'Ecole de la Barre, \u00e9difi\u00e9e vers 1897. Au bas de la Borde, il y avait l\u00e0 \u00e0 la fin du XIXe si\u00e8cle, un ensemble de petites maisons avec aussi une buanderie et des bains mais autrefois, c'\u00e9tait un moulin aliment\u00e9 par un canal d\u00e9riv\u00e9 de la Louve. Dans ce p\u00e2t\u00e9 de maisons, devait \u00e9galement se trouver le Caf\u00e9 de la Forge.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL132632_1.JPG&amp;id=132632"
+                }
+            ]
+        },
+        {
+            "building_id": 13,
+            "name": "Moulin Rochat",
+            "informations": "Moulin que contournait le Flon au lieu-dit le Pas-des-Anes, sous le Grand Pont, \u00e0 gauche en descendant de P\u00e9pinet.<br><br><i>Plus d'informations: voir \u00e9tude de cas sur les Rochat.</i>",
+            "preferred_image": 111262,
+            "images": [
+                {
+                    "image_id": 111262,
+                    "date_begin": 1852,
+                    "date_end": 1852,
+                    "description": "Vue du moulin Rochat juste avant le Grand-Pont \u00e0 deux rangs d'arches, sur l'ancienne rue du Pr\u00e9 (actuelle rue Centrale), dans la partie inf\u00e9rieure de la vall\u00e9e du Flon.  A l'avant-plan on distingue trois personnages accoud\u00e9s sur une balustrade devant le moulin tandis que sur la rue du Pr\u00e9 on aper\u00e7oit quelques poules en train de picorer, deux personnages tirant une charette et un homme en conversation avec les personnages de la balustrade et qui a pos\u00e9 ses paniers \u00e0 terre.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL111358_1.JPG&amp;id=111358"
+                }
+            ]
+        },
+        {
+            "building_id": 14,
+            "name": "Moulin du Milieu, Moulin Rochat",
+            "informations": "Le moulin du Clos est aussi appel\u00e9 au XVe si\u00e8cle moulin de la Follaz, au XVIIe si\u00e8cle moulin Bourgeois et au XVIIIe si\u00e8cle moulin du Milieu. Il devient le moulin et la scierie de Samuel Rochat vers 1830. D\u00e8s 1873 commen\u00e7a le comblement du Flon qui enterra les arches inf\u00e9rieures du Grand-Pont. En 1875, le moulin est propri\u00e9t\u00e9 de la Soci\u00e9t\u00e9 Lausanne-Ouchy qui vend le m\u00e9canisme du moulin (FAL 20.05.1875). Le b\u00e2timent est d\u00e9moli en 1891 (Mus\u00e9e Historique Lausanne (\u00e9d.), L'Ere du chamboulement ..., p. 72).<br><br><i>Plus d'informations: voir \u00e9tude de cas sur les Rochat.</i>\n",
+            "preferred_image": 99330,
+            "images": [
+                {
+                    "image_id": 99232,
+                    "date_begin": 1869,
+                    "date_end": 1870,
+                    "description": "A gauche, la propri\u00e9t\u00e9 Le Bosquet et ses jardins en pente. Longeant la propri\u00e9t\u00e9, le chemin des Moulins. En bas au milieu, un canal de d\u00e9viation du Flon qui servait \u00e0 alimenter les moulins. Le b\u00e2timent allong\u00e9 \u00e0 gauche devait \u00eatre un moulin, attenant au chemin du Pas-de-Anes, nomm\u00e9 plus tard rue des Moulins. En-dessus, les serres et juste au dessus, le b\u00e2timent qui fait l'angle avec la rue du Grand-Pont et la rue Haldimand (construit en 1865).",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL99232_1.JPG&amp;id=99232"
+                },
+                {
+                    "image_id": 99324,
+                    "date_begin": 1867,
+                    "date_end": 1874,
+                    "description": "Vue des moulins situ\u00e9s le long du chemin du Pas-des-Anes (nomm\u00e9 aussi rue des Moulins) depuis le Grand-Pont. Directement \u00e0 gauche de la balustrade du pont, sur un toit, se trouve l'enseigne au nom de la Fabrique des Moulins, Chauffage et combustibles en tous genres. Le premier groupe de maisons au premier plan est situ\u00e9 \u00e0 l'emplacement actuel de la place de l'Europe. En arri\u00e8re-plan tout \u00e0 droite, la maison le Bosquet, sur la place Bel-Air.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL99324_1.JPG&amp;id=99324"
+                },
+                {
+                    "image_id": 99331,
+                    "date_begin": 1893,
+                    "date_end": 1893,
+                    "description": null,
+                    "bibliography": "L'Ere du chamboulement, Lausanne, Mus\u00e9e Historique Lausanne, 1995, p. 73",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL99331_1.JPG&amp;id=99331"
+                },
+                {
+                    "image_id": 99327,
+                    "date_begin": 1886,
+                    "date_end": 1888,
+                    "description": null,
+                    "bibliography": "L'Ere du chamboulement, Lausanne, Mus\u00e9e Historique Lausanne, 1995, p. 72",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL99327_l_001_1.JPG&amp;id=99327"
+                },
+                {
+                    "image_id": 99326,
+                    "date_begin": 1884,
+                    "date_end": 1884,
+                    "description": null,
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL99326_1.JPG&amp;id=99326"
+                },
+                {
+                    "image_id": 99330,
+                    "date_begin": 1889,
+                    "date_end": 1891,
+                    "description": null,
+                    "bibliography": "L'Ere du chamboulement, Lausanne, Mus\u00e9e Historique Lausanne, 1995, p. 72",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL99330_1.JPG&amp;id=99330"
+                },
+                {
+                    "image_id": 98887,
+                    "date_begin": 1884,
+                    "date_end": 1884,
+                    "description": "Vue sur l'ancien moulin Bourgeois, puis Rochat, puis Charton vers l'Entrep\u00f4t f\u00e9d\u00e9ral, vall\u00e9e du Flon, actuelle rue du Port-Franc.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL98887_s_001_1.jpg&amp;id=98887"
+                },
+                {
+                    "image_id": 115771,
+                    "date_begin": 1809,
+                    "date_end": 1826,
+                    "description": "Vue du moulin du Clos avec ample toit bernois (\u00e0 demi-croupes \u00e0 forte saillie sur le pignon). Au centre, une amen\u00e9e d'eau s\u00e9pare le moulin proprement dit d'une soupente en bois \u00e0 deux \u00e9tages. A l'avant-plan sur la gauche on distingue un chemin avec deux personnages conduisant des \u00e2nes b\u00e2t\u00e9s et sur la droite un arbre feuillu masquant les fen\u00eatres et la porte, pr\u00e8s duquel on aper\u00e7oit la sortie du Flon. A l'arri\u00e8re-plan on aper\u00e7oit la fl\u00e8che de la Cath\u00e9drale.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL115867_1.JPG&amp;id=115867"
+                },
+                {
+                    "image_id": 147300,
+                    "date_begin": 1885,
+                    "date_end": 1890,
+                    "description": "Vue de l'usine Charton au bord du Flon. On voit en arri\u00e8re-plan \u00e0 gauche l'Entrep\u00f4t F\u00e9d\u00e9ral, et \u00e0 droite le front du remblai de la plateforme du Flon.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL148021_1.JPG&amp;id=148021"
+                },
+                {
+                    "image_id": 99322,
+                    "date_begin": 1867,
+                    "date_end": 1874,
+                    "description": "Vue depuis le sentier descendant de Montbenon des b\u00e2timents du chemin du Pas-des-Anes (nomm\u00e9e plus tard rue des Moulins) situ\u00e9s \u00e0 l'emplacement futur de la gare du Flon du funiculaire Lausanne-Ouchy (actuelle place de l'Europe n\u00b05).",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL99322_1.JPG&amp;id=99322"
+                },
+                {
+                    "image_id": 110615,
+                    "date_begin": 1793,
+                    "date_end": 1793,
+                    "description": "Vue d'un moulin sis sur un \u00eelot \u00e0 la jonction de deux bras du torrent. Tr\u00e8s vraisemblablement \u00e0 la hauteur des moulins de Samuel Rochat et de celui de Christian Rochat. Flon inf\u00e9rieur vu vers l'actuel pont Chauderon, d\u00e9doublement clair du cours d'eau \u00e0 cet endroit (ou bief) . A l'avant-plan \u00e0 gauche on distingue un talus au pied duquel se tiennent  un homme \u00e0 plat ventre sur une bille de bois et \u00e0 c\u00f4t\u00e9 une femme en costume vaudois entour\u00e9e de deux enfants et portant un troisi\u00e8me dans les bras; derri\u00e8re eux, sur le chemin, il y a un homme avec une hotte. Sur la droite on distingue un pont de bois que traverse un personnage et \u00e0 l'arri\u00e8re-plan l'Eglise Saint-Fran\u00e7ois et un groupe de maisons \u00e9mergeant de la verdure.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL110711_1.JPG&amp;id=110711"
+                },
+                {
+                    "image_id": 99363,
+                    "date_begin": 1885,
+                    "date_end": 1891,
+                    "description": null,
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL99363_1.JPG&amp;id=99363"
+                }
+            ]
+        },
+        {
+            "building_id": 15,
+            "name": "Moulin de l'Ermitage",
+            "informations": "Au d\u00e9but du XVIIIe, il y avait une foule d\u00e9pendant du moulin de l'Ermitage . La foule \u00e9tait s\u00e9par\u00e9e du moulin par le chemin du Moulin devenu chemin de la Mine et le pont en pierre dit pont du Tirage, pont de la Mine ou pont de Chauderon. Pendant des d\u00e9cennies ce sentier s'appelait chemin du Moulin, \u00e0 cause de la pr\u00e9sence du moulin de l'Ermitage. Ensuite il devint le chemin des Moulins, parce qu'il rejoignait le chemin du Pas-des-Anes, qui menait vers d'autres moulins, toujours le long du Flon. Enfin, il devint le chemin de la Mine.<br><br>Vers 1780-1790, une habitation est construite, dans laquelle les fr\u00e8res Henri, Louis et Philippe Poudret install\u00e8rent une fabrique de chocolat. Vers 1800, un d\u00e9bit de boissons appara\u00eet en plus. En 1823 la fabrique est achet\u00e9e par Jean-Daniel Turel pour y installer une marbrerie; des annexes sont construites. En 1866, Jules Turel vend l'habitation et l'atelier \u00e0 Jean-Abram Delisle. Des transformations ont lieu et un b\u00e2timent est construit pour la fabrique de chocolat. Vers 1870, F\u00e9lix Delisle-Fontannaz (fils de Jean-Abram) reprend la fabrique. Vers 1879 Adrien Vallotton-Roseng devient propri\u00e9taire de la fabrique de chocolat.<br><br>En 1890, l'Ermitage compte les moulins de M. A. Delisle, la fabrique de chocolat Delisle et le chiffonnier Dissard. Le moulin de l'Ermitage \u00e9tait vers 1880-1890 la propri\u00e9t\u00e9 de Delisle & Cie. Ils exploitaient la \"Boulangerie Viennoise et le Moulin de l'Ermitage\", qui avaient \u00e0 cette \u00e9poque plusieurs magasins en ville. Vers 1901-1902, la fabrique de chocolat cesse son exploitation. Vers 1904, le moulin est la propri\u00e9t\u00e9 de la Compagnie du Lausanne-Ouchy. Le hameau est d\u00e9truit vers 1910; la construction du pont Chauderon a eu lieu en 1904-1905.",
+            "preferred_image": 98895,
+            "images": [
+                {
+                    "image_id": 107452,
+                    "date_begin": 1901,
+                    "date_end": 1901,
+                    "description": "Vue g\u00e9n\u00e9rale sur le hameau de l'Ermitage, sous l'emplacement du pont Chauderon actuel, depuis le sud, \u00e0 l'emplacement de la rue de la Vigie.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL107452_1.JPG&amp;id=107452"
+                },
+                {
+                    "image_id": 130902,
+                    "date_begin": 1896,
+                    "date_end": 1896,
+                    "description": "Vue des anciens b\u00e2timents de la vall\u00e9e du Flon, en amont du pont Chauderon. On remarque le pont du Tirage.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL131622_1.JPG&amp;id=131622"
+                },
+                {
+                    "image_id": 130521,
+                    "date_begin": 1905,
+                    "date_end": 1906,
+                    "description": "Vall\u00e9e du Flon, hameau de l'Ermitage.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL131241_1.JPG&amp;id=131241"
+                },
+                {
+                    "image_id": 98896,
+                    "date_begin": 1904,
+                    "date_end": 1904,
+                    "description": "Vue g\u00e9n\u00e9rale du hameau de l'Ermitage avec la chocolaterie Vallotton et un moulin, en amont de l'emplacement du pont Chauderon actuel, depuis le sud. A l'arri\u00e8re plan, on distingue Chauderon.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL98896_1.JPG&amp;id=98896"
+                },
+                {
+                    "image_id": 131737,
+                    "date_begin": 1901,
+                    "date_end": 1904,
+                    "description": "Vue prise avant le d\u00e9but des travaux d'\u00e9difications du pont Chauderon - Montbenon, sur la vall\u00e9e du Flon, en 1904.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL132457_1.JPG&amp;id=132457"
+                },
+                {
+                    "image_id": 98895,
+                    "date_begin": 1904,
+                    "date_end": 1904,
+                    "description": "Vue g\u00e9n\u00e9rale sur le hameau de l'Ermitage, sous l'emplacement du pont Chauderon actuel, depuis le sud. Au premier plan on voit le dessus d'un petit pont de pierre; deux enfants sont accoud\u00e9s au pont et regardent en dessous; on aper\u00e7oit le haut d'un poteau \u00e9lectrique. Au deuxi\u00e8me plan, deux chevaux tirant une charette descendent le chemin de la Mine; sur la gauche on trouve un jardin potager. A l'arri\u00e8re plan on distingue Chauderon.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL98895_1.JPG&amp;id=98895"
+                },
+                {
+                    "image_id": 107453,
+                    "date_begin": 1904,
+                    "date_end": 1904,
+                    "description": "Vue g\u00e9n\u00e9rale sur le hameau de l'Ermitage, sous l'emplacement du pont Chauderon actuel, depuis le sud.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL107453_1.JPG&amp;id=107453"
+                },
+                {
+                    "image_id": 107455,
+                    "date_begin": 1904,
+                    "date_end": 1904,
+                    "description": "Vue g\u00e9n\u00e9rale de la chocolaterie, situ\u00e9e au hameau de l'Ermitage, sous l'emplacement du pont Chauderon actuel, depuis le nord.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL107455_1.JPG&amp;id=107455"
+                },
+                {
+                    "image_id": 130901,
+                    "date_begin": 1896,
+                    "date_end": 1896,
+                    "description": "Vue du pont du Tirage, avec la fabrique de chocolat Valloton et le moulin de l'Ermitage.",
+                    "bibliography": "Polla Louis, \"Lausanne 1860-1910. Maisons et quartiers d'autrefois\", Payot Lausanne, Lausanne 1969, p. 16, 17",
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL131621_1.JPG&amp;id=131621"
+                },
+                {
+                    "image_id": 98921,
+                    "date_begin": 1904,
+                    "date_end": 1904,
+                    "description": "Vue g\u00e9n\u00e9rale sur la vall\u00e9e du Flon et la ville depuis Chauderon. Au premier plan on voit des vignoble; on peut observer les plants des vignes. Au deuxi\u00e8me plan on trouve des maisons sur la gauche et le hameau de l'Ermitage sur la droite; les travaux de comblement ont commenc\u00e9. A l'arri\u00e8re plan on distingue quelques entrep\u00f4ts, le nouvel h\u00f4tel des Postes et le haut de l'\u00e9glise Saint-Fran\u00e7ois.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL98921_1.JPG&amp;id=98921"
+                },
+                {
+                    "image_id": 107456,
+                    "date_begin": 1904,
+                    "date_end": 1904,
+                    "description": "Vue g\u00e9n\u00e9rale du moulin situ\u00e9 au hameau de l'Ermitage, sous l'emplacement du pont Chauderon actuel, depuis l'est.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL107456_1.JPG&amp;id=107456"
+                },
+                {
+                    "image_id": 107457,
+                    "date_begin": 1904,
+                    "date_end": 1904,
+                    "description": "Vue g\u00e9n\u00e9rale du hameau de l'Ermitage, sous l'emplacement du pont Chauderon actuel, depuis le nord.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL107457_1.JPG&amp;id=107457"
+                },
+                {
+                    "image_id": 97984,
+                    "date_begin": 1900,
+                    "date_end": 1904,
+                    "description": "Vue g\u00e9n\u00e9rale sur le hameau de l'Ermitage, sous l'emplacement du pont Chauderon actuel, prise du sud. Au premier plan gauche, on voit le chemin de la mine, et \u00e0 droite, un r\u00e9verb\u00e8re, une fontaine et un poteau \u00e9lectrique. Au second plan, on trouve quelques maisons, dont la chocolaterie sur la gauche et le moulin sur la droite, et au centre, un pont enjambe le Flon. A l'arri\u00e8re-plan, on distingue Chauderon.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL97984_1.JPG&amp;id=97984"
+                },
+                {
+                    "image_id": 98311,
+                    "date_begin": 1868,
+                    "date_end": 1878,
+                    "description": "Vue g\u00e9n\u00e9rale sur le hameau de l'Ermitage, sous l'emplacement du pont Chauderon actuel, depuis le nord-ouest, en direction du Grand-Pont. Le b\u00e2timent allong\u00e9 \u00e0 droite est la chocolaterie Vallotton. Entre ce b\u00e2timent et le suivant passe l'ancien chemin de la Mine. Le double b\u00e2timent au milieu est l'ancien moulin de l'Ermitage. En haut, on aper\u00e7oit la promenade de Montbenon et la future avenue Jules-Gonin. En haut \u00e0 gauche, les maison du Grand-Ch\u00eane.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL98311-1_1.JPG&amp;id=98311"
+                },
+                {
+                    "image_id": 116572,
+                    "date_begin": 1890,
+                    "date_end": 1890,
+                    "description": "Large chemin en boucle pr\u00e8s du moulin de l'Ermitage dans la vall\u00e9e du Flon, avec \u00e0 l'avant-plan un homme conduisant cinq chevaux de trait, un fouet \u00e0 la main; plusieurs maisons au fond, au milieu des arbres.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL116668_1.JPG&amp;id=116668"
+                },
+                {
+                    "image_id": 98900,
+                    "date_begin": 1900,
+                    "date_end": 1904,
+                    "description": "Vue g\u00e9n\u00e9rale du moulin, situ\u00e9 au hameau de l'Ermitage, sous l'emplacement du pont Chauderon actuel, depuis l'est. Au premier plan on voit le bas d'un talus avec des arbres sans feuilles, un terrain vague, sur lequel il y a des petits tas de terre, et sur la droite une pente de terre et l'extr\u00eamit\u00e9 d'un mur. Au deuxi\u00e8me plan on trouve des b\u00e2timents dont le moulin. A l'arri\u00e8re plan on distingue des vignobles et Chauderon.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL98900_1.JPG&amp;id=98900"
+                },
+                {
+                    "image_id": 160616,
+                    "date_begin": 1904,
+                    "date_end": 1904,
+                    "description": "Hameau de l'Ermitage dans la Vall\u00e9e du Flon.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL161353_1.JPG&amp;id=161353"
+                },
+                {
+                    "image_id": 98897,
+                    "date_begin": 1901,
+                    "date_end": 1901,
+                    "description": "Vue g\u00e9n\u00e9rale sur le hameau de l'Ermitage, sous l'emplacement du pont Chauderon actuel, depuis l'ouest. Au premier plan on voit une partie d'une maison, une cabane et un talus. Au deuxi\u00e8me plan, un sentier m\u00e8ne au chemin de la Mine; on aper\u00e7oit la chocolaterie; les arbres n'ont pas de feuilles. A l'arri\u00e8re plan sur la gauche on distingue Chauderon.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL98897_s_001_1.jpg&amp;id=98897"
+                },
+                {
+                    "image_id": 131261,
+                    "date_begin": 1896,
+                    "date_end": 1896,
+                    "description": "Vue du pont du Tirage, avec la fabrique de chocolat et le moulin de l'Ermitage.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL131981_1.JPG&amp;id=131981"
+                },
+                {
+                    "image_id": 98908,
+                    "date_begin": 1895,
+                    "date_end": 1904,
+                    "description": "Vue g\u00e9n\u00e9rale du hameau de l'Ermitage, sous l'emplacement du pont Chauderon actuel, depuis le nord. Au premier plan on voit un tournant du chemin de la Mine et un talus l\u00e9g\u00e8rement en pente. Au deuxi\u00e8me plan on trouve le hameau, le moulin sur la gauche et la chocolaterie au centre; sur le balcon de la maison de droite, une femme \u00e9tend son linge. A l'arri\u00e8re plan on distingue le chemin qui monte \u00e0 travers des arbres en direction de Montbenon.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL98908_s_001_1.jpg&amp;id=98908"
+                },
+                {
+                    "image_id": 98910,
+                    "date_begin": 1903,
+                    "date_end": 1904,
+                    "description": "Vue g\u00e9n\u00e9rale du moulin, situ\u00e9 au hameau de l'Ermitage, sous l'emplacement du pont Chauderon actuel, depuis le nord. Au premier plan on voit un sentier, un tas de fumier et quelques arbres. Au deuxi\u00e8me plan on trouve le moulin au centre et la chocolaterie sur la droite; cette derni\u00e8re est partiellement cach\u00e9e par des arbres. A l'arri\u00e8re plan on distingue un remblais sur la gauche et un chemin qui monte en zigzag en direction de Montbenon; la pente est pel\u00e9e.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL98910_s_001_1.jpg&amp;id=98910"
+                },
+                {
+                    "image_id": 98893,
+                    "date_begin": 1901,
+                    "date_end": 1901,
+                    "description": "Vue g\u00e9n\u00e9rale sur le hameau de l'Ermitage, sous l'emplacement du pont Chauderon actuel, depuis le sud. Au premier plan on voit le chemin de la Mine et sur la droite on aper\u00e7oit un r\u00e9verb\u00e8re. Au deuxi\u00e8me plan on trouve deux maisons dont le moulin; sur le chemin, un homme et un chien marchent. A l'arri\u00e8re plan, la route monte en direction de Chauderon, dont on distingue quelques b\u00e2timents.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL98893_s_001_1.jpg&amp;id=98893"
+                },
+                {
+                    "image_id": 98906,
+                    "date_begin": 1905,
+                    "date_end": 1910,
+                    "description": "Vue g\u00e9n\u00e9rale du hameau de l'Ermitage, sous l'emplacement du pont Chauderon actuel, depuis l'est. Au premier plan on voit le hameau, ses cultures mara\u00eech\u00e8res et le chemin de la Mine; deux personnes sont sur un sentier et une autre arrive \u00e0 une maison; sur la gauche il y a des travaux. Au deuxi\u00e8me plan on trouve le pont Chauderon. A l'arri\u00e8re plan on voit le fond de la vall\u00e9e \u00e0 travers les arcades.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL98906_s_001_1.jpg&amp;id=98906"
+                },
+                {
+                    "image_id": 107454,
+                    "date_begin": 1904,
+                    "date_end": 1904,
+                    "description": "Vue g\u00e9n\u00e9rale du moulin, situ\u00e9 au hameau de l'Ermitage, sous l'emplacement du pont Chauderon actuel, depuis le nord.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL107454_1.JPG&amp;id=107454"
+                },
+                {
+                    "image_id": 98899,
+                    "date_begin": 1902,
+                    "date_end": 1902,
+                    "description": "Vue g\u00e9n\u00e9rale sur le hameau de l'Ermitage, sous l'emplacement du pont Chauderon actuel, depuis l'est. Au premier plan on voit un terrain vague sur lequel se tiennent deux personnes; sur la gauche on aper\u00e7oit quelques arbres. Au deuxi\u00e8me plan on trouve le haut du moulin et trois autres maisons. A l'arri\u00e8re plan on distingue des vignobles et Chauderon.",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/C_MHL98899_s_001_1.jpg&amp;id=98899"
+                },
+                {
+                    "image_id": 98912,
+                    "date_begin": 1904,
+                    "date_end": 1904,
+                    "description": "Vue g\u00e9n\u00e9rale du moulin, situ\u00e9 au hameau de l'Ermitage, en amont de l'emplacement du pont Chauderon actuel, depuis le nord. A l'arri\u00e8re plan, on distingue un chemin qui monte en zigzag en direction de Montbenon et sur la gauche, on devine le Palais de Justice (tribunal de Montbenon).",
+                    "bibliography": null,
+                    "institution": "Mus\u00e9e Historique Lausanne",
+                    "url": "http://museris.lausanne.ch/SGCM/GetImage.ashx?FileName=SGCMImages/ImgHD/ImgDeg/MHL98912_1.JPG&amp;id=98912"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="generator" content="Observable Framework v1.13.3">
+<title>Lausanne Time Machine</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_observablehq/theme-air,near-midnight.dcdbf18e.css">
+<link rel="preload" as="style" href="./_observablehq/stdlib/inputs.ea9fd553.css">
+<link rel="preload" as="style" href="./_npm/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_observablehq/theme-air,near-midnight.dcdbf18e.css">
+<link rel="stylesheet" type="text/css" href="./_observablehq/stdlib/inputs.ea9fd553.css">
+<link rel="stylesheet" type="text/css" href="./_npm/leaflet@1.9.4/dist/leaflet.css">
+<link rel="modulepreload" href="./_observablehq/client.3ba705c3.js">
+<link rel="modulepreload" href="./_observablehq/runtime.e080113b.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.ec062f48.js">
+<link rel="modulepreload" href="./_npm/leaflet@1.9.4/721623d8.js">
+<link rel="modulepreload" href="./_npm/htl@0.3.1/72f4716c.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/inputs.d20f2cad.js">
+<link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.17/d761ef9b.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/18cbf477.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.0/e780feca.js">
+<link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/53fe8176.js">
+<link rel="modulepreload" href="./_npm/d3-array@3.2.4/e93ca09f.js">
+<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/0f2de24d.js">
+<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/65eb105b.js">
+<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/7ef8fb2e.js">
+<link rel="modulepreload" href="./_npm/d3-color@3.1.0/aeb57b94.js">
+<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/1d2aed74.js">
+<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/5ced1d52.js">
+<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/9ba9c7f3.js">
+<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/4202580c.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/9cffc2bd.js">
+<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/cdd7e898.js">
+<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/b4e2ad9a.js">
+<link rel="modulepreload" href="./_npm/d3-force@3.0.0/5e804d15.js">
+<link rel="modulepreload" href="./_npm/d3-format@3.1.0/86074ef6.js">
+<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/40599fb3.js">
+<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/e49e792c.js">
+<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/8d1e5425.js">
+<link rel="modulepreload" href="./_npm/d3-path@3.1.0/20d3f133.js">
+<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/7553081f.js">
+<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/0dfd751c.js">
+<link rel="modulepreload" href="./_npm/d3-random@3.0.1/3c90ee06.js">
+<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/843b6a76.js">
+<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/ba24c2e7.js">
+<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/4d94e5b7.js">
+<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/6d3a6726.js">
+<link rel="modulepreload" href="./_npm/d3-time@3.1.0/9f03c579.js">
+<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/07c9626f.js">
+<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/b58a267d.js">
+<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/004da2ac.js">
+<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/b5786b3f.js">
+<link rel="modulepreload" href="./_npm/binary-search-bounds@2.0.5/cbf6ba23.js">
+<link rel="modulepreload" href="./_npm/internmap@2.0.3/e08981d9.js">
+<link rel="modulepreload" href="./_npm/delaunator@5.0.1/02d43215.js">
+<link rel="modulepreload" href="./_npm/robust-predicates@3.0.2/aa00730b.js">
+<script type="module">
+
+import {define} from "./_observablehq/client.3ba705c3.js";
+import {registerFile} from "./_observablehq/stdlib.ec062f48.js";
+
+registerFile("./data/berney_buildings.geojson", {"name":"./data/berney_buildings.geojson","mimeType":"application/geo+json","path":"./_file/data/berney_buildings.5dbc7d0e.geojson","lastModified":1750788720534,"size":153813});
+registerFile("./data/buildings.json", {"name":"./data/buildings.json","mimeType":"application/json","path":"./_file/data/buildings.c3ef505a.json","lastModified":1750788720707,"size":105672});
+registerFile("./data/melotte_buildings.geojson", {"name":"./data/melotte_buildings.geojson","mimeType":"application/geo+json","path":"./_file/data/melotte_buildings.09b5080c.geojson","lastModified":1750788720722,"size":76993});
+registerFile("./data/renove_buildings.geojson", {"name":"./data/renove_buildings.geojson","mimeType":"application/geo+json","path":"./_file/data/renove_buildings.e57ecd0c.geojson","lastModified":1750788720821,"size":208314});
+
+define({id: "e3384eab", inputs: ["display"], outputs: ["L","FileAttachment","div","map","melotte_tiles","berney_tiles","renove_tiles","osm"], body: async (display) => {
+const [L, {FileAttachment}] = await Promise.all([import("./_npm/leaflet@1.9.4/721623d8.js"), import("./_observablehq/stdlib.ec062f48.js")]);
+
+const div = display(document.createElement("div"));
+div.style = "height: 500px;";
+
+const map = L.map(div, { fadeAnimation: false })
+    .setView([46.5205253, 6.6320297], 16)
+    .setMaxBounds(L.latLngBounds([[46.5004601, 6.5729999], [46.5551420, 6.6927337]]))
+    .setMinZoom(14)
+    .setMaxZoom(18);
+
+const melotte_tiles = L.tileLayer("data/melotte_tiles/{z}/{x}/{y}.png",
+    { minZoom: 14, maxZoom: 18, opacity: 1.0 });
+const berney_tiles = L.tileLayer("data/berney_tiles/{z}/{x}/{y}.png",
+    { minZoom: 14, maxZoom: 18, opacity: 1.0 });
+const renove_tiles = L.tileLayer("data/renove_tiles/{z}/{x}/{y}.png",
+    { minZoom: 14, maxZoom: 18, opacity: 1.0 });
+const osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+    { minZoom: 14, maxZoom: 18, opacity: 1.0,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+});
+return {L,FileAttachment,div,map,melotte_tiles,berney_tiles,renove_tiles,osm};
+}});
+
+define({id: "5babc5cd", inputs: ["FileAttachment"], outputs: ["melotte_buildings_geojson","berney_buildings_geojson","renove_buildings_geojson","buildings_json"], body: (FileAttachment) => {
+const melotte_buildings_geojson = FileAttachment("./data/melotte_buildings.geojson").json();
+const berney_buildings_geojson = FileAttachment("./data/berney_buildings.geojson").json();
+const renove_buildings_geojson = FileAttachment("./data/renove_buildings.geojson").json();
+const buildings_json = FileAttachment("./data/buildings.json").json();
+return {melotte_buildings_geojson,berney_buildings_geojson,renove_buildings_geojson,buildings_json};
+}});
+
+define({id: "dab6b5e2", inputs: ["L","map","buildings_json","melotte_tiles","melotte_buildings_geojson","berney_tiles","berney_buildings_geojson","renove_tiles","renove_buildings_geojson","osm"], outputs: ["melotte","berney","renove","selected_feature","selected_building","get_feature_style","on_feature_mouseover","on_feature_mouseout","on_feature_click","on_each_feature","on_map_click","melotte_buildings","berney_buildings","renove_buildings","base_maps","overlay_maps","layer_control","image_index","set_building_details_html","set_building_image_html","set_images_button_label","next_image","previous_image"], body: (L,map,buildings_json,melotte_tiles,melotte_buildings_geojson,berney_tiles,berney_buildings_geojson,renove_tiles,renove_buildings_geojson,osm) => {
+var melotte = L.featureGroup();
+var berney = L.featureGroup();
+var renove = L.featureGroup();
+var selected_feature;
+var selected_building;
+
+function get_feature_style(feature) {
+    const style = {
+        weight: 1,
+        opacity: 1.0,
+        fillOpacity: 1.0,
+        color: "#000000",
+        fillColor: "#757575"
+    };
+    return style;
+}
+
+function on_feature_mouseover(e) {
+    var layer = e.target;
+    layer.setStyle({
+        weight: 4,
+        color: "#000000",
+    });
+    layer.bringToFront();
+}
+
+function on_feature_mouseout(e) {
+    var feature_object = Object.values(e.target._layers)[0];
+    if (selected_feature !== feature_object) {
+        e.target.setStyle(get_feature_style(feature_object.feature));
+    }
+}
+
+function on_feature_click(e) {
+    L.DomEvent.stopPropagation(e);
+    map.fitBounds(e.target.getBounds());
+    var feature_object = Object.values(e.target._layers)[0];
+    if (selected_feature !== undefined && selected_feature !== feature_object) {
+        selected_feature.setStyle(get_feature_style(selected_feature.feature));
+    }
+    selected_feature = feature_object;
+    selected_building = buildings_json.buildings.find((b) => b.building_id == selected_feature.feature.properties.building_id);
+    image_index = 0;
+    if (selected_building !== undefined) {
+        document.getElementById("building_details").hidden = false;
+        set_building_details_html();
+        if (selected_building.images) {
+            document.getElementById("building_images").hidden = false;
+            set_building_image_html();
+            set_images_button_label();
+        }
+    } else {
+        document.getElementById("building_details").hidden = true;
+        document.getElementById("building_images").hidden = true;
+    }
+}
+
+function on_each_feature(feature, layer, polygons_and_markers) {
+    var marker = L.marker(layer.getBounds().getCenter(), { riseOnHover: true });
+    var polygon_and_marker = L.featureGroup([layer, marker]);
+    polygon_and_marker.on({
+        mouseover: on_feature_mouseover,
+        mouseout: on_feature_mouseout,
+        click: on_feature_click
+    });
+    var tooltip_html = '';
+    if (feature.properties.building_id !== null) {
+        const building = buildings_json.buildings.find((b) => b.building_id == feature.properties.building_id);
+        if (building !== undefined) {
+            tooltip_html += '<h4>' + building.name + '</h4>';
+            if (building.images && building.preferred_image !== null) {
+                const image = building.images.find((i) => i.image_id == building.preferred_image);
+                if (image !== undefined) {
+                    tooltip_html += `<img src="data/images/building_${building.building_id}/${image.image_id}.jpg" style="width:250px"> <br>`;
+                }
+            }
+            tooltip_html += "<small><i>Cliquez sur le bâtiment pour plus d'informations</i></small><br><br>";
+        }
+    }
+    if (feature.properties.use)
+        tooltip_html += '<b>Utilisation</b>: ' + feature.properties.use + '<br>';
+    if (feature.properties.owner)
+        tooltip_html += '<b>Propriétaire</b>: ' + feature.properties.owner + '<br>';
+    if (feature.properties.address)
+        tooltip_html += '<b>Adresse</b>: ' + feature.properties.address + '<br>';
+    polygon_and_marker.bindTooltip(tooltip_html, {
+        sticky: true,
+        className: 'info',
+        opacity: 1.0
+    });
+    polygon_and_marker.addTo(polygons_and_markers);
+}
+
+function on_map_click(e) {
+    selected_feature.setStyle(get_feature_style(selected_feature.feature));
+    selected_feature = undefined;
+    selected_building = undefined;
+    image_index = 0;
+    document.getElementById("building_details").hidden = true;
+    document.getElementById("building_images").hidden = true;
+}
+
+map.on({click: on_map_click});
+
+melotte_tiles.addTo(melotte);
+const melotte_buildings = L.geoJSON(melotte_buildings_geojson.features, {
+    style: get_feature_style,
+    onEachFeature: function(feature, layer) { on_each_feature(feature, layer, melotte); }
+});
+berney_tiles.addTo(berney);
+const berney_buildings = L.geoJSON(berney_buildings_geojson.features, {
+    style: get_feature_style,
+    onEachFeature: function(feature, layer) { on_each_feature(feature, layer, berney); }
+});
+renove_tiles.addTo(renove);
+const renove_buildings = L.geoJSON(renove_buildings_geojson.features, {
+    style: get_feature_style,
+    onEachFeature: function(feature, layer) { on_each_feature(feature, layer, renove); }
+});
+
+berney.addTo(map);
+
+const base_maps = {
+    "Cadastre Melotte 1727": melotte,
+    "Cadastre Berney 1831": berney,
+    "Cadastre Rénové 1888": renove
+};
+const overlay_maps = {
+    "OpenStreetMap": osm
+}
+const layer_control = L.control.layers(base_maps, overlay_maps).addTo(map);
+
+L.control.scale().addTo(map);
+
+var image_index = 0;
+function set_building_details_html() {
+    var html = '<h2>' + selected_building.name + '</h2><br>';
+    if (selected_feature.feature.properties.use)
+        html += '<b>Utilisation</b>: ' + selected_feature.feature.properties.use + '<br>';
+    if (selected_feature.feature.properties.owner)
+        html += '<b>Propriétaire</b>: ' + selected_feature.feature.properties.owner + '<br>';
+    if (selected_feature.feature.properties.address)
+        html += '<b>Adresse</b>: ' + selected_feature.feature.properties.address + '<br>';
+    html += '<br>';
+    if (selected_building.informations) {
+        html += selected_building.informations;
+    } else {
+        html += "<i>Pas d'informations.</i>";
+    }
+    document.getElementById("building_details").innerHTML = html;
+}
+function set_building_image_html() {
+    var html = '';
+    if (selected_building.images) {
+        const image = selected_building.images[image_index];
+        html += `<img src="data/images/building_${selected_building.building_id}/${image.image_id}.jpg" style="width:100%"><br><br>`;
+        html += '<b>Date:</b> ';
+        if (image.date_begin == image.date_end) {
+            html += image.date_begin;
+        } else {
+            html += 'entre ' + image.date_begin + ' et ' + image.date_end;
+        }
+        html += '<br><br>';
+        if (image.description) {
+            html += image.description + '<br><br>';
+        }
+        if (image.bibliography) {
+            html += '<b>Bibliographie:</b> ' + image.bibliography + '<br><br>';
+        }
+        html += '<b>Source:</b> ' + image.institution + ': <a href="' + image.url + '">' + image.url + '</a>';
+    }
+    document.getElementById("building_selected_image").innerHTML = html;
+}
+function set_images_button_label() {
+    document.getElementById("images_button_label").innerHTML =
+        '<i>Image ' + (image_index + 1) + '/' + selected_building.images.length + '</i>';
+}
+function next_image() {
+    image_index = (image_index + 1) % selected_building.images.length;
+    set_building_image_html();
+    set_images_button_label();
+}
+function previous_image() {
+    image_index -= 1;
+    if (image_index < 0) image_index = selected_building.images.length - 1;
+    set_building_image_html();
+    set_images_button_label();
+}
+return {melotte,berney,renove,selected_feature,selected_building,get_feature_style,on_feature_mouseover,on_feature_mouseout,on_feature_click,on_each_feature,on_map_click,melotte_buildings,berney_buildings,renove_buildings,base_maps,overlay_maps,layer_control,image_index,set_building_details_html,set_building_image_html,set_images_button_label,next_image,previous_image};
+}});
+
+define({id: "7cf34a85", inputs: ["view","Inputs","previous_image","next_image","html"], body: (view,Inputs,previous_image,next_image,html) => {
+view(Inputs.button([
+    ["Image précédente", () => { previous_image(); }],
+    ["Image suivante", () => { next_image(); }],
+], {label: html`<a id="images_button_label"></a>`}));
+}});
+
+define({id: "cd80af24", inputs: ["berney_buildings_geojson","renove_buildings_geojson"], outputs: ["get_surnames","surnames_berney","surnames_renove"], body: (berney_buildings_geojson,renove_buildings_geojson) => {
+function get_surnames(geojson, is_surname_first) {
+    var owners = [];
+    geojson.features.forEach(function(feature) {
+        if (feature.properties.owner) {
+            var owner = feature.properties.owner;
+            owner = owner.split(': ').pop();
+            owner = owner.split(' (')[0];
+            owners = owners.concat(owner.split('|').join(';').split(';'));
+        }
+    });
+    owners = owners.map(s => s.trim());
+
+    var surnames = [];
+    owners.forEach(function(owner) {
+        if (owner.startsWith('Etat') || owner.startsWith('Vaud')) {
+            surnames.push('Etat de Vaud');
+            return;
+        } else if (owner.startsWith('Commune') || owner.startsWith('Lausanne')) {
+            surnames.push('Commune de Lausanne');
+            return;
+        }
+        if (is_surname_first) {
+            surnames.push(owner.split(',')[0]);
+        } else {
+            surnames.push(owner.split(' ')[1]);
+        } 
+    });
+    return surnames;
+}
+const surnames_berney = get_surnames(berney_buildings_geojson, false);
+const surnames_renove = get_surnames(renove_buildings_geojson, true);
+return {get_surnames,surnames_berney,surnames_renove};
+}});
+
+define({id: "194eeceb", inputs: ["display","Plot","surnames_berney"], body: (display,Plot,surnames_berney) => {
+display(Plot.plot({
+    marginLeft: 120,
+    x: {grid: true, domain: [0, 18], ticks: 19},
+    title: "Cadastre Berney 1831",
+    marks: [
+        Plot.barX(surnames_berney, Plot.groupY({x: "count"}, {sort: "y"})),
+        Plot.ruleX([0])
+    ]
+}));
+}});
+
+define({id: "6eb9dd73", inputs: ["display","Plot","surnames_renove"], body: (display,Plot,surnames_renove) => {
+display(Plot.plot({
+    marginLeft: 120,
+    x: {grid: true, domain: [0, 18], ticks: 19},
+    title: "Cadastre Rénové 1888",
+    marks: [
+        Plot.barX(surnames_renove, Plot.groupY({x: "count"}, {sort: "y"})),
+        Plot.ruleX([0])
+    ]
+}));
+}});
+
+define({id: "cffc2a2f", inputs: ["melotte_buildings_geojson","berney_buildings_geojson","renove_buildings_geojson"], outputs: ["get_uses","uses_melotte","uses_berney","uses_renove","uses"], body: (melotte_buildings_geojson,berney_buildings_geojson,renove_buildings_geojson) => {
+function get_uses(geojson) {
+    var uses = [];
+    geojson.features.forEach(function(feature) {
+        if (feature.properties.use) {
+            uses = uses.concat(feature.properties.use.split('|').join(',').split(' et ').join(',').split(','));
+        }
+    });
+    uses = uses.map(s => s.trim());
+    return uses;
+}
+const uses_melotte = get_uses(melotte_buildings_geojson);
+const uses_berney = get_uses(berney_buildings_geojson);
+const uses_renove = get_uses(renove_buildings_geojson);
+var uses = [];
+uses_melotte.forEach(use => {uses.push({"use": use, "cadastre": "melotte"})});
+uses_berney.forEach(use => {uses.push({"use": use, "cadastre": "berney"})});
+uses_renove.forEach(use => {uses.push({"use": use, "cadastre": "renove"})});
+return {get_uses,uses_melotte,uses_berney,uses_renove,uses};
+}});
+
+define({id: "f97e7073", inputs: ["display","Plot","uses_melotte"], body: (display,Plot,uses_melotte) => {
+display(Plot.plot({
+    marginLeft: 200,
+    x: {grid: true, domain: [0, 18], ticks: 19},
+    title: "Cadastre Melotte 1727",
+    marks: [
+        Plot.barX(uses_melotte, Plot.groupY({x: "count"}, {sort: "y"})),
+        Plot.ruleX([0])
+    ]
+}));
+}});
+
+define({id: "c18a6db8", inputs: ["display","Plot","uses_berney"], body: (display,Plot,uses_berney) => {
+display(Plot.plot({
+    marginLeft: 200,
+    x: {grid: true, domain: [0, 18], ticks: 19},
+    title: "Cadastre Berney 1831",
+    marks: [
+        Plot.barX(uses_berney, Plot.groupY({x: "count"}, {sort: "y"})),
+        Plot.ruleX([0])
+    ]
+}));
+}});
+
+define({id: "28fd69ad", inputs: ["display","Plot","uses_renove"], body: (display,Plot,uses_renove) => {
+display(Plot.plot({
+    marginLeft: 200,
+    x: {grid: true, domain: [0, 18], ticks: 19},
+    title: "Cadastre Rénové 1888",
+    marks: [
+        Plot.barX(uses_renove, Plot.groupY({x: "count"}, {sort: "y"})),
+        Plot.ruleX([0])
+    ]
+}));
+}});
+
+</script>
+</head>
+<body>
+<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
+<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
+<nav id="observablehq-sidebar">
+  <ol>
+    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
+    <li class="observablehq-link observablehq-link-active"><a href="./">Lausanne Time Machine</a></li>
+  </ol>
+  <ol>
+    <li class="observablehq-link"><a href="./case_studies">Études de cas</a></li>
+    <li class="observablehq-link"><a href="./methods">Méthodologie</a></li>
+  </ol>
+</nav>
+<script>{const e=document.querySelector("#observablehq-sidebar"),o=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?o.checked=r==="true":o.indeterminate=!0;for(const t of document.querySelectorAll("#observablehq-sidebar summary")){const s=t.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${t.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<div id="observablehq-center">
+<main id="observablehq-main" class="observablehq">
+<h1 id="lausanne-time-machine" tabindex="-1"><a class="observablehq-header-anchor" href="#lausanne-time-machine">Lausanne Time Machine</a></h1>
+<h2 id="les-industries-liees-a-l-eau-du-flon-et-de-la-louve-en-1727-1831-et-1888" tabindex="-1"><a class="observablehq-header-anchor" href="#les-industries-liees-a-l-eau-du-flon-et-de-la-louve-en-1727-1831-et-1888">Les industries liées à l'eau du Flon et de la Louve en 1727, 1831 et 1888</a></h2>
+
+<link rel="stylesheet" href="./_file/style.2518a024.css">
+
+<p>Lausanne est une ville traversée par plusieurs cours d'eau se jetant dans le Léman. Les deux principaux, le  Flon et la Louve, s'ils ont donné leur nom à des lieux bien connus de notre centre-ville, sont aujourd'hui en quasi-totalité enterrés dans la partie urbanisée du territoire de la commune. Leur voûtement et leur canalisation se sont faits sur plusieurs siècles, cependant ce processus s'accélère significativement au 19e siècle pour des raisons de salubrité mais aussi d'aménagement du territoire.</p>
+<p>Jusqu'au 19e siècle on observe la présence d'une industrie le long du Flon et de la Louve qui tire directement profit de ces cours d’eau, que ce soit comme force motrice ou comme apport d’eau. Nous avons souhaité partir à la recherche des caractéristiques de cette industrie aujourd'hui disparue. A travers l'étude notamment des cadastres anciens et du fond iconographique du Musée Historique de Lausanne, nous avons voulu créer une page web interactive de ces industries comportant des informations quant à leur utilisation, leur forme bâtie et leurs propriétaires. A travers cette étude nous nous posons également la question de l'impact de ces industries sur l'urbanisation lausannoise.</p>
+<div class="observablehq observablehq--block"><!--:e3384eab:--></div>
+<div class="observablehq observablehq--block"><!--:5babc5cd:--></div>
+<div class="observablehq observablehq--block"><!--:dab6b5e2:--></div>
+<div class="grid grid-cols-2">
+<div class="card" id="building_details" classname="card" hidden="">
+</div>
+<div class="card" id="building_images" classname="card" hidden="">
+<div class="observablehq observablehq--block"><!--:7cf34a85:--></div>
+<div id="building_selected_image">
+</div>
+</div>
+</div>
+<p><br><br></p>
+<h2 id="distribution-des-familles-proprietaires" tabindex="-1"><a class="observablehq-header-anchor" href="#distribution-des-familles-proprietaires">Distribution des familles propriétaires</a></h2>
+<div class="observablehq observablehq--block"><!--:cd80af24:--></div>
+<div class="card" classname="card">
+<div class="observablehq observablehq--block"><!--:194eeceb:--></div>
+</div>
+<div class="card" classname="card">
+<div class="observablehq observablehq--block"><!--:6eb9dd73:--></div>
+</div>
+<p>On constate ici que le bâti lausannois lié au Flon se centralise petit à petit entre les mains d'un groupe restreint de propriétaires. Cela est probablement dû à la prise d'importance des différents sites industrielles, les propriétaires faisant petit à petit l'acquisition de leurs concurrents. Ces super-propriétaires gagnent dès lors en influence sur le devenir productif du Flon ainsi que sur l'urbanisme lausannois en général. C'est notamment le cas de la famille Mercier qui, après avoir racheté les autres tanneries liés au Flon, est à l'origine du projet de comblement de la vallée et de sa transformation en zone industrielle.</p>
+<br>
+<h2 id="distribution-des-utilisations" tabindex="-1"><a class="observablehq-header-anchor" href="#distribution-des-utilisations">Distribution des utilisations</a></h2>
+<div class="observablehq observablehq--block"><!--:cffc2a2f:--></div>
+<div class="card" classname="card">
+<div class="observablehq observablehq--block"><!--:f97e7073:--></div>
+</div>
+<div class="card" classname="card">
+<div class="observablehq observablehq--block"><!--:c18a6db8:--></div>
+</div>
+<div class="card" classname="card">
+<div class="observablehq observablehq--block"><!--:28fd69ad:--></div>
+</div>
+<p>Ces graphiques illustrent comment l'utilisation du Flon a évolué au fil du temps, passant d'une utilisation mécanique de sa force hydraulique à une utilisation industrielle. Cette transformation est le résultat direct de l'impact de la révolution industrielle sur les méthodes de production. L'hégémonie de la force hydraulique à été supplantée par celle de la machine à vapeur, le Flon n'ayant dès lors plus la même fonction. Autrefois utilisée principalement pour sa force hydraulique, la rivière est désormais principalement exploitée comme une source d'eau pour alimenter les machines à vapeur. Parallèlement à cela, le Flon se peuple d'abitations et de commerces, témoignant d'un réinvestissement de ses alentours par une population qui jusqu'alors évitait ces quartiers réputés malfamés et insalubres.</p>
+<h2 id="conclusion" tabindex="-1"><a class="observablehq-header-anchor" href="#conclusion">Conclusion</a></h2>
+<p>Les industries lausannoises situées le long de la rivière du Flon et de la Louve ont traversé plusieurs phases, passant de l'utilisation pré-industrielle de la force hydraulique pour des moulins et des forges à des petites industries artisanales comme les tanneries et les teintureries, avant de connaître une centralisation industrielle majeure avec l'introduction de la machine à vapeur durant la révolution industrielle. Cette évolution industrielle a eu un impact significatif sur l'urbanisation de Lausanne, attirant une population croissante et nécessitant la construction de logements et de commerces autour des zones industrielles. Les pouvoirs publics ont réaménagé la vallée du Flon par des projets d'enfouissement et de comblement, libérant ainsi de nouveaux espaces pour le développement urbain. Cette réorganisation spatiale a facilité la transition des usages productivistes vers des fonctions résidentielles, commerciales et de services, tout en intégrant les vestiges du passé industriel dans le tissu urbain. Ainsi, l'histoire industrielle du Flon a non seulement façonné l'économie locale, mais a également influencé durablement la structure et les dynamiques urbaines de Lausanne.</p>
+</main>
+<footer id="observablehq-footer">
+<nav><a rel="next" href="./case_studies"><span>Études de cas</span></a></nav>
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2025-06-25T00:41:52">Jun 25, 2025</a>.</div>
+</footer>
+</div>
+</body>
+</html>
