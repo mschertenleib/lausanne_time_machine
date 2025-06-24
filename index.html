@@ -63,10 +63,10 @@
 import {define} from "./_observablehq/client.3ba705c3.js";
 import {registerFile} from "./_observablehq/stdlib.ec062f48.js";
 
-registerFile("./data/berney_buildings.geojson", {"name":"./data/berney_buildings.geojson","mimeType":"application/geo+json","path":"./_file/data/berney_buildings.5dbc7d0e.geojson","lastModified":1750807183357,"size":153813});
-registerFile("./data/buildings.json", {"name":"./data/buildings.json","mimeType":"application/json","path":"./_file/data/buildings.c3ef505a.json","lastModified":1750807183537,"size":105672});
-registerFile("./data/melotte_buildings.geojson", {"name":"./data/melotte_buildings.geojson","mimeType":"application/geo+json","path":"./_file/data/melotte_buildings.09b5080c.geojson","lastModified":1750807183553,"size":76993});
-registerFile("./data/renove_buildings.geojson", {"name":"./data/renove_buildings.geojson","mimeType":"application/geo+json","path":"./_file/data/renove_buildings.e57ecd0c.geojson","lastModified":1750807183661,"size":208314});
+registerFile("./data/berney_buildings.geojson", {"name":"./data/berney_buildings.geojson","mimeType":"application/geo+json","path":"./_file/data/berney_buildings.5dbc7d0e.geojson","lastModified":1750807841988,"size":153813});
+registerFile("./data/buildings.json", {"name":"./data/buildings.json","mimeType":"application/json","path":"./_file/data/buildings.c3ef505a.json","lastModified":1750807842168,"size":105672});
+registerFile("./data/melotte_buildings.geojson", {"name":"./data/melotte_buildings.geojson","mimeType":"application/geo+json","path":"./_file/data/melotte_buildings.09b5080c.geojson","lastModified":1750807842185,"size":76993});
+registerFile("./data/renove_buildings.geojson", {"name":"./data/renove_buildings.geojson","mimeType":"application/geo+json","path":"./_file/data/renove_buildings.e57ecd0c.geojson","lastModified":1750807842293,"size":208314});
 
 define({id: "e3384eab", inputs: ["display"], outputs: ["L","FileAttachment","div","map","melotte_tiles","berney_tiles","renove_tiles","osm"], body: async (display) => {
 const [L, {FileAttachment}] = await Promise.all([import("./_npm/leaflet@1.9.4/721623d8.js"), import("./_observablehq/stdlib.ec062f48.js")]);
@@ -101,7 +101,7 @@ const buildings_json = FileAttachment("./data/buildings.json").json();
 return {melotte_buildings_geojson,berney_buildings_geojson,renove_buildings_geojson,buildings_json};
 }});
 
-define({id: "dab6b5e2", inputs: ["L","map","buildings_json","melotte_tiles","melotte_buildings_geojson","berney_tiles","berney_buildings_geojson","renove_tiles","renove_buildings_geojson","osm"], outputs: ["melotte","berney","renove","selected_feature","selected_building","get_feature_style","on_feature_mouseover","on_feature_mouseout","on_feature_click","on_each_feature","on_map_click","melotte_buildings","berney_buildings","renove_buildings","base_maps","overlay_maps","layer_control","image_index","set_building_details_html","set_building_image_html","set_images_button_label","next_image","previous_image"], body: (L,map,buildings_json,melotte_tiles,melotte_buildings_geojson,berney_tiles,berney_buildings_geojson,renove_tiles,renove_buildings_geojson,osm) => {
+define({id: "ade1fe14", inputs: ["L","map","buildings_json","melotte_tiles","melotte_buildings_geojson","berney_tiles","berney_buildings_geojson","renove_tiles","renove_buildings_geojson","osm"], outputs: ["melotte","berney","renove","selected_feature","selected_building","get_feature_style","on_feature_mouseover","on_feature_mouseout","on_feature_click","on_each_feature","on_map_click","melotte_buildings","berney_buildings","renove_buildings","base_maps","overlay_maps","layer_control","image_index","set_building_details_html","set_building_image_html","set_images_button_label","next_image","previous_image"], body: (L,map,buildings_json,melotte_tiles,melotte_buildings_geojson,berney_tiles,berney_buildings_geojson,renove_tiles,renove_buildings_geojson,osm) => {
 var melotte = L.featureGroup();
 var berney = L.featureGroup();
 var renove = L.featureGroup();
@@ -271,7 +271,7 @@ function set_building_image_html() {
         if (image.bibliography) {
             html += '<b>Bibliographie:</b> ' + image.bibliography + '<br><br>';
         }
-        html += '<b>Source:</b> ' + image.institution + ': <a href="' + image.url + '">' + image.url + '</a>';
+        html += '<b>Source:</b> ' + image.institution + ': <a href="' + image.url + '" target="_blank" rel="noopener">' + image.url + '</a>';
     }
     document.getElementById("building_selected_image").innerHTML = html;
 }
@@ -443,7 +443,7 @@ display(Plot.plot({
 <p>Jusqu'au 19e siècle on observe la présence d'une industrie le long du Flon et de la Louve qui tire directement profit de ces cours d’eau, que ce soit comme force motrice ou comme apport d’eau. Nous avons souhaité partir à la recherche des caractéristiques de cette industrie aujourd'hui disparue. A travers l'étude notamment des cadastres anciens et du fond iconographique du Musée Historique de Lausanne, nous avons voulu créer une page web interactive de ces industries comportant des informations quant à leur utilisation, leur forme bâtie et leurs propriétaires. A travers cette étude nous nous posons également la question de l'impact de ces industries sur l'urbanisation lausannoise.</p>
 <div class="observablehq observablehq--block"><!--:e3384eab:--></div>
 <div class="observablehq observablehq--block"><!--:5babc5cd:--></div>
-<div class="observablehq observablehq--block"><!--:dab6b5e2:--></div>
+<div class="observablehq observablehq--block"><!--:ade1fe14:--></div>
 <div class="grid grid-cols-2">
 <div class="card" id="building_details" classname="card" hidden="">
 </div>
@@ -481,7 +481,7 @@ display(Plot.plot({
 </main>
 <footer id="observablehq-footer">
 <nav><a rel="next" href="./case_studies"><span>Études de cas</span></a></nav>
-<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2025-06-25T01:23:42">Jun 25, 2025</a>.</div>
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2025-06-25T01:36:40">Jun 25, 2025</a>.</div>
 </footer>
 </div>
 </body>
