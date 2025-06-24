@@ -27,11 +27,11 @@ const map = L.map(div, { fadeAnimation: false })
     .setMinZoom(14)
     .setMaxZoom(18);
 
-const melotte_tiles = L.tileLayer("./_file/data/melotte_tiles/{z}/{x}/{y}.png",
+const melotte_tiles = L.tileLayer("data/melotte_tiles/{z}/{x}/{y}.png",
     { minZoom: 14, maxZoom: 18, opacity: 1.0 });
-const berney_tiles = L.tileLayer("./_file/data/berney_tiles/{z}/{x}/{y}.png",
+const berney_tiles = L.tileLayer("data/berney_tiles/{z}/{x}/{y}.png",
     { minZoom: 14, maxZoom: 18, opacity: 1.0 });
-const renove_tiles = L.tileLayer("./_file/data/renove_tiles/{z}/{x}/{y}.png",
+const renove_tiles = L.tileLayer("data/renove_tiles/{z}/{x}/{y}.png",
     { minZoom: 14, maxZoom: 18, opacity: 1.0 });
 const osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
     { minZoom: 14, maxZoom: 18, opacity: 1.0,
@@ -40,10 +40,10 @@ const osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png",
 ```
 
 ```js
-const melotte_buildings_geojson = FileAttachment("./data/melotte_buildings.geojson").json();
-const berney_buildings_geojson = FileAttachment("./data/berney_buildings.geojson").json();
-const renove_buildings_geojson = FileAttachment("./data/renove_buildings.geojson").json();
-const buildings_json = FileAttachment("./data/buildings.json").json();
+const melotte_buildings_geojson = FileAttachment("data/melotte_buildings.geojson").json();
+const berney_buildings_geojson = FileAttachment("data/berney_buildings.geojson").json();
+const renove_buildings_geojson = FileAttachment("data/renove_buildings.geojson").json();
+const buildings_json = FileAttachment("data/buildings.json").json();
 ```
 
 ```js
@@ -120,7 +120,7 @@ function on_each_feature(feature, layer, polygons_and_markers) {
             if (building.images && building.preferred_image !== null) {
                 const image = building.images.find((i) => i.image_id == building.preferred_image);
                 if (image !== undefined) {
-                    tooltip_html += '<img src="./_file/data/images/building_' + building.building_id + '/' + image.image_id + '.jpg" style="width:250px"> <br>';
+                    tooltip_html += `<img src="data/images/building_${building.building_id}/${image.image_id}.jpg" style="width:250px"> <br>`;
                 }
             }
             tooltip_html += "<small><i>Cliquez sur le bâtiment pour plus d'informations</i></small><br><br>";
@@ -202,7 +202,7 @@ function set_building_image_html() {
     var html = '';
     if (selected_building.images) {
         const image = selected_building.images[image_index];
-        html += '<img src="./_file/data/images/building_' + selected_building.building_id + '/' + image.image_id + '.jpg" style="width:100%"><br><br>';
+        html += `<img src="data/images/building_${selected_building.building_id}/${image.image_id}.jpg" style="width:100%"><br><br>`;
         html += '<b>Date:</b> ';
         if (image.date_begin == image.date_end) {
             html += image.date_begin;
@@ -216,7 +216,7 @@ function set_building_image_html() {
         if (image.bibliography) {
             html += '<b>Bibliographie:</b> ' + image.bibliography + '<br><br>';
         }
-        html += '<b>Source:</b> ' + image.institution + ': <a href="url">' + image.url + '</a>';
+        html += '<b>Source:</b> ' + image.institution + ': <a href="' + image.url + '" target="_blank" rel="noopener">' + image.url + '</a>';
     }
     document.getElementById("building_selected_image").innerHTML = html;
 }

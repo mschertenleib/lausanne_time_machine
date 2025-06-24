@@ -4,8 +4,10 @@
   "scripts": {
     "clean": "rimraf docs/.observablehq/cache",
     "build": "rimraf dist && observable build",
+    "postbuild": "node -e \"const fs=require('fs'), path=require('path'); const SRC=path.resolve('src','data'), DST=path.resolve('dist','data'); fs.mkdirSync(DST,{recursive:true}); fs.cpSync(SRC,DST,{recursive:true});\"",
     "dev": "observable preview",
-    "deploy": "observable deploy",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist --dotfiles --nojekyll",
     "observable": "observable"
   },
   "dependencies": {
@@ -15,6 +17,7 @@
     "eslint": "^9.1.1"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "rimraf": "^5.0.5"
   },
   "engines": {
